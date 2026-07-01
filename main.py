@@ -1,14 +1,21 @@
+from rag.pdf_loader import extract_text_from_pdf
+from rag.chunker import chunk_text
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from typing import Optional
-import os, json, re
+import os, json, re, shutil 
+from fastapi import UploadFile, File
+import uuid
 
 load_dotenv()
 
 app = FastAPI()
+UPLOAD_DIR = "uploads"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -25,7 +32,7 @@ client = AzureOpenAI(
 DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
 
-# ── Request models ─────────────────────────────────────────────────────────
+# ── Request models
 
 class ChatRequest(BaseModel):
     message: str
@@ -42,7 +49,7 @@ class FlashcardRequest(BaseModel):
     num_cards: int = 8
 
 
-# ── Helpers ────────────────────────────────────────────────────────────────
+# ── Helpers 
 
 def clean_json(text: str) -> dict:
     text = re.sub(r"```(?:json)?", "", text).strip().strip("`").strip()
@@ -83,7 +90,7 @@ def get_learning_actions(user_message: str):
     return title, unique
 
 
-# ── Routes ─────────────────────────────────────────────────────────────────
+# ── Routes 
 
 @app.post("/chat")
 def chat(req: ChatRequest):
@@ -177,3 +184,41 @@ Rules:
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+@app.post("/upload")
+async def upload_pdf(
+    file: UploadFile = File(...)
+):
+
+    if not file.filename.lower().endswith(".pdf"):
+        return {
+            "success": False, 
+            "message": "Only PDF files are allowed."
+        }
+
+    unique_filename = f"{uuid.uuid4()}.pdf"
+    
+    filepath = os.path.join(
+        UPLOAD_DIR, 
+        unique_filename,
+    )
+
+    with open(filepath, "wb") as buffer:
+        shutil.copyfileobj(
+            file.file, 
+            buffer,
+        )
+
+    text = extract_text_from_pdf(filepath)
+
+    chunks = chunk_text(text)
+    
+    return {
+        "success": True, 
+        "original_filename": file.filename, 
+        "stored_filename": unique_filename, 
+        "characters": len(text), 
+        "total_chunks": len(chunks),
+        "chunks": chunks[0],
+    }
+  

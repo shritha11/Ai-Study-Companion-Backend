@@ -13,7 +13,7 @@ client = AzureOpenAI(
 
 DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
-# -------------------------------------------------------
+# 
 
 TOPICS = {
     "entertainment": [
@@ -48,7 +48,7 @@ TOPICS = {
     ],
 }
 
-# -------------------------------------------------------
+# 
 
 def generate_batch(topic, batch_number):
 
@@ -129,7 +129,7 @@ Rules:
     return data["questions"]
 
 
-# -------------------------------------------------------
+# 
 def generate_questions(topic):
 
     all_questions = []
@@ -211,7 +211,7 @@ def generate_questions(topic):
     }
 
 
-# -------------------------------------------------------
+
 
 def save_questions():
 
@@ -257,7 +257,6 @@ def save_questions():
             print(f"Questions: {len(data['questions'])}")
 
 
-# -------------------------------------------------------
 
 if __name__ == "__main__":
     save_questions()
