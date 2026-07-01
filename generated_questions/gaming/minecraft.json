@@ -1,0 +1,508 @@
+{
+  "title": "Minecraft",
+  "category": "Gaming",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the rarest naturally occurring ore in Minecraft?",
+      "options": [
+        "Emerald",
+        "Netherite",
+        "Diamond",
+        "Lapis Lazuli"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which mob was originally added as a coding error but became an official part of the game?",
+      "options": [
+        "Creeper",
+        "Enderman",
+        "Slime",
+        "Silverfish"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What message sometimes appears on Minecraft’s splash screen as a nod to a popular meme?",
+      "options": [
+        "Do you know da way?",
+        "Minceraft",
+        "Creeper? Aw man!",
+        "Block it up!"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the alternate dimension where you fight the Ender Dragon?",
+      "options": [
+        "The Nether",
+        "The Void",
+        "The End",
+        "The Aether"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Minecraft update was humorously called the 'Bountiful Update'?",
+      "options": [
+        "1.8",
+        "1.16",
+        "1.12",
+        "1.7"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How many blocks tall is a standard iron golem?",
+      "options": [
+        "4 blocks",
+        "3 blocks",
+        "2 blocks",
+        "5 blocks"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the primary way to obtain a totem of undying?",
+      "options": [
+        "Killing an Enderman",
+        "Defeating a Ravager",
+        "Killing an Evoker",
+        "Crafting it with emeralds"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the biome where you can find Striders walking on lava?",
+      "options": [
+        "Crimson Forest",
+        "Warped Forest",
+        "Basalt Deltas",
+        "Nether Wastes"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which potion effect is applied when a player eats a pufferfish?",
+      "options": [
+        "Poison",
+        "Night Vision",
+        "Regeneration",
+        "Levitation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of blocks a piston can push at once?",
+      "options": [
+        "10 blocks",
+        "12 blocks",
+        "16 blocks",
+        "14 blocks"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which mob is infamous for its explosive behavior and can silently sneak up on players?",
+      "options": [
+        "Creeper",
+        "Skeleton",
+        "Enderman",
+        "Zombie"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary purpose of the End Portal in Minecraft?",
+      "options": [
+        "To teleport to the End dimension",
+        "To summon the Ender Dragon",
+        "To access a secret treasure room",
+        "To teleport random mobs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is the mysterious, mythological figure often rumored but not officially in the game?",
+      "options": [
+        "Herobrine",
+        "Steve's Brother",
+        "The Shadow",
+        "Mojang Man"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What material do you need to mine in order to craft Netherite gear?",
+      "options": [
+        "Ancient Debris",
+        "Obsidian Shards",
+        "Dark Ore",
+        "Soul Steel"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which biome is known for its abundance of tall grass, horses, and scattered trees?",
+      "options": [
+        "Plains",
+        "Jungle",
+        "Savanna",
+        "Mushroom Fields"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of blocks a piston can push in a straight line?",
+      "options": [
+        "12",
+        "8",
+        "16",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which hostile mob can drop Blaze Rods upon defeat?",
+      "options": [
+        "Blaze",
+        "Ghast",
+        "Wither Skeleton",
+        "Magma Cube"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What potion effect derives from eating a Golden Apple?",
+      "options": [
+        "Absorption",
+        "Regeneration III",
+        "Fire Resistance",
+        "Speed Boost"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What phrase is displayed on the screen after defeating the Ender Dragon?",
+      "options": [
+        "The End?",
+        "Victory!",
+        "The Beginning?",
+        "Goodbye!"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which block is considered unbreakable in Survival mode without cheats?",
+      "options": [
+        "Bedrock",
+        "Obsidian",
+        "Barrier",
+        "Command Block"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the block that explodes when triggered in Minecraft?",
+      "options": [
+        "TNT",
+        "Redstone",
+        "Obsidian",
+        "Diamond Block"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which mob drops Ender Pearls when defeated?",
+      "options": [
+        "Creeper",
+        "Enderman",
+        "Zombie Pigman",
+        "Slime"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the real-life name of the original creator of Minecraft?",
+      "options": [
+        "Notch",
+        "Jens Bergensten",
+        "Tobias Möllstam",
+        "Markus Persson"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What rare biome is known for its tall, dark trees and mushroom growths?",
+      "options": [
+        "Swamp",
+        "Dark Forest",
+        "Jungle",
+        "Mushroom Fields"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the dimension you can access by building a rectangular portal frame with obsidian blocks?",
+      "options": [
+        "The End",
+        "The Nether",
+        "The Overworld",
+        "The Cave Dimension"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which tool is required to mine diamonds?",
+      "options": [
+        "Wooden Pickaxe",
+        "Stone Pickaxe",
+        "Iron Pickaxe",
+        "Golden Pickaxe"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What message sometimes appears when a Creeper explodes and kills a player?",
+      "options": [
+        "Player was blown up by Creeper",
+        "Player met an explosive end",
+        "Player lost a chunk",
+        "Player was detonated"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What popular meme phrase is associated with Creepers?",
+      "options": [
+        "Boom goes the dynamite!",
+        "Creeper? Aw man!",
+        "Watch out behind you!",
+        "Explosions incoming!"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What structure is generated in the Nether and contains treasures like Blaze Rods?",
+      "options": [
+        "Nether Fortress",
+        "Bastion Remnant",
+        "Piglin Camp",
+        "Obsidian Temple"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What item is used to set blocks on fire or activate TNT?",
+      "options": [
+        "Redstone Torch",
+        "Flint and Steel",
+        "Fire Charge",
+        "Lava Bucket"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the rarest ore in Minecraft as of version 1.20?",
+      "options": [
+        "Emerald",
+        "Netherite",
+        "Ancient Debris",
+        "Diamond"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which mob was jokingly added during an April Fool’s update but later became permanent?",
+      "options": [
+        "The Phantom",
+        "The Glow Squid",
+        "The Enderman",
+        "The Giant Zombie"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the original name of Minecraft during its early development?",
+      "options": [
+        "Block Game",
+        "Cave Game",
+        "Pixel Miner",
+        "CraftWorld"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which mob drops Blaze Rods when defeated?",
+      "options": [
+        "Wither Skeleton",
+        "Blaze",
+        "Ghast",
+        "Piglin Brute"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How many blocks high is the maximum build limit in the Overworld as of 1.20?",
+      "options": [
+        "256 blocks",
+        "512 blocks",
+        "320 blocks",
+        "128 blocks"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What item can be used to cure a Zombie Villager?",
+      "options": [
+        "Golden Apple",
+        "Potion of Strength",
+        "Potion of Regeneration",
+        "Magma Cream"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which biome is the only one where you can find brown pandas naturally?",
+      "options": [
+        "Savanna",
+        "Jungle",
+        "Bamboo Jungle",
+        "Mangrove Swamp"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What specific tool is required to obtain Honeycomb from a beehive?",
+      "options": [
+        "Sword",
+        "Silk Touch Axe",
+        "Shears",
+        "Bottle"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What happens if you name a sheep 'jeb_' using a Name Tag?",
+      "options": [
+        "It explodes after 5 seconds",
+        "It turns upside down",
+        "It changes colors in a rainbow cycle",
+        "It spawns another sheep"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which of these food items cannot be eaten when a player is at full hunger?",
+      "options": [
+        "Cooked Porkchop",
+        "Golden Carrot",
+        "Suspicious Stew",
+        "Chorus Fruit"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the main ingredient required to craft a Beacon?",
+      "options": [
+        "Nether Star",
+        "Ender Pearl",
+        "Heart of the Sea",
+        "Dragon Egg"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the original creator of Minecraft’s username?",
+      "options": [
+        "Notch",
+        "Jeb_",
+        "Herobrine",
+        "Dinnerbone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Minecraft mob was added to the game by accident due to a coding bug?",
+      "options": [
+        "Creeper",
+        "Slime",
+        "Enderman",
+        "Ghast"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of blocks tall a cactus can naturally generate in the game?",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "7"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What happens if you name a sheep 'jeb_' with a name tag?",
+      "options": [
+        "Its wool cycles through rainbow colors.",
+        "It explodes like a Creeper.",
+        "It turns into a Mooshroom.",
+        "It disappears immediately."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What dimension can only be accessed by building a portal out of obsidian?",
+      "options": [
+        "The Nether",
+        "The End",
+        "The Far Lands",
+        "The Overworld"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which food item restores the most hunger points in Minecraft?",
+      "options": [
+        "Cooked Porkchop",
+        "Golden Apple",
+        "Cake Slice",
+        "Beetroot Soup"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the rarest naturally occurring ore in the Overworld?",
+      "options": [
+        "Emerald",
+        "Diamond",
+        "Gold",
+        "Redstone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous Minecraft parody song features the lyrics 'Creeper, aw man'?",
+      "options": [
+        "Revenge",
+        "Fallen Kingdom",
+        "TNT",
+        "Don't Mine at Night"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the default number of inventory slots a single chest contains?",
+      "options": [
+        "27",
+        "18",
+        "36",
+        "54"
+      ],
+      "answer": 0
+    }
+  ]
+}

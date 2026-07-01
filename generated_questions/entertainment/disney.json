@@ -1,0 +1,508 @@
+{
+  "title": "Disney",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "In 'The Lion King,' what kind of animal is Timon?",
+      "options": [
+        "Meerkat",
+        "Porcupine",
+        "Squirrel",
+        "Capybara"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the sorcerer in Disney's 'Fantasia'?",
+      "options": [
+        "Yen Sid",
+        "Merlin",
+        "Morgoth",
+        "Orin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What kind of flower does Mulan's father compare her to in 'Mulan'?",
+      "options": [
+        "Magnolia",
+        "Cherry Blossom",
+        "Lotus",
+        "Rose"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who provides the voice for the Genie in Disney's animated 'Aladdin'?",
+      "options": [
+        "Robin Williams",
+        "Tom Hanks",
+        "Eddie Murphy",
+        "Jim Carrey"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Finding Nemo,' what is the address that Dory remembers?",
+      "options": [
+        "42 Wallaby Way, Sydney",
+        "101 Coral Lane, Fiji",
+        "15 Seahorse Street, Melbourne",
+        "88 Ocean Avenue, Brisbane"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney princess has the fewest lines of dialogue in her movie?",
+      "options": [
+        "Aurora",
+        "Cinderella",
+        "Snow White",
+        "Ariel"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the daycare in 'Toy Story 3'?",
+      "options": [
+        "Sunnyside",
+        "Happy Days",
+        "Little Sprouts",
+        "Rainbow Valley"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Zootopia,' what kind of animal is Judy Hopps's boss, Chief Bogo?",
+      "options": [
+        "Cape Buffalo",
+        "Lion",
+        "Rhino",
+        "Elephant"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney movie features the song 'Colors of the Wind'?",
+      "options": [
+        "Pocahontas",
+        "The Little Mermaid",
+        "Tarzan",
+        "Mulan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the first animated feature film released by Disney?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Pinocchio",
+        "Fantasia",
+        "Dumbo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the first animated feature film made by Disney?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Cinderella",
+        "Pinocchio",
+        "Fantasia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the island where Moana lives?",
+      "options": [
+        "Motunui",
+        "Te Fiti",
+        "Nukutere",
+        "Oceania"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the Evil Queen ask the Magic Mirror in 'Snow White'?",
+      "options": [
+        "'Who is the fairest one of all?'",
+        "'Who is the most powerful in the land?'",
+        "'Am I not the fairest in the kingdom?'",
+        "'Who dares challenge my beauty?'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Toy Story', what is written on the bottom of Woody's boot?",
+      "options": [
+        "Andy",
+        "Buzz",
+        "Jessie",
+        "Sid"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney villain turns into a giant dragon in their movie?",
+      "options": [
+        "Maleficent",
+        "Scar",
+        "Ursula",
+        "Jafar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Elsa and Anna's kingdom in 'Frozen'?",
+      "options": [
+        "Arendelle",
+        "Corona",
+        "Atlantica",
+        "Eldorado"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the street Aladdin lives on at the start of the movie?",
+      "options": [
+        "Agrabah Lane",
+        "Street of the Poor",
+        "Alley of Mirages",
+        "Rue de la Lamp"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type of animal is Robin Hood in Disney's version of the story?",
+      "options": [
+        "A fox",
+        "A wolf",
+        "A lion",
+        "A bear"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney film features the iconic song 'You'll Be in My Heart'?",
+      "options": [
+        "Tarzan",
+        "Mulan",
+        "The Lion King",
+        "Pocahontas"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the teapot in 'Beauty and the Beast'?",
+      "options": [
+        "Mrs. Potts",
+        "Teapot Annie",
+        "Madam Brew",
+        "Lady Sip"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the first feature-length animated film released by Disney?",
+      "options": [
+        "Cinderella",
+        "Pinocchio",
+        "Snow White and the Seven Dwarfs",
+        "Steamboat Willie"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What kind of animal is Meeko in 'Pocahontas'?",
+      "options": [
+        "Raccoon",
+        "Squirrel",
+        "Fox",
+        "Rabbit"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the kingdom where 'Frozen' is set?",
+      "options": [
+        "Arendelle",
+        "Corona",
+        "Atlantica",
+        "Narnia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What Disney movie features the song 'I'll Make a Man Out of You'?",
+      "options": [
+        "Beauty and the Beast",
+        "Aladdin",
+        "Mulan",
+        "The Lion King"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is the villain in 'The Little Mermaid'?",
+      "options": [
+        "Hades",
+        "Scar",
+        "Maleficent",
+        "Ursula"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the address that Marlin and Dory are trying to find in 'Finding Nemo'?",
+      "options": [
+        "123 Reef Lane",
+        "42 Wallaby Way, Sydney",
+        "5 Coral Street",
+        "7 Ocean View Drive"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Toy Story', what is the name of Andy’s neighbor who loves to destroy toys?",
+      "options": [
+        "Sid",
+        "Rex",
+        "Doug",
+        "Max"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What kind of insect is featured prominently in 'A Bug's Life'?",
+      "options": [
+        "Ants",
+        "Bees",
+        "Grasshoppers",
+        "Butterflies"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney Princess has a pet tiger named Rajah?",
+      "options": [
+        "Aurora",
+        "Jasmine",
+        "Belle",
+        "Mulan"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the first full-length animated feature film created by Disney?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Cinderella",
+        "Pinocchio",
+        "Alice in Wonderland"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Simba's mother in 'The Lion King'?",
+      "options": [
+        "Sarafina",
+        "Nala",
+        "Sarabi",
+        "Shenzi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Disney princess sings the song 'Almost There'?",
+      "options": [
+        "Tiana",
+        "Ariel",
+        "Moana",
+        "Belle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the kingdom where 'Frozen' takes place?",
+      "options": [
+        "Arendelle",
+        "Corona",
+        "Duloc",
+        "Atlantica"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who provides the voice of Dory in the 'Finding Nemo' series?",
+      "options": [
+        "Ellen DeGeneres",
+        "Tina Fey",
+        "Amy Poehler",
+        "Kristen Bell"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Aladdin', what is Jafar's staff shaped like?",
+      "options": [
+        "A cobra",
+        "A falcon",
+        "A scorpion",
+        "A phoenix"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of Walt Disney's first cartoon character?",
+      "options": [
+        "Oswald the Lucky Rabbit",
+        "Mickey Mouse",
+        "Steamboat Willie",
+        "Benny the Cat"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Hercules', what is the name of the satyr who trains Hercules?",
+      "options": [
+        "Phil",
+        "Pegasus",
+        "Hades",
+        "Zeus"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Beauty and the Beast', what is the name of Gaston's bumbling sidekick?",
+      "options": [
+        "Lefou",
+        "Maurice",
+        "Cogsworth",
+        "Philippe"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of the first full-length animated feature produced by Disney?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Cinderella",
+        "Fantasia",
+        "Bambi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney character famously says, 'To infinity and beyond!'?",
+      "options": [
+        "Buzz Lightyear",
+        "Woody",
+        "Hercules",
+        "Stitch"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'The Little Mermaid,' what does Ariel give up to become human?",
+      "options": [
+        "Her singing voice",
+        "Her fins",
+        "Her memories",
+        "Her crown"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney movie features a castle with a spinning wheel and a curse?",
+      "options": [
+        "Sleeping Beauty",
+        "Beauty and the Beast",
+        "Maleficent",
+        "Cinderella"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Simba's father in 'The Lion King'?",
+      "options": [
+        "Mufasa",
+        "Scar",
+        "Zazu",
+        "Sarabi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What’s the name of the fairy in Disney’s 'Peter Pan'?",
+      "options": [
+        "Tinker Bell",
+        "Silvermist",
+        "Rosetta",
+        "Vidia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the town called where 'Cars' takes place?",
+      "options": [
+        "Radiator Springs",
+        "Gasoline Gulch",
+        "Piston Peaks",
+        "Motorville"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Disney princess has a raccoon as a sidekick?",
+      "options": [
+        "Pocahontas",
+        "Mulan",
+        "Rapunzel",
+        "Aurora"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the sorcerer in 'Fantasia'?",
+      "options": [
+        "Yen Sid",
+        "Merlin",
+        "Jafar",
+        "Morgana"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'The Lion King,' what type of animal is Timon?",
+      "options": [
+        "Meerkat",
+        "Warthog",
+        "Lion",
+        "Hyena"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the city where the events of 'Zootopia' take place?",
+      "options": [
+        "Zootropolis",
+        "Animalopolis",
+        "Zootown",
+        "Zootopia"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Disney movie features the song 'Almost There'?",
+      "options": [
+        "Mulan",
+        "The Princess and the Frog",
+        "Pocahontas",
+        "Frozen"
+      ],
+      "answer": 1
+    }
+  ]
+}

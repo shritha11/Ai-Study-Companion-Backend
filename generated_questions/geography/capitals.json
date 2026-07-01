@@ -1,0 +1,508 @@
+{
+  "title": "Capitals",
+  "category": "Geography",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which European city is known as the 'City of Seven Hills'?",
+      "options": [
+        "Lisbon",
+        "Rome",
+        "Athens",
+        "Budapest"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Tokyo, the capital of Japan, was previously known by what name?",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Edo",
+        "Nara"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which capital city is home to the iconic Christ the Redeemer statue?",
+      "options": [
+        "Brasília",
+        "Rio de Janeiro",
+        "Santiago",
+        "Caracas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only capital city in the world that begins with the letter 'Z'?",
+      "options": [
+        "Zagreb",
+        "Zamora",
+        "Zurich",
+        "Zanzibar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which African capital is the highest above sea level?",
+      "options": [
+        "Addis Ababa",
+        "Nairobi",
+        "Kigali",
+        "Pretoria"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has two capitals: La Paz and Sucre?",
+      "options": [
+        "Peru",
+        "Bolivia",
+        "Ecuador",
+        "Colombia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "options": [
+        "Montreal",
+        "Toronto",
+        "Vancouver",
+        "Ottawa"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Reykjavik, the capital of Iceland, is closest to which other capital city?",
+      "options": [
+        "Oslo",
+        "Helsinki",
+        "Dublin",
+        "Edinburgh"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Asian capital is located on the banks of the Mekong River?",
+      "options": [
+        "Hanoi",
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which European capital is famous for its historic Anne Frank House?",
+      "options": [
+        "Berlin",
+        "Amsterdam",
+        "Vienna",
+        "Brussels"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the southernmost capital city in the world?",
+      "options": [
+        "Buenos Aires",
+        "Wellington",
+        "Canberra",
+        "Santiago"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which capital city is home to the iconic Forbidden City?",
+      "options": [
+        "Beijing",
+        "Tokyo",
+        "Seoul",
+        "Bangkok"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What capital is also the smallest independent country in the world?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Valletta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which African capital is known as the 'City of a Thousand Minarets' for its architectural heritage?",
+      "options": [
+        "Cairo",
+        "Marrakech",
+        "Addis Ababa",
+        "Tunis"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Reykjavik, the capital of Iceland, is known for which natural phenomenon?",
+      "options": [
+        "Volcanic lava fields",
+        "Northern Lights",
+        "Midnight sun",
+        "Giant geysers"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the capital of the country where the Colosseum is located?",
+      "options": [
+        "Venice",
+        "Rome",
+        "Naples",
+        "Florence"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which capital city is divided by the River Thames?",
+      "options": [
+        "Edinburgh",
+        "Dublin",
+        "London",
+        "Cardiff"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In what capital city would you find the Kremlin and Red Square?",
+      "options": [
+        "Moscow",
+        "St. Petersburg",
+        "Kiev",
+        "Warsaw"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which capital is the highest above sea level in the world?",
+      "options": [
+        "Bogotá",
+        "Quito",
+        "La Paz",
+        "Kathmandu"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the capital city of Canada?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Ottawa",
+        "Montreal"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which European capital is nicknamed 'The Eternal City'?",
+      "options": [
+        "Athens",
+        "Rome",
+        "Paris",
+        "Vienna"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the capital city of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which capital city is home to the iconic Red Square and Kremlin?",
+      "options": [
+        "Warsaw",
+        "Moscow",
+        "Beijing",
+        "Prague"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What capital city is famously known as the 'City of Spires'?",
+      "options": [
+        "Stockholm",
+        "Prague",
+        "Copenhagen",
+        "Vienna"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In which African capital city would you find the tallest building on the continent, The Leonardo?",
+      "options": [
+        "Nairobi",
+        "Cairo",
+        "Johannesburg",
+        "Addis Ababa"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the highest-altitude capital city in the world?",
+      "options": [
+        "Quito",
+        "La Paz",
+        "Thimphu",
+        "Kathmandu"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Asian capital's name translates to 'Eastern Capital'?",
+      "options": [
+        "Tokyo",
+        "Seoul",
+        "Bangkok",
+        "Beijing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the capital city of Iceland, known for its geothermal hot springs?",
+      "options": [
+        "Reykjavik",
+        "Oslo",
+        "Helsinki",
+        "Torshavn"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What capital city lies on the junction of the Danube and Sava rivers?",
+      "options": [
+        "Belgrade",
+        "Budapest",
+        "Bratislava",
+        "Ljubljana"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European capital is often called the 'City of Light'?",
+      "options": [
+        "Paris",
+        "Vienna",
+        "Berlin",
+        "Madrid"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which capital city lies on two continents, Europe and Asia?",
+      "options": [
+        "Ankara",
+        "Moscow",
+        "Istanbul",
+        "Tbilisi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the highest capital city in the world by altitude?",
+      "options": [
+        "La Paz, Bolivia",
+        "Quito, Ecuador",
+        "Kathmandu, Nepal",
+        "Thimphu, Bhutan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which capital city is home to the famous Christ the Redeemer statue?",
+      "options": [
+        "Buenos Aires",
+        "Rio de Janeiro",
+        "Brasília",
+        "Santiago"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which capital city is known for its canals and is often called the 'Venice of the North'?",
+      "options": [
+        "Amsterdam",
+        "Stockholm",
+        "Copenhagen",
+        "Reykjavik"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which African capital is named after a U.S. president?",
+      "options": [
+        "Monrovia",
+        "Nairobi",
+        "Kigali",
+        "Accra"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the largest capital city in terms of population?",
+      "options": [
+        "Tokyo",
+        "Beijing",
+        "New Delhi",
+        "Cairo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Asian capital's name means 'Eastern Capital'?",
+      "options": [
+        "Seoul",
+        "Bangkok",
+        "Tokyo",
+        "Hanoi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the capital city of Finland, known for its design and architecture?",
+      "options": [
+        "Helsinki",
+        "Oslo",
+        "Stockholm",
+        "Copenhagen"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which capital city is home to the Colosseum, one of the New Seven Wonders of the World?",
+      "options": [
+        "Madrid",
+        "Rome",
+        "Athens",
+        "Lisbon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only capital city in the world that begins with the letter 'Q'?",
+      "options": [
+        "Quebec City",
+        "Quito",
+        "Qena",
+        "Qom"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which African capital is famously known as the city of a thousand hills?",
+      "options": [
+        "Kigali",
+        "Addis Ababa",
+        "Nairobi",
+        "Accra"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European capital is famously associated with the landmark of the Little Mermaid statue?",
+      "options": [
+        "Reykjavik",
+        "Copenhagen",
+        "Amsterdam",
+        "Warsaw"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What capital city is located at the highest altitude in the world?",
+      "options": [
+        "Lima",
+        "Bogotá",
+        "Quito",
+        "La Paz"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Asian capital city is known for its cherry blossoms and historic temples?",
+      "options": [
+        "Beijing",
+        "Tokyo",
+        "Seoul",
+        "Bangkok"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Caribbean island capital shares its name with a famous European explorer?",
+      "options": [
+        "Havana",
+        "Nassau",
+        "Kingston",
+        "Colombo"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What capital city is historically associated with the fall of the Berlin Wall?",
+      "options": [
+        "Vienna",
+        "Berlin",
+        "Prague",
+        "Warsaw"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Middle Eastern capital is believed to be one of the oldest continuously inhabited cities in the world?",
+      "options": [
+        "Cairo",
+        "Amman",
+        "Damascus",
+        "Baghdad"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which European capital city is known as 'The Eternal City'?",
+      "options": [
+        "Paris",
+        "Athens",
+        "Rome",
+        "Berlin"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which capital city is home to the iconic Blue Lagoon geothermal spa?",
+      "options": [
+        "Reykjavik",
+        "Oslo",
+        "Stockholm",
+        "Helsinki"
+      ],
+      "answer": 0
+    }
+  ]
+}

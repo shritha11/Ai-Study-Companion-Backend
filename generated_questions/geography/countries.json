@@ -1,0 +1,508 @@
+{
+  "title": "Countries",
+  "category": "Geography",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "Which country is home to the world's oldest continuously operating university?",
+      "options": [
+        "Italy",
+        "Morocco",
+        "China",
+        "India"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which European country has over 400 types of cheese, leading to the saying 'A different cheese for every day of the year'?",
+      "options": [
+        "France",
+        "Switzerland",
+        "Germany",
+        "Netherlands"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the only country in the world that does not have an official capital?",
+      "options": [
+        "Vatican City",
+        "Switzerland",
+        "South Africa",
+        "Palau"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country’s national flag is the only one in the world that is not rectangular or square?",
+      "options": [
+        "Nepal",
+        "Bhutan",
+        "Maldives",
+        "Lesotho"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which country was the world’s first postage stamp issued in 1840?",
+      "options": [
+        "United Kingdom",
+        "United States",
+        "Germany",
+        "France"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has an area known as the 'Empty Quarter', the largest continuous sand desert in the world?",
+      "options": [
+        "Saudi Arabia",
+        "Egypt",
+        "Algeria",
+        "Oman"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has a coastline on both the Atlantic and the Mediterranean?",
+      "options": [
+        "Spain",
+        "Morocco",
+        "France",
+        "Portugal"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What country is nicknamed the 'Land of the White Elephant'?",
+      "options": [
+        "Thailand",
+        "India",
+        "Sri Lanka",
+        "Cambodia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which South American country is named after a mythical golden city?",
+      "options": [
+        "Colombia",
+        "Guyana",
+        "El Salvador",
+        "Venezuela"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What country celebrates its Independence Day with a huge tomato fight called La Tomatina?",
+      "options": [
+        "Italy",
+        "Spain",
+        "Portugal",
+        "Argentina"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is famously shaped like a boot?",
+      "options": [
+        "Italy",
+        "Spain",
+        "Portugal",
+        "Greece"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is home to the world’s largest desert, the Sahara?",
+      "options": [
+        "Egypt",
+        "Algeria",
+        "Morocco",
+        "Sudan"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What country is known for inventing the zero as a numeral concept?",
+      "options": [
+        "China",
+        "India",
+        "Greece",
+        "Babylon (now Iraq)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is the smallest in the world by land area?",
+      "options": [
+        "San Marino",
+        "Monaco",
+        "Vatican City",
+        "Liechtenstein"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What Scandinavian country is known as the 'Land of a Thousand Lakes'?",
+      "options": [
+        "Sweden",
+        "Norway",
+        "Denmark",
+        "Finland"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which country has a famous landmark called 'Table Mountain'?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "Chile",
+        "New Zealand"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is known for its annual festival called 'La Tomatina', where people throw tomatoes at each other?",
+      "options": [
+        "Spain",
+        "Portugal",
+        "Mexico",
+        "Argentina"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country’s flag is the only one in the world not rectangular?",
+      "options": [
+        "Switzerland",
+        "Nepal",
+        "Bhutan",
+        "Malta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which country would you find the ancient city of Petra, carved into rose-red cliffs?",
+      "options": [
+        "Israel",
+        "Jordan",
+        "Lebanon",
+        "Syria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is credited with creating the world’s first national park, Yellowstone, in 1872?",
+      "options": [
+        "United States",
+        "Canada",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is home to the famous 'Mount Everest'?",
+      "options": [
+        "Nepal",
+        "Switzerland",
+        "India",
+        "Japan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has a maple leaf on its national flag?",
+      "options": [
+        "Canada",
+        "Australia",
+        "Brazil",
+        "Denmark"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What country has the most official languages?",
+      "options": [
+        "South Africa",
+        "India",
+        "Switzerland",
+        "Belgium"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is the origin of the famous Eiffel Tower?",
+      "options": [
+        "France",
+        "Italy",
+        "Germany",
+        "Spain"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What country is known for its Maasai Mara National Reserve and Great Wildebeest Migration?",
+      "options": [
+        "Kenya",
+        "Tanzania",
+        "Botswana",
+        "Rwanda"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is famous for the iconic Great Wall, a UNESCO World Heritage site?",
+      "options": [
+        "China",
+        "Japan",
+        "Mongolia",
+        "Korea"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is the world's largest producer of coffee?",
+      "options": [
+        "Brazil",
+        "Colombia",
+        "Vietnam",
+        "Ethiopia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is nicknamed the 'Land of the Rising Sun'?",
+      "options": [
+        "Japan",
+        "South Korea",
+        "Thailand",
+        "Philippines"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which country can you cross the famous Salar de Uyuni, the world's largest salt flat?",
+      "options": [
+        "Bolivia",
+        "Chile",
+        "Argentina",
+        "Peru"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What country has the smallest land area in the world?",
+      "options": [
+        "Vatican City",
+        "Monaco",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is famously known as the 'Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Thailand"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which South American country has a name that means 'Little Venice'?",
+      "options": [
+        "Argentina",
+        "Venezuela",
+        "Peru",
+        "Colombia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only country in the world that is named after a woman?",
+      "options": [
+        "New Zealand",
+        "Saint Lucia",
+        "Dominica",
+        "Victoria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country boasts a unique flag that is not rectangular?",
+      "options": [
+        "Bhutan",
+        "Nepal",
+        "Switzerland",
+        "Malta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which country would you find the world's tallest building, the Burj Khalifa?",
+      "options": [
+        "Qatar",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Oman"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which African country is the largest by land area?",
+      "options": [
+        "Algeria",
+        "Sudan",
+        "Democratic Republic of Congo",
+        "South Africa"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European country is home to both CERN and the iconic Matterhorn mountain?",
+      "options": [
+        "Austria",
+        "Switzerland",
+        "France",
+        "Italy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only country that is also a continent?",
+      "options": [
+        "Greenland",
+        "Antarctica",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Asian country is famous for its annual Songkran Water Festival?",
+      "options": [
+        "Vietnam",
+        "Thailand",
+        "Philippines",
+        "Cambodia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is credited with inventing pizza?",
+      "options": [
+        "Italy",
+        "Greece",
+        "Turkey",
+        "France"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is home to the iconic Machu Picchu, an ancient Incan citadel?",
+      "options": [
+        "Peru",
+        "Bolivia",
+        "Ecuador",
+        "Chile"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What country does the island of Crete belong to?",
+      "options": [
+        "Italy",
+        "Greece",
+        "Cyprus",
+        "Turkey"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only country in the world to display a building on its national flag?",
+      "options": [
+        "Nepal",
+        "Cambodia",
+        "Bhutan",
+        "Laos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is nicknamed 'The Land of the Rising Sun'?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In which country can you find the historic Alhambra Palace?",
+      "options": [
+        "Spain",
+        "Portugal",
+        "Morocco",
+        "Italy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has three capital cities: Pretoria, Bloemfontein, and Cape Town?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "India",
+        "Canada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 2022, which country hosted the FIFA World Cup for the first time in its history?",
+      "options": [
+        "Qatar",
+        "Brazil",
+        "Russia",
+        "Saudi Arabia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European country is famous for its tulip fields and windmills?",
+      "options": [
+        "Belgium",
+        "The Netherlands",
+        "Sweden",
+        "Denmark"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country is home to the iconic Taj Mahal, a monument to love?",
+      "options": [
+        "Pakistan",
+        "Sri Lanka",
+        "India",
+        "Bangladesh"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Known as the 'Land of Fire and Ice,' which country has mesmerizing geysers and active volcanoes?",
+      "options": [
+        "Iceland",
+        "Greenland",
+        "New Zealand",
+        "Norway"
+      ],
+      "answer": 0
+    }
+  ]
+}

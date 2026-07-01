@@ -1,0 +1,508 @@
+{
+  "title": "Friends Trivia",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the name of the coffee shop where the characters spend most of their time?",
+      "options": [
+        "Central Park",
+        "Central Perk",
+        "Monica's Brew",
+        "Espresso Corner"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Ross's second wife?",
+      "options": [
+        "Emily Waltham",
+        "Susan Bunch",
+        "Carol Willick",
+        "Janice Litman"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the first name of Joey's soap opera character on 'Days of Our Lives'?",
+      "options": [
+        "Dr. Tony Morelli",
+        "Dr. Ramoray Smith",
+        "Dr. Drake Ramoray",
+        "Dr. Vincent LeBlanc"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What item of clothing does Ross wear to impress his date and ends up regretting?",
+      "options": [
+        "A leather jacket",
+        "A pair of leather pants",
+        "A velvet blazer",
+        "A silk scarf"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is Chandler's middle name?",
+      "options": [
+        "Muriel",
+        "Marcel",
+        "Michael",
+        "Matthew"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What unusual instrument does Phoebe play?",
+      "options": [
+        "Harmonica",
+        "Guitar",
+        "Steel drum",
+        "Banjo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the man Rachel almost marries in the pilot episode?",
+      "options": [
+        "Joshua",
+        "Barry",
+        "Tag",
+        "Mark"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the title of the self-help book that inspired Ross and Monica's cousin Cassie?",
+      "options": [
+        "Be Your Own Windkeeper",
+        "Eat, Pray, Love",
+        "The One with Yourself",
+        "Be The Breeze"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of Joey's stuffed penguin?",
+      "options": [
+        "Waddles",
+        "Snowflake",
+        "Hugsy",
+        "Flippers"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What phrase is repeatedly shouted by Ross trying to move a couch up the stairs?",
+      "options": [
+        "Left! Left!",
+        "Lift and pull!",
+        "Pivot! Pivot!",
+        "Push and turn!"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the name of Ross's pet monkey?",
+      "options": [
+        "Marcel",
+        "Maxwell",
+        "Maurice",
+        "Manny"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Joey's stuffed penguin?",
+      "options": [
+        "Snowflake",
+        "Hugsy",
+        "Pingu",
+        "Fluffy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Phoebe's twin sister?",
+      "options": [
+        "Ursula",
+        "Lisa",
+        "Fran",
+        "Nina"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which city does 'Friends' take place?",
+      "options": [
+        "Los Angeles",
+        "Chicago",
+        "New York City",
+        "San Francisco"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the coffee shop the group frequently visits?",
+      "options": [
+        "Central Park",
+        "Central Perk",
+        "Coffee Corner",
+        "Daily Grind"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was Monica’s biggest pet peeve?",
+      "options": [
+        "Animals dressed as humans",
+        "Messy kitchens",
+        "Unstraightened curtains",
+        "Chip bags left open"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What nickname did Monica’s boyfriend Pete give her?",
+      "options": [
+        "Little Chef",
+        "Mon-Mon",
+        "Lovely Lady",
+        "Tiny Tornado"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What fake name does Phoebe often use?",
+      "options": [
+        "Regina Phalange",
+        "Susie Moss",
+        "Amanda Buffay",
+        "Emily Waltham"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of Ross’s second wife?",
+      "options": [
+        "Carol",
+        "Emily",
+        "Susan",
+        "Elizabeth"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Ross's pet monkey?",
+      "options": [
+        "Maurice",
+        "Marcel",
+        "Milo",
+        "Max"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does Joey never share?",
+      "options": [
+        "His pizza",
+        "His couch",
+        "His food",
+        "His chair"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of Phoebe's most iconic song?",
+      "options": [
+        "Smelly Dog",
+        "Funky Cat",
+        "Smelly Cat",
+        "Lonely Fish"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which store does Rachel work at during Season 3?",
+      "options": [
+        "Gucci",
+        "Bloomingdale's",
+        "Macy's",
+        "Saks Fifth Avenue"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who was Chandler's TV magazine always addressed to?",
+      "options": [
+        "Miss Chanandler Bong",
+        "Mr. Chandler Bing",
+        "Mrs. Chandelle Bing",
+        "Miss Chandelier Bing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of Ross's first wife?",
+      "options": [
+        "Susan",
+        "Emily",
+        "Carol",
+        "Julie"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is Joey's catchphrase?",
+      "options": [
+        "How YOU doin'?",
+        "What's up, ladies?",
+        "Hey, beautiful!",
+        "What's cookin'?"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Monica categorize her towels by?",
+      "options": [
+        "Material",
+        "Occasion",
+        "Size",
+        "Color"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What game do the friends play to win Monica and Rachel's apartment?",
+      "options": [
+        "Trivia",
+        "Poker",
+        "Charades",
+        "Pictionary"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Janice's iconic catchphrase?",
+      "options": [
+        "Oh. My. Gawd!",
+        "Oh. My. God!",
+        "Oh. My. Goodness!",
+        "Oh. My. Word!"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the coffee shop where the group frequently hangs out?",
+      "options": [
+        "Central Perk",
+        "Coffee Central",
+        "Perk Spot",
+        "The Daily Grind"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who famously says, 'We were on a break!' throughout the series?",
+      "options": [
+        "Ross",
+        "Rachel",
+        "Chandler",
+        "Joey"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of Joey's soap opera character in 'Days of Our Lives'?",
+      "options": [
+        "Dr. Drake Ramoray",
+        "Dr. Jake Remore",
+        "Dr. Blake Romare",
+        "Dr. Nate Ramire"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Phoebe’s twin sister?",
+      "options": [
+        "Ursula",
+        "Monica",
+        "Emma",
+        "Janice"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What dessert does Rachel mistakenly make with beef in it?",
+      "options": [
+        "Trifle",
+        "Pie",
+        "Chocolate Cake",
+        "Pudding"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What song is Phoebe most famous for performing at Central Perk?",
+      "options": [
+        "Smelly Cat",
+        "Sticky Dog",
+        "Funky Rabbit",
+        "Crazy Rat"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the nickname Chandler gives to the annoying girl Joey briefly dates?",
+      "options": [
+        "Janice 2.0",
+        "Crazy Pants",
+        "Fun Bobby",
+        "The Bug Lady"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the friends had a third nipple?",
+      "options": [
+        "Chandler",
+        "Ross",
+        "Joey",
+        "Phoebe"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Joey’s iconic catchphrase?",
+      "options": [
+        "How you doin’?",
+        "What’s up?",
+        "You got it!",
+        "Hey there!"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Ross's first pet?",
+      "options": [
+        "Marcel",
+        "Chi-Chi",
+        "Russell",
+        "Spot"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the coffee shop where the gang frequently hangs out?",
+      "options": [
+        "Java Park",
+        "Central Perk",
+        "Coffee Corner",
+        "Cafe 6th"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the name of Joey's acting agent?",
+      "options": [
+        "Sylvia Geller",
+        "Estelle Leonard",
+        "Janice Hosenstein",
+        "Mindy Hunter"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the strange ingredient Rachel accidentally added to her Thanksgiving trifle dessert?",
+      "options": [
+        "Beef",
+        "Pickles",
+        "Fish",
+        "Cheese"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which piece of furniture did Joey build incorrectly, trapping Ross inside?",
+      "options": [
+        "Entertainment unit",
+        "Bookshelf",
+        "Coffee table",
+        "Bed frame"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which iconic song is performed by Phoebe in Central Perk?",
+      "options": [
+        "Sticky Cat",
+        "Smelly Cat",
+        "Sweetie Cat",
+        "Stinky Cat"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who was Chandler's roommate before Joey?",
+      "options": [
+        "Kip",
+        "Eddie",
+        "Mark",
+        "Paul"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was Ross's infamous response when asked about his and Rachel's relationship status?",
+      "options": [
+        "We were on a break!",
+        "She dumped me first!",
+        "It was complicated!",
+        "We never discussed exclusivity!"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the television show Joey stars in for several years?",
+      "options": [
+        "Days in Manhattan",
+        "Doctors in Love",
+        "Days of Our Lives",
+        "General Hospital"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does Monica's closet, often kept locked, famously contain?",
+      "options": [
+        "Cleaning supplies",
+        "Memorabilia",
+        "Disorganized junk",
+        "Seasonal decorations"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which character famously says, 'We were on a break!'?",
+      "options": [
+        "Ross",
+        "Rachel",
+        "Chandler",
+        "Joey"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How many sisters does Joey Tribbiani have?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 0
+    }
+  ]
+}

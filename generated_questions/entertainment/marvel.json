@@ -1,0 +1,508 @@
+{
+  "title": "Marvel",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the name of Thor's enchanted hammer?",
+      "options": [
+        "Stormbreaker",
+        "Mjolnir",
+        "Excalibur",
+        "Gungnir"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which character is known for saying 'I can do this all day'?",
+      "options": [
+        "Iron Man",
+        "Hawkeye",
+        "Captain America",
+        "Black Panther"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What nation is T’Challa the king of?",
+      "options": [
+        "Sokovia",
+        "Genosha",
+        "Wakanda",
+        "Latveria"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which villain is the main antagonist in 'Avengers: Infinity War'?",
+      "options": [
+        "Loki",
+        "Ultron",
+        "Thanos",
+        "Red Skull"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What color is the Time Stone in the Marvel Cinematic Universe?",
+      "options": [
+        "Blue",
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who portrays Peter Quill, also known as Star-Lord, in the Marvel Cinematic Universe?",
+      "options": [
+        "Chris Hemsworth",
+        "Chris Evans",
+        "Chris Pratt",
+        "Chris Pine"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is Deadpool’s favorite food?",
+      "options": [
+        "Chimichangas",
+        "Pizza",
+        "Hot Dogs",
+        "Burgers"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Marvel character is often referred to as the 'Sorcerer Supreme'?",
+      "options": [
+        "Loki",
+        "Doctor Strange",
+        "Scarlet Witch",
+        "Agatha Harkness"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the real name of the Winter Soldier?",
+      "options": [
+        "Sam Wilson",
+        "Steve Rogers",
+        "Bucky Barnes",
+        "Clint Barton"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Marvel movie features the song 'Hooked on a Feeling' prominently in its soundtrack?",
+      "options": [
+        "Iron Man",
+        "Guardians of the Galaxy",
+        "Thor: Ragnarok",
+        "Ant-Man"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the real name of the hero known as Spider-Woman?",
+      "options": [
+        "Jessica Drew",
+        "Jennifer Walters",
+        "Carol Danvers",
+        "Gwen Stacy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Marvel character is known for frequently breaking the fourth wall?",
+      "options": [
+        "Deadpool",
+        "Loki",
+        "Doctor Strange",
+        "Ant-Man"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Thor: Ragnarok,' what nickname does Korg give Thor’s hammer, Mjolnir?",
+      "options": [
+        "Hammery",
+        "Smash Stick",
+        "Sparkles Crusher",
+        "Doug"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Marvel villain is famously obsessed with courting Death?",
+      "options": [
+        "Thanos",
+        "Loki",
+        "Red Skull",
+        "Ultron"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the prison where the Guardians of the Galaxy are first incarcerated?",
+      "options": [
+        "The Kyln",
+        "The Raft",
+        "The Triskelion",
+        "Project P.E.G.A.S.U.S."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Marvel hero does NOT originate from Earth?",
+      "options": [
+        "Thor",
+        "Black Panther",
+        "Black Widow",
+        "Hawkeye"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Tony Stark’s AI assistant before FRIDAY?",
+      "options": [
+        "J.A.R.V.I.S.",
+        "ULTRON",
+        "H.E.L.E.N.",
+        "K.A.R.E.N."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What rare metal is Wakanda known for?",
+      "options": [
+        "Vibranium",
+        "Adamantium",
+        "Uru",
+        "Titanium"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the first Avengers movie, who is the first superhero to successfully make Loki bleed?",
+      "options": [
+        "Iron Man",
+        "Thor",
+        "Hulk",
+        "Black Widow"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the dimension in which Dormammu resides?",
+      "options": [
+        "The Dark Dimension",
+        "The Quantum Realm",
+        "The Astral Plane",
+        "The Mirror Dimension"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of doctor is Stephen Strange before becoming the Sorcerer Supreme?",
+      "options": [
+        "Orthopedic Surgeon",
+        "Neurosurgeon",
+        "Cardiologist",
+        "Psychiatrist"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Avengers: Endgame,' who says the line, 'I love you 3000'?",
+      "options": [
+        "Tony Stark",
+        "Morgan Stark",
+        "Pepper Potts",
+        "Peter Parker"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What artifact does Peter Quill try to steal in the opening scene of 'Guardians of the Galaxy'?",
+      "options": [
+        "The Soul Stone",
+        "The Orb",
+        "The Tesseract",
+        "The Aether"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Thor’s enchanted hammer?",
+      "options": [
+        "Jarnbjorn",
+        "Stormbreaker",
+        "Mjolnir",
+        "Andúril"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What U.S. city is Peter Parker from?",
+      "options": [
+        "New York",
+        "Chicago",
+        "Los Angeles",
+        "Boston"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the alien race Loki teams up with in 'The Avengers' (2012)?",
+      "options": [
+        "Kree",
+        "Chitauri",
+        "Skrulls",
+        "Shi’ar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the MCU, how many Infinity Stones are there?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Spider-Man: No Way Home,' which villain says, 'I’m something of a scientist myself'?",
+      "options": [
+        "Doctor Octopus",
+        "Green Goblin",
+        "Electro",
+        "Sandman"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What Wakandan tribe does M’Baku lead?",
+      "options": [
+        "River Tribe",
+        "Border Tribe",
+        "Jabari Tribe",
+        "Merchant Tribe"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the AI system that replaces JARVIS in Tony Stark’s suits?",
+      "options": [
+        "FRIDAY",
+        "KAREN",
+        "EDITH",
+        "ULTRON"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the real name of the superhero who becomes Doctor Strange?",
+      "options": [
+        "Stephen Strange",
+        "Charles Xavier",
+        "Victor Von Doom",
+        "Bruce Banner"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the multidimensional weapon wielded by Loki in the Marvel Cinematic Universe?",
+      "options": [
+        "Casket of Ancient Winters",
+        "The Tesseract",
+        "Scepter",
+        "The Aether"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Marvel character is known for repeatedly saying 'I am Groot'?",
+      "options": [
+        "Rocket Raccoon",
+        "Star-Lord",
+        "Groot",
+        "Drax"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is Tony Stark's address as revealed in 'Iron Man 3'?",
+      "options": [
+        "10880 Malibu Point",
+        "42 Baxter Street",
+        "177A Bleecker Street",
+        "890 Fifth Avenue"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Marvel character famously says, 'You should have gone for the head'?",
+      "options": [
+        "Thanos",
+        "Loki",
+        "Thor",
+        "Hela"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Spider-Man: Into the Spider-Verse', what is Miles Morales' primary artistic passion?",
+      "options": [
+        "Painting",
+        "Graffiti",
+        "Sculpting",
+        "Music"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What material is Captain America's shield primarily made of?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Uru Metal",
+        "Titanium Alloy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the organization run by Nick Fury that oversees the Avengers?",
+      "options": [
+        "S.W.O.R.D.",
+        "H.A.M.M.E.R.",
+        "S.H.I.E.L.D.",
+        "A.I.M."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Marvel hero is also the King of Wakanda?",
+      "options": [
+        "Killmonger",
+        "M'Baku",
+        "T'Challa",
+        "N'Jobu"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In the MCU, which alien race does Ronan the Accuser belong to?",
+      "options": [
+        "Kree",
+        "Skrull",
+        "Chitauri",
+        "Xandarians"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which character famously says, 'Why is Gamora?' in 'Avengers: Infinity War'?",
+      "options": [
+        "Star-Lord",
+        "Drax",
+        "Rocket Raccoon",
+        "Doctor Strange"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What fictional African nation is T'Challa, a.k.a. Black Panther, king of?",
+      "options": [
+        "Genosha",
+        "Sokovia",
+        "Wakanda",
+        "Latveria"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Marvel movie introduced the Time Heist concept?",
+      "options": [
+        "Doctor Strange",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp",
+        "Guardians of the Galaxy Vol. 2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the MCU, what food does Tony Stark suggest the team try after the Battle of New York in 'The Avengers'?",
+      "options": [
+        "Sushi",
+        "Burgers",
+        "Shawarma",
+        "Tacos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of Peter Quill's ship in 'Guardians of the Galaxy'?",
+      "options": [
+        "The Milano",
+        "The Starjumper",
+        "The Nebula",
+        "The Falcon"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Marvel hero is known as 'The Merc with a Mouth'?",
+      "options": [
+        "Deadpool",
+        "Spider-Man",
+        "Wolverine",
+        "Hawkeye"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What color is the Reality Stone in the MCU?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who is the main antagonist in 'Spider-Man: Homecoming'?",
+      "options": [
+        "The Green Goblin",
+        "Doctor Octopus",
+        "The Vulture",
+        "Mysterio"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the sentient AI that becomes Vision in the MCU?",
+      "options": [
+        "Friday",
+        "Ultron",
+        "Jarvis",
+        "Karen"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of Thor's enchanted axe introduced in 'Avengers: Infinity War'?",
+      "options": [
+        "Mjolnir",
+        "Stormbreaker",
+        "Gungnir",
+        "Godslayer"
+      ],
+      "answer": 1
+    }
+  ]
+}

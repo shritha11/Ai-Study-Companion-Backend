@@ -1,0 +1,508 @@
+{
+  "title": "Anime",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the name of Naruto Uzumaki's favorite food?",
+      "options": [
+        "Sushi",
+        "Ramen",
+        "Takoyaki",
+        "Onigiri"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which anime features the Survey Corps battling against Titans?",
+      "options": [
+        "Attack on Titan",
+        "Claymore",
+        "Bleach",
+        "Fate/Zero"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Death Note,' what item does Ryuk drop into the human world?",
+      "options": [
+        "A magic pen",
+        "A grimoire",
+        "A Death Note",
+        "A crystal orb"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is Goku's Saiyan name in 'Dragon Ball Z'?",
+      "options": [
+        "Raditz",
+        "Kakarot",
+        "Bardock",
+        "Turles"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'My Hero Academia,' who is the Number 1 Hero before All Might retires?",
+      "options": [
+        "Endeavor",
+        "Gran Torino",
+        "Best Jeanist",
+        "All Might"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Studio Ghibli film features a cat bus as a mode of transportation?",
+      "options": [
+        "My Neighbor Totoro",
+        "Spirited Away",
+        "Kiki's Delivery Service",
+        "Castle in the Sky"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the main city in 'Sword Art Online’s' Aincrad?",
+      "options": [
+        "Town of Beginnings",
+        "Central Yggdrasil",
+        "Capital of Aincrad",
+        "Floor 1 Nexus"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which anime features the iconic line: 'Bang'?",
+      "options": [
+        "Samurai Champloo",
+        "Cowboy Bebop",
+        "Trigun",
+        "Black Lagoon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'One Piece,' what is the name of Luffy's ship after the Going Merry?",
+      "options": [
+        "Sunny Prime",
+        "Thousand Sunny",
+        "Ocean Wanderer",
+        "Golden Merry"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Levi Ackerman's combat technique in 'Attack on Titan'?",
+      "options": [
+        "Blade Dance",
+        "Spinning Slash",
+        "Omni-Slash",
+        "Levi's Whirlwind"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Naruto', what is the main ingredient in Akamaru's custom battle pills?",
+      "options": [
+        "Chocolate",
+        "Soldier pills",
+        "Dog food",
+        "Curry powder"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the alien species responsible for Goku’s origin in 'Dragon Ball Z'?",
+      "options": [
+        "Saiyans",
+        "Namekians",
+        "Frost Demons",
+        "Tuffles"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Attack on Titan', what is Levi Ackerman’s signature cleaning accessory?",
+      "options": [
+        "A duster",
+        "A mop",
+        "A handkerchief",
+        "A scarf"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In 'One Piece', what was the first Devil Fruit eaten by Luffy?",
+      "options": [
+        "Mera Mera no Mi",
+        "Gomu Gomu no Mi",
+        "Hito Hito no Mi",
+        "Bara Bara no Mi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'My Hero Academia', what is the name of the festival where Class 1-A performs a band concert?",
+      "options": [
+        "Sports Festival",
+        "Cultural Festival",
+        "Hero Festival",
+        "Provisional License Festival"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the first phrase that Ryuk says to Light in 'Death Note'?",
+      "options": [
+        "You’ve come far.",
+        "I dropped my notebook.",
+        "You’re quite something.",
+        "What’s your name?"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Pokémon does Pikachu initially refuse to fight in 'Pokémon: The First Movie'?",
+      "options": [
+        "Mewtwo",
+        "Charizard",
+        "Meowth",
+        "Other Pikachu"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In 'Sword Art Online', what is the name of the floating castle world where the game begins?",
+      "options": [
+        "Aincrad",
+        "Alfheim",
+        "Underworld",
+        "Rath"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the city that Saitama protects in 'One Punch Man'?",
+      "options": [
+        "City Z",
+        "City A",
+        "City S",
+        "City X"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main ingredient in Edward Elric’s failed human transmutation in 'Fullmetal Alchemist'?",
+      "options": [
+        "Human blood",
+        "Philosopher’s Stone",
+        "Human soul",
+        "Carbon"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In 'Attack on Titan,' what is the name of the inner-most wall protecting humanity?",
+      "options": [
+        "Wall Maria",
+        "Wall Rose",
+        "Wall Sina",
+        "Wall Terra"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the alias of the bounty hunter Spike Spiegel in 'Cowboy Bebop'?",
+      "options": [
+        "The Blue Reaper",
+        "Fearless",
+        "The Space Cowboy",
+        "Silent Bullet"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the meme 'It's over 9000!' originate from?",
+      "options": [
+        "One Piece",
+        "Dragon Ball Z",
+        "Naruto",
+        "Bleach"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In Studio Ghibli's 'My Neighbor Totoro,' what creature is responsible for transporting people and items?",
+      "options": [
+        "The Forest Spirit",
+        "Catbus",
+        "Kodama",
+        "Dust Bunnies"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which anime features a character who famously says, 'I am gonna be the Pirate King!'?",
+      "options": [
+        "One Piece",
+        "Fairy Tail",
+        "Hunter x Hunter",
+        "Black Clover"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What school does Izuku Midoriya attend in 'My Hero Academia'?",
+      "options": [
+        "UA High School",
+        "Shiketsu High School",
+        "Hoshin Academy",
+        "Hero Central Academy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Neon Genesis Evangelion,' what are the giant entities referred to as?",
+      "options": [
+        "Demons",
+        "Angels",
+        "Gods",
+        "Titans"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Death Note,' what is Ryuk's favorite human world snack?",
+      "options": [
+        "Potato Chips",
+        "Cookies",
+        "Apples",
+        "Candy"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In 'Fullmetal Alchemist: Brotherhood,' what is the symbol that represents the taboo of human transmutation?",
+      "options": [
+        "The Ouroboros",
+        "The Flamel Cross",
+        "The Philosopher's Circle",
+        "The Alchemic Pentagram"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is known as the 'Pink-Haired Demon of Fairy Tail'?",
+      "options": [
+        "Natsu Dragneel",
+        "Erza Scarlet",
+        "Lucy Heartfilia",
+        "Gildarts Clive"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Dragon Ball Z,' what is the name of the technique Goku uses to form and hurl a massive energy ball powered by life forces?",
+      "options": [
+        "Spirit Bomb",
+        "Kamehameha",
+        "Final Flash",
+        "Big Bang Attack"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the nickname given to Levi Ackerman in 'Attack on Titan' due to his combat prowess?",
+      "options": [
+        "Humanity's Strongest Soldier",
+        "The Titan-Stabber",
+        "The Survey Corps' Leader",
+        "The Blade of Freedom"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Studio Ghibli film features a giant cat-shaped bus as a mode of transportation?",
+      "options": [
+        "My Neighbor Totoro",
+        "Spirited Away",
+        "Castle in the Sky",
+        "Kiki's Delivery Service"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Naruto,' who is the first character to awaken the Mangekyō Sharingan?",
+      "options": [
+        "Itachi Uchiha",
+        "Sasuke Uchiha",
+        "Kakashi Hatake",
+        "Shisui Uchiha"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the currency used in the world of 'One Piece'?",
+      "options": [
+        "Berries",
+        "Zeni",
+        "Gold Pieces",
+        "Peli"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Neon Genesis Evangelion,' what are the giant beings that Shinji and the crew battle known as?",
+      "options": [
+        "Angels",
+        "Evas",
+        "Demons",
+        "Titans"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which anime character is famously associated with the line, 'I'm gonna be King of the Pirates!'?",
+      "options": [
+        "Monkey D. Luffy",
+        "Edward Newgate",
+        "Gol D. Roger",
+        "Roronoa Zoro"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What game does Yugi excel at in 'Yu-Gi-Oh!'?",
+      "options": [
+        "Duel Monsters",
+        "Magic: The Gathering",
+        "Monster Chess",
+        "Spirit Cards"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the anime 'Death Note,' what is the name of the Shinigami who drops the Death Note into the human world?",
+      "options": [
+        "Ryuk",
+        "Rem",
+        "Gelus",
+        "Sidoh"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the original Japanese title of 'Demon Slayer'?",
+      "options": [
+        "Kimetsu no Yaiba",
+        "Mugen no Senshi",
+        "Hikari no Tsubasa",
+        "Tensei no Oni"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Attack on Titan', what is the name of the Elite squad that serves directly under Captain Levi?",
+      "options": [
+        "Survey Corps Special Ops Squad",
+        "Military Police Brigade",
+        "Elite Garrison Troop",
+        "Recon Rangers"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the studio that produced 'Spirited Away'?",
+      "options": [
+        "Studio Madhouse",
+        "Studio Ghibli",
+        "Bones Studio",
+        "Toei Animation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which anime features a protagonist who can write a name in a notebook to kill someone?",
+      "options": [
+        "Death Note",
+        "Future Diary",
+        "Code Geass",
+        "Erased"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the cat companion in 'Sailor Moon'?",
+      "options": [
+        "Kiki",
+        "Luna",
+        "Artemis",
+        "Mochi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'My Hero Academia', what is the hero name of Shoto Todoroki?",
+      "options": [
+        "Endeavor",
+        "Half-Cold Half-Hot",
+        "Icy-Hot",
+        "Shoto"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which of these anime is directed by Shinichiro Watanabe?",
+      "options": [
+        "Cowboy Bebop",
+        "Attack on Titan",
+        "Demon Slayer",
+        "Naruto"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Dragon Ball Z', what is Goku's Saiyan birth name?",
+      "options": [
+        "Raditz",
+        "Kakarot",
+        "Bardock",
+        "Turles"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the primary setting of the anime 'One Piece'?",
+      "options": [
+        "Space colonies",
+        "A fantastical forest",
+        "The open seas",
+        "Post-apocalyptic Earth"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the special police task force in 'Psycho-Pass'?",
+      "options": [
+        "Public Safety Bureau",
+        "Crisis Control Unit",
+        "Task Force Omega",
+        "Judgment Division"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these anime memes is associated with the phrase 'It's over 9000!'?",
+      "options": [
+        "Naruto",
+        "Dragon Ball Z",
+        "Bleach",
+        "Fairy Tail"
+      ],
+      "answer": 1
+    }
+  ]
+}

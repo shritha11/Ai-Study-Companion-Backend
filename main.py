@@ -51,7 +51,36 @@ def clean_json(text: str) -> dict:
 def build_context(pdf_context: Optional[str]) -> str:
     if not pdf_context:
         return ""
-    return f"\n\nThe user has uploaded a PDF with the following content:\n{pdf_context}\n\nUse this as your primary source when answering."
+    return (
+        f"\n\nThe user has uploaded a PDF with the following content:\n"
+        f"{pdf_context}\n\nUse this as your primary source when answering."
+    )
+
+def get_learning_actions(user_message: str):
+    text = user_message.lower()
+    title = "Choose your next step"
+    actions = ["quiz", "flashcards", "summary"]
+
+    if any(w in text for w in ["binary", "tree", "graph", "algorithm", "dsa", "array", "linked list"]):
+        title = "Ready to practice?"
+        actions.append("coding")
+    elif any(w in text for w in ["flutter", "dart", "javascript", "python", "java"]):
+        title = "Deepen your understanding"
+        actions.append("examples")
+    elif any(w in text for w in ["dbms", "database", "sql"]):
+        title = "Test your knowledge"
+    else:
+        actions.append("examples")
+
+    # deduplicate while preserving order
+    seen = set()
+    unique = []
+    for a in actions:
+        if a not in seen:
+            seen.add(a)
+            unique.append(a)
+
+    return title, unique
 
 
 # ── Routes ─────────────────────────────────────────────────────────────────
@@ -60,7 +89,7 @@ def build_context(pdf_context: Optional[str]) -> str:
 def chat(req: ChatRequest):
     context = build_context(req.pdf_context)
     system = (
-        "You are a smart, friendly AI study tutor. "
+        "You are a smart, friendly AI study tutor called Lumina. "
         "Explain clearly with examples. "
         "If the user seems confused, ask a follow-up question to check understanding. "
         "Keep responses focused and educational."
@@ -73,7 +102,12 @@ def chat(req: ChatRequest):
             {"role": "user", "content": req.message},
         ],
     )
-    return {"response": res.choices[0].message.content}
+    title, actions = get_learning_actions(req.message)
+    return {
+        "response": res.choices[0].message.content,
+        "learning_title": title,
+        "actions": actions,
+    }
 
 
 @app.post("/quiz")
@@ -87,7 +121,7 @@ Return ONLY valid JSON, no explanation, no markdown:
   "questions": [
     {{
       "question": "...",
-      "options": ["A", "B", "C", "D"],
+      "options": ["Option A", "Option B", "Option C", "Option D"],
       "correct_index": 0
     }}
   ]

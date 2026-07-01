@@ -1,0 +1,508 @@
+{
+  "title": "Roblox",
+  "category": "Gaming",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the in-game currency used in Roblox?",
+      "options": [
+        "Robux",
+        "Minecoins",
+        "V-Bucks",
+        "Linden Dollars"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What year was Roblox officially released to the public?",
+      "options": [
+        "2003",
+        "2006",
+        "2010",
+        "2015"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of these games is one of the most popular on Roblox?",
+      "options": [
+        "Adopt Me!",
+        "Among Us",
+        "Minecraft",
+        "Fortnite"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the OOF sound in Roblox represent?",
+      "options": [
+        "A player dying",
+        "A game victory",
+        "An item being picked up",
+        "A chat notification"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of friends a Roblox player can currently have?",
+      "options": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is the default Roblox avatar known as?",
+      "options": [
+        "Builderman",
+        "Guest",
+        "Noob",
+        "Boblox"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the name of Roblox's original slogan?",
+      "options": [
+        "Powering Imagination",
+        "Imagine Create Play",
+        "Fun for All Ages",
+        "Gaming Redefined"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What famous food item became a meme within Roblox's community?",
+      "options": [
+        "Bloxy Cola",
+        "Cheeseburger Hat",
+        "Blox Pizza",
+        "Taco Sword"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Roblox event introduced players to a cross-platform experience?",
+      "options": [
+        "The Egg Hunt",
+        "Roblox Bloxy Awards",
+        "Ready Player Two",
+        "BloxCon"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the virtual item that transformed into a symbol of wealth in Roblox?",
+      "options": [
+        "Dominus",
+        "Builder’s Hat",
+        "Red Fedora",
+        "Golden Guitar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the in-game currency in Roblox called?",
+      "options": [
+        "Robux",
+        "Rocoins",
+        "BloxCash",
+        "Builders Bucks"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous Roblox game takes place in a town where players can roleplay as citizens, police officers, or criminals?",
+      "options": [
+        "Brookhaven",
+        "Adopt Me!",
+        "Jailbreak",
+        "MeepCity"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the default Roblox character face that all players start with?",
+      "options": [
+        "Classic Smile",
+        "Default Grin",
+        "Happy Robloxian",
+        "Builder’s Face"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Roblox game became famous for its pet trading system and focus on taking care of virtual pets?",
+      "options": [
+        "Adopt Me!",
+        "Bloxburg",
+        "Pet Simulator",
+        "Funky Friday"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the Roblox feature that allows players to create and sell custom items like T-shirts and pants?",
+      "options": [
+        "Avatar Shop",
+        "Roblox Studio",
+        "Developer Exchange",
+        "The Catalog"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which meme phrase became popular after the Roblox death sound?",
+      "options": [
+        "Oof!",
+        "Rip!",
+        "Yikes!",
+        "Ow!"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Roblox Studio, what is the programming language used to create game scripts?",
+      "options": [
+        "Lua",
+        "Python",
+        "JavaScript",
+        "C++"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Roblox game challenges players to reach the top of a spinning, treacherous tower without checkpoints?",
+      "options": [
+        "Tower of Hell",
+        "Obby Rush",
+        "Escape the Tower",
+        "Climb Challenge"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the Roblox event called where developers and fans gather to celebrate and learn about new platform updates?",
+      "options": [
+        "BloxCon",
+        "Roblox Developers Conference (RDC)",
+        "Builder's Bash",
+        "BrickFest"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What year was Roblox officially launched to the public?",
+      "options": [
+        "2004",
+        "2006",
+        "2008",
+        "2010"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the in-game currency used in Roblox called?",
+      "options": [
+        "RoCoins",
+        "Robux",
+        "BloxBucks",
+        "GameTokens"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the original name of Roblox before it was renamed?",
+      "options": [
+        "Dynablock",
+        "BlockWorld",
+        "BloxCraft",
+        "GameHub"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous sound effect in Roblox became a viral meme?",
+      "options": [
+        "Oof",
+        "Bloop",
+        "Ding",
+        "Pop"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the default Roblox character model?",
+      "options": [
+        "BuilderMan",
+        "BloxMan",
+        "Noob",
+        "Guest"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which popular Roblox game allows players to adopt pets and decorate homes?",
+      "options": [
+        "MeepCity",
+        "Adopt Me!",
+        "Brookhaven",
+        "Bloxburg"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What iconic message appears when a Roblox server crashes?",
+      "options": [
+        "Oops! Something went wrong.",
+        "An error has occurred!",
+        "Disconnected from the game.",
+        "We’re experiencing technical difficulties."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Roblox event features limited-time games and prizes every year?",
+      "options": [
+        "BloxFest",
+        "Egg Hunt",
+        "Avatar Showcase",
+        "Builder Awards"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'Rthro' refer to in Roblox?",
+      "options": [
+        "A game engine",
+        "A realistic avatar style",
+        "A type of in-game currency",
+        "An exclusive developer tool"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the maximum number of friends a Roblox player can have?",
+      "options": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the in-game currency used in Roblox?",
+      "options": [
+        "Robux",
+        "BloxPoints",
+        "Roblons",
+        "Gamecoins"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous Roblox game involves escaping a pig-like creature while solving puzzles?",
+      "options": [
+        "Adopt Me!",
+        "Piggy",
+        "Brookhaven",
+        "Tower of Hell"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What phrase is often associated with the Roblox death sound?",
+      "options": [
+        "Oof",
+        "Ack",
+        "Blip",
+        "Yikes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which item is considered one of the rarest in Roblox history?",
+      "options": [
+        "Dominus Frigidus",
+        "Shaggy Hair",
+        "Red Banded Top Hat",
+        "Sparkle Time Fedora"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the original name of Roblox during its beta development?",
+      "options": [
+        "BloxWorld",
+        "DynaBlocks",
+        "GameCraft",
+        "BlockMania"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In Roblox Studio, what programming language is primarily used for scripting?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Lua",
+        "C#"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the maximum number of friends a Roblox user can have?",
+      "options": [
+        "100",
+        "200",
+        "300",
+        "Unlimited"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Roblox game has the slogan 'Raise and dress cute pets'?",
+      "options": [
+        "Adopt Me!",
+        "Pet Simulator X",
+        "MeepCity",
+        "Overlook Bay"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary goal in the Roblox game 'Jailbreak'?",
+      "options": [
+        "Solve puzzles",
+        "Escape from prison",
+        "Build a theme park",
+        "Adopt a pet"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which iconic Roblox face is known for its wide, goofy smile?",
+      "options": [
+        "Super Happy Face",
+        "Bighead Grin",
+        "Playful Vampire",
+        "Classic Smile"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the first game ever created on Roblox?",
+      "options": [
+        "Rocket Arena",
+        "Crossroads",
+        "Doomspire Brickbattle",
+        "Obby Mania"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'oof' refer to in Roblox culture?",
+      "options": [
+        "A sound effect when a character dies",
+        "A meme about glitchy gameplay",
+        "A rare item found in treasure chests",
+        "A type of avatar customization"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous Roblox game includes tasks like collecting pets and trading items?",
+      "options": [
+        "Adopt Me!",
+        "Bloxburg",
+        "Tower Defense Simulator",
+        "Work at a Pizza Place"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of friends a player can have on Roblox?",
+      "options": [
+        "200",
+        "500",
+        "1,000",
+        "Unlimited"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Roblox event allowed players to win virtual items by solving puzzles in 2018?",
+      "options": [
+        "Egg Hunt",
+        "Ready Player One",
+        "Bloxys Challenge",
+        "Holiday Obby Rush"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the abbreviation 'AFK' mean in Roblox chat?",
+      "options": [
+        "Away From Keyboard",
+        "Always Farming Keepsakes",
+        "Attacking For Kills",
+        "All Friends Known"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the original name of Roblox before it was changed in 2005?",
+      "options": [
+        "Dynablox",
+        "Gamebox",
+        "BloxCity",
+        "BuilderZone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which popular Roblox game features players as both survivors and killers in a horror setting?",
+      "options": [
+        "Survive the Killer",
+        "Murder Mystery 2",
+        "Flee the Facility",
+        "Nightmare Escape"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the default name of the Roblox tutorial character who guides new players?",
+      "options": [
+        "Builderman",
+        "Guest",
+        "Admin",
+        "Noob Master"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Roblox game involves players running a pizza restaurant with various roles to choose from?",
+      "options": [
+        "Cook's Delight",
+        "Work at a Pizza Place",
+        "Restaurant Tycoon",
+        "Pizza Simulator"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What famous Roblox event featured a virtual concert by Lil Nas X in 2020?",
+      "options": [
+        "Roblox Music Fest",
+        "Blox Party",
+        "Lil Nas X Concert Experience",
+        "Virtual Tune-Up"
+      ],
+      "answer": 2
+    }
+  ]
+}

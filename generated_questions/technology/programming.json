@@ -1,0 +1,508 @@
+{
+  "title": "Programming",
+  "category": "Technology",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What does 'OOP' stand for in programming?",
+      "options": [
+        "Object-Oriented Programming",
+        "Open Operational Process",
+        "Optimal Output Processing",
+        "Order of Operations Protocol"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which programming language was famously created by Guido van Rossum?",
+      "options": [
+        "Python",
+        "Ruby",
+        "Java",
+        "Swift"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main purpose of the 'git' program in software development?",
+      "options": [
+        "Version control",
+        "Compiling code",
+        "Debugging applications",
+        "Designing user interfaces"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In JavaScript, what does 'NaN' stand for?",
+      "options": [
+        "Not a Number",
+        "No available Network",
+        "Null and Nil",
+        "Not an Object"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following programming languages is widely used for Android development?",
+      "options": [
+        "Kotlin",
+        "Swift",
+        "C++",
+        "PHP"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous coding motto is associated with Python's design philosophy?",
+      "options": [
+        "There should be one—and preferably only one—obvious way to do it.",
+        "Code as if the next person to maintain it is a serial killer.",
+        "Build fast, break often.",
+        "Write once, run anywhere."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'printf()' function in C programming?",
+      "options": [
+        "To format and print output",
+        "To read input from a file",
+        "To terminate the program",
+        "To execute a loop"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is famously referred to as the 'Father of the Java Programming Language'?",
+      "options": [
+        "James Gosling",
+        "Dennis Ritchie",
+        "Brendan Eich",
+        "Bjarne Stroustrup"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a key principle of functional programming?",
+      "options": [
+        "Avoiding mutable data",
+        "Using global variables",
+        "Frequent use of 'goto' statements",
+        "Including infinite loops for efficiency"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In web development, what is the primary purpose of CSS?",
+      "options": [
+        "To style and layout web pages",
+        "To store data in a database",
+        "To handle server-side logic",
+        "To secure user passwords"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What programming language is humorously known for its 'holy wars' over coding styles, such as the use of tabs vs spaces?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "C++",
+        "Ruby"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which programming language is famously referred to as 'write once, run anywhere'?",
+      "options": [
+        "C#",
+        "Java",
+        "Swift",
+        "Rust"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the acronym 'JSON' stand for in programming?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java Syntax Object Network",
+        "JavaScript Optimization Node",
+        "Java Object Simulator"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The 'Hello, World!' program is often the first program written in any language. Where did this tradition originally come from?",
+      "options": [
+        "The book 'The C Programming Language'",
+        "The Microsoft Developer Guide",
+        "A JavaScript tutorial",
+        "The UNIX System Documentation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which programming language uses 'Goroutines' for lightweight concurrency?",
+      "options": [
+        "Java",
+        "Python",
+        "Go",
+        "C++"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In HTML, what does the 'alt' attribute in the <img> tag define?",
+      "options": [
+        "An alternate image format",
+        "The alignment of the image",
+        "A textual description of the image",
+        "The alternate source of an image"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which programming language was humorously named after Monty Python?",
+      "options": [
+        "Pascal",
+        "Python",
+        "Perl",
+        "Bash"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What popular version control system is known for its branching model and lightning-fast performance?",
+      "options": [
+        "Subversion",
+        "Git",
+        "Mercurial",
+        "CVS"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The infamous 'blue screen of death' is associated with which operating system?",
+      "options": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "FreeBSD"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the CSS property 'z-index' control?",
+      "options": [
+        "The zoom level of an element",
+        "The vertical stacking order of elements",
+        "The color intensity of an element",
+        "The size of an element"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which programming language is often referred to as the 'Swiss Army Knife' of programming?",
+      "options": [
+        "Python",
+        "C++",
+        "Ruby",
+        "JavaScript"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who created the programming language 'C' in 1972?",
+      "options": [
+        "Alan Turing",
+        "Linus Torvalds",
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the famous programming joke about the language 'Java'?",
+      "options": [
+        "It's called 'Java' because it runs like coffee.",
+        "Java programmers drink the most coffee.",
+        "Java is to JavaScript as car is to carpet.",
+        "Java was named after a coffee house in Seattle."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which programming paradigm focuses primarily on objects and their interactions?",
+      "options": [
+        "Declarative Programming",
+        "Functional Programming",
+        "Procedural Programming",
+        "Object-Oriented Programming"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In web development, what does the 'DOM' stand for?",
+      "options": [
+        "Data Output Module",
+        "Document Object Model",
+        "Dynamic Operations Method",
+        "Digital Object Map"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which company originally developed the programming language TypeScript?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Apple",
+        "Facebook"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The first computer virus ever written was called what?",
+      "options": [
+        "Creeper",
+        "Worm",
+        "Trojan",
+        "PingPong"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the term for a placeholder or dummy value used during programming development?",
+      "options": [
+        "Mocktail",
+        "Filler",
+        "Mock Object",
+        "Lorem Ipsum"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which famous quote is attributed to Donald Knuth in the world of programming?",
+      "options": [
+        "'Code is poetry.'",
+        "'Premature optimization is the root of all evil.'",
+        "'Any fool can write code that a computer can understand.'",
+        "'Talk is cheap. Show me the code.'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which programming language is known as the 'Swiss Army knife' of programming?",
+      "options": [
+        "Python",
+        "C++",
+        "Ruby",
+        "Java"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the '++' in C++ signify?",
+      "options": [
+        "It's a tribute to C being doubled",
+        "Incrementing the features of C",
+        "An inside joke among early programmers",
+        "Refers to C's compatibility with multiple libraries"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main purpose of the Git version control system?",
+      "options": [
+        "To compress code files for storage",
+        "To track changes to code and allow collaboration",
+        "To translate programming languages",
+        "To debug programs automatically"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which programming language was used to create the first-ever web browser, WorldWideWeb?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "Objective-C",
+        "HTML"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does the acronym 'SQL' stand for?",
+      "options": [
+        "Sequential Query Language",
+        "Standard Querying Logic",
+        "Structured Query Language",
+        "Server Queue Language"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which programming language's mascot is a camel?",
+      "options": [
+        "Perl",
+        "Ruby",
+        "Swift",
+        "Python"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Python, what is the output of 'print(type(42))'?",
+      "options": [
+        "<class 'integer'>",
+        "<class 'int'>",
+        "<class 'number'>",
+        "<class 'float'>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which company developed the TypeScript programming language?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Facebook",
+        "Apple"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What term is used for code that is designed to be easily readable by humans?",
+      "options": [
+        "User-friendly code",
+        "Clean code",
+        "Readable syntax",
+        "Human-interactive code"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which programming language is known as the 'write once, run anywhere' language?",
+      "options": [
+        "Python",
+        "Java",
+        "C++",
+        "Ruby"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the acronym 'JSON' stand for?",
+      "options": [
+        "JavaScript Object Naming",
+        "JavaScript Oriented Nodes",
+        "JavaScript Object Notation",
+        "JavaScript Offline Network"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is considered the creator of the Python programming language?",
+      "options": [
+        "Brendan Eich",
+        "Dennis Ritchie",
+        "Guido van Rossum",
+        "James Gosling"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In Git, what command is commonly used to combine two branches?",
+      "options": [
+        "git push",
+        "git pull",
+        "git merge",
+        "git clone"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the mascot of the Linux operating system?",
+      "options": [
+        "A panda",
+        "A penguin",
+        "A fox",
+        "A whale"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which language's logo features a cup of coffee?",
+      "options": [
+        "JavaScript",
+        "Java",
+        "PHP",
+        "Swift"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does an IDE, used in programming, stand for?",
+      "options": [
+        "Innovative Development Environment",
+        "Integrated Development Environment",
+        "Interface Designer's Editor",
+        "Interactive Debugging Emulator"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In web development, what does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Code Style System",
+        "Computer Style Syntax",
+        "Customizable Style Scripts"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What HTTP status code is famously associated with the message 'Not Found'?",
+      "options": [
+        "200",
+        "301",
+        "404",
+        "500"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which programming term is also a slang word for a loophole or a quick solution?",
+      "options": [
+        "Exploit",
+        "Hack",
+        "Refactor",
+        "Patch"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the 'git' command in software development?",
+      "options": [
+        "To compile code",
+        "To manage source code versions",
+        "To execute SQL queries",
+        "To debug applications"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which coding meme refers to putting a console.log or print statement everywhere to debug?",
+      "options": [
+        "Rubber duck debugging",
+        "Print statement therapy",
+        "Console.log-driven development",
+        "Debugger's paradox"
+      ],
+      "answer": 2
+    }
+  ]
+}

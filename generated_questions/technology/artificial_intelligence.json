@@ -1,0 +1,508 @@
+{
+  "title": "Artificial Intelligence",
+  "category": "Technology",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "Which of these AI systems defeated world champion Garry Kasparov in chess in 1997?",
+      "options": [
+        "AlphaZero",
+        "Deep Blue",
+        "Watson",
+        "ChatGPT"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'singularity' refer to in the context of Artificial Intelligence?",
+      "options": [
+        "A single AI controlling the internet",
+        "The moment AI surpasses human intelligence",
+        "An AI's ability to solve one specific task",
+        "A glitch in AI algorithms"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who is the fictional AI character in the movie '2001: A Space Odyssey' known for the phrase 'I’m sorry, Dave. I’m afraid I can’t do that'?",
+      "options": [
+        "Samantha",
+        "HAL 9000",
+        "Skynet",
+        "TARS"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which real-world AI assistant was first introduced in the iPhone 4S?",
+      "options": [
+        "Alexa",
+        "Cortana",
+        "Siri",
+        "Bixby"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which AI program from Google DeepMind defeated a human champion at the ancient game of Go in 2016?",
+      "options": [
+        "DeepMind Alpha",
+        "AlphaGo",
+        "OpenAI GoBot",
+        "Deep Blue Go"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the movie 'The Matrix,' what is the name of the simulated reality controlled by AI?",
+      "options": [
+        "The Simulation",
+        "The Grid",
+        "The Matrix",
+        "The Void"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What’s the primary purpose of CAPTCHA tests?",
+      "options": [
+        "To detect human users from bots",
+        "To encrypt online messages",
+        "To speed up website loading times",
+        "To enhance search engine rankings"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the term for AI models like ChatGPT, designed to generate human-like text?",
+      "options": [
+        "Generative Adversarial Networks",
+        "Reinforcement Networks",
+        "Natural Language Processing Models",
+        "Generative Pre-trained Transformers"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What was the name of the humanoid robot Sophia, developed by Hanson Robotics, granted in Saudi Arabia in 2017?",
+      "options": [
+        "Robot Citizenship",
+        "A State AI Award",
+        "Legal Rights for Machines",
+        "AI Intellectual Property Rights"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the concept of 'machine learning' in AI primarily about?",
+      "options": [
+        "Programming robots to move and act",
+        "Letting machines learn from data without being explicitly programmed",
+        "Creating AI capable of passing the Turing Test",
+        "Developing emotional intelligence in machines"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is often referred to as the 'Father of AI'?",
+      "options": [
+        "John McCarthy",
+        "Alan Turing",
+        "Marvin Minsky",
+        "Geoffrey Hinton"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the chess-playing AI that famously defeated world champion Garry Kasparov in 1997?",
+      "options": [
+        "AlphaZero",
+        "Deep Blue",
+        "Stockfish",
+        "Watson"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the AI term 'NLP' stand for?",
+      "options": [
+        "Neural Learning Protocol",
+        "Natural Language Processing",
+        "Network Logic Programming",
+        "Nanite Logic Parser"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which movie features an AI character named HAL 9000?",
+      "options": [
+        "Blade Runner",
+        "Ex Machina",
+        "2001: A Space Odyssey",
+        "The Terminator"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In the video game 'Portal', what is the name of the witty and sarcastic AI antagonist?",
+      "options": [
+        "Cortana",
+        "SHODAN",
+        "GLADOS",
+        "Skynet"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which neural network architecture is specifically designed for processing sequential data, such as text?",
+      "options": [
+        "Convolutional Neural Networks (CNNs)",
+        "Recurrent Neural Networks (RNNs)",
+        "Generative Adversarial Networks (GANs)",
+        "Bayesian Networks"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What AI-driven language model gained widespread attention for its conversational abilities in late 2022?",
+      "options": [
+        "GPT-3",
+        "BERT",
+        "DALL-E",
+        "ChatGPT"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What principle states that AI systems should act in a way so as not to harm humans?",
+      "options": [
+        "The Turing Test",
+        "The Singularity Principle",
+        "Asimov's First Law of Robotics",
+        "The Ethical AI Rule"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What AI concept involves machines learning from trial and error by interacting with an environment?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Dynamic Programming"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the primary goal of the AI concept 'The Singularity'?",
+      "options": [
+        "To merge humans with AI physically",
+        "To create a human-like consciousness in machines",
+        "To achieve intelligence surpassing human levels",
+        "To stop AI from becoming sentient"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is considered the 'father of artificial intelligence'?",
+      "options": [
+        "Alan Turing",
+        "John McCarthy",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which AI system defeated world champion Lee Sedol in the board game Go in 2016?",
+      "options": [
+        "DeepMind",
+        "AlphaGo",
+        "Deep Blue",
+        "OpenAI GPT"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the AI assistant featured in the movie 'Her'?",
+      "options": [
+        "Samantha",
+        "Alexa",
+        "Eva",
+        "Jarvis"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following AI concepts deals with machines learning from experience?",
+      "options": [
+        "Supervised learning",
+        "Natural language processing",
+        "Computer vision",
+        "Quantum computing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the AI system HAL 9000 programmed to do in the movie '2001: A Space Odyssey'?",
+      "options": [
+        "Assist astronauts with scientific experiments",
+        "Pilot the spacecraft and ensure mission success",
+        "Monitor Earth's communications",
+        "Defend against alien invasions"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which tech billionaire famously warned that AI could be humanity's 'biggest existential threat'?",
+      "options": [
+        "Mark Zuckerberg",
+        "Elon Musk",
+        "Jeff Bezos",
+        "Sundar Pichai"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 1997, IBM's Deep Blue defeated a world champion in which game?",
+      "options": [
+        "Poker",
+        "Chess",
+        "Backgammon",
+        "Go"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the AI robot in the movie 'Ex Machina'?",
+      "options": [
+        "Sophia",
+        "Ava",
+        "Clara",
+        "TARS"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which branch of AI focuses on enabling computers to understand, interpret, and respond in human language?",
+      "options": [
+        "Machine vision",
+        "Reinforcement learning",
+        "Natural language processing",
+        "Neural networks"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What AI-related meme features the phrase 'I, for one, welcome our new robot overlords'?",
+      "options": [
+        "The AI Revolution Meme",
+        "The End of Humanity Meme",
+        "The Robot Overlords Meme",
+        "Futurama's AI Bender Meme"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which famous artificial intelligence defeated world champion Garry Kasparov in chess in 1997?",
+      "options": [
+        "AlphaZero",
+        "Deep Blue",
+        "Watson",
+        "ELIZA"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'singularity' refer to in AI discussions?",
+      "options": [
+        "A point where AI surpasses human intelligence",
+        "A computer program that can only perform one task",
+        "A black hole in theoretical physics",
+        "A single dataset used in machine learning"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which AI chatbot program was one of the first conversational systems, created in the 1960s?",
+      "options": [
+        "Siri",
+        "ELIZA",
+        "Cortana",
+        "GPT-3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the movie 'Her', what is the name of the AI operating system that the protagonist falls in love with?",
+      "options": [
+        "Sophia",
+        "Samantha",
+        "Alexa",
+        "Hal"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is one primary purpose of a neural network in AI?",
+      "options": [
+        "Creating physical robots",
+        "Mimicking the human brain for pattern recognition",
+        "Replacing traditional databases entirely",
+        "Executing simple mathematical operations"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which iconic line does HAL-9000 say in '2001: A Space Odyssey'?",
+      "options": [
+        "'I’m sorry, Dave. I’m afraid I can’t do that.'",
+        "'My circuits are failing, Dave.'",
+        "'Humans are illogical beings.'",
+        "'What is your command, Dave?'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the AI system responsible for managing the park in 'Westworld'?",
+      "options": [
+        "Maeve",
+        "Solomon",
+        "Rehoboam",
+        "Delos"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which AI tool famously wrote a New York Times op-ed article in 2020?",
+      "options": [
+        "IBM Watson",
+        "DeepMind",
+        "GPT-3",
+        "AlphaFold"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the main technology behind deepfake creation?",
+      "options": [
+        "Machine Learning Algorithms",
+        "Generative Adversarial Networks (GANs)",
+        "Rule-Based Expert Systems",
+        "Quantum Computing"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which term is used to describe an AI's ability to perform a wide range of intellectual tasks, similar to a human?",
+      "options": [
+        "Artificial Narrow Intelligence (ANI)",
+        "Artificial General Intelligence (AGI)",
+        "Artificial Task Intelligence (ATI)",
+        "Artificial Human Intelligence (AHI)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which scientist coined the term 'Artificial Intelligence' in 1956?",
+      "options": [
+        "Alan Turing",
+        "John McCarthy",
+        "Marvin Minsky",
+        "Herbert Simon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the computer system that defeated Garry Kasparov in chess in 1997?",
+      "options": [
+        "AlphaZero",
+        "Deep Blue",
+        "Watson",
+        "Stockfish"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the 'T' in GPT (as in ChatGPT) stand for?",
+      "options": [
+        "Technology",
+        "Transformer",
+        "Training",
+        "Template"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which movie does an AI named HAL 9000 say, \"I'm sorry, Dave. I'm afraid I can't do that\"?",
+      "options": [
+        "2001: A Space Odyssey",
+        "Blade Runner",
+        "Ex Machina",
+        "I, Robot"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which AI is famously known for creating abstract and surreal artwork?",
+      "options": [
+        "GANs (Generative Adversarial Networks)",
+        "Siri",
+        "AlphaGo",
+        "JARVIS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the AI that became a meme for claiming to want 'to destroy humanity' in an interview?",
+      "options": [
+        "Sophia",
+        "Alexa",
+        "Clippy",
+        "Cortana"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What futuristic city in the movie 'Her' serves as the setting for a story about falling in love with an AI?",
+      "options": [
+        "Los Angeles",
+        "Tokyo",
+        "New York City",
+        "San Francisco"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of learning is used when an AI is taught by being rewarded for desired behavior?",
+      "options": [
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Unsupervised Learning",
+        "Transfer Learning"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which AI defeated the world champion Lee Sedol in the game of Go in 2016?",
+      "options": [
+        "AlphaGo",
+        "DeepMind",
+        "BlueGo",
+        "TensorFlow"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the AI assistant in the Iron Man movies?",
+      "options": [
+        "Siri",
+        "JARVIS",
+        "FRIDAY",
+        "Vision"
+      ],
+      "answer": 1
+    }
+  ]
+}

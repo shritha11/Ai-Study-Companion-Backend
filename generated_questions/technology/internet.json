@@ -1,0 +1,508 @@
+{
+  "title": "Internet",
+  "category": "Technology",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What year was the World Wide Web invented?",
+      "options": [
+        "1989",
+        "1992",
+        "1985",
+        "1995"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which company launched the first ever popular web browser, Netscape Navigator?",
+      "options": [
+        "Microsoft",
+        "Netscape Communications Corporation",
+        "Apple",
+        "AOL"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the purpose of the earliest version of the ARPANET, the precursor to the modern Internet?",
+      "options": [
+        "Military communication",
+        "E-commerce solutions",
+        "Online education",
+        "Streaming entertainment"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which viral meme features a dancing baby that became one of the first internet sensations?",
+      "options": [
+        "Pepe the Frog",
+        "Keyboard Cat",
+        "Dancing Baby",
+        "Bad Luck Brian"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does the acronym HTTP stand for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HyperText Transport Pipeline",
+        "High-Tech Transfer Process",
+        "HyperThread Transmission Pathway"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which search engine was widely used before Google became dominant?",
+      "options": [
+        "Ask Jeeves",
+        "Yahoo!",
+        "AltaVista",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the location where the internet’s ‘root servers’ are primarily managed?",
+      "options": [
+        "Silicon Valley, USA",
+        "Geneva, Switzerland",
+        "Los Angeles, USA",
+        "There’s no single location"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which iconic early YouTube video features a baby laughing uncontrollably while biting his brother's finger?",
+      "options": [
+        "Charlie Bit My Finger",
+        "Laughing Baby",
+        "David After Dentist",
+        "Chris Crocker: Leave Britney Alone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which computer programming term was used as the name for the world’s first email spam campaign in 1978?",
+      "options": [
+        "Exploit",
+        "Creepware",
+        "Spam",
+        "Massmail"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the name of the iconic online messaging platform that used “screen names” and was popular in the late 90s and early 2000s?",
+      "options": [
+        "ICQ",
+        "AIM (AOL Instant Messenger)",
+        "MSN Messenger",
+        "Yahoo Messenger"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What year is widely considered the birth year of the World Wide Web?",
+      "options": [
+        "1991",
+        "1989",
+        "1995",
+        "1983"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which internet meme features a Shiba Inu dog with colorful Comic Sans text?",
+      "options": [
+        "Grumpy Cat",
+        "Trollface",
+        "Doge",
+        "Pepe the Frog"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Who is credited with inventing email?",
+      "options": [
+        "Ray Tomlinson",
+        "Vint Cerf",
+        "Tim Berners-Lee",
+        "Marc Andreessen"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the popular video 'Nyan Cat,' what is the cat's body made of?",
+      "options": [
+        "Pizza",
+        "Toast",
+        "Pop-Tart",
+        "Bagel"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the name of the first registered domain name on the internet?",
+      "options": [
+        ".com",
+        "symbolics.com",
+        "internet.com",
+        "firstdomain.com"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which online platform was originally launched in 2005 as a dating website before pivoting to video sharing?",
+      "options": [
+        "YouTube",
+        "Vimeo",
+        "Twitch",
+        "DailyMotion"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the acronym DNS stand for in internet technology?",
+      "options": [
+        "Digital Network Server",
+        "Domain Name System",
+        "Data Navigation Service",
+        "Distributed Node Setup"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the iconic AOL email sign-off sound?",
+      "options": [
+        "'You've got mail!'",
+        "'Goodbye!'",
+        "'See you later!'",
+        "'Signing off!'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which website was famously described as 'The Front Page of the Internet'?",
+      "options": [
+        "Reddit",
+        "BuzzFeed",
+        "Digg",
+        "4chan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which internet classic video features a group of men dramatically lip-syncing Dragostea Din Tei (Numa Numa)?",
+      "options": [
+        "Keyboard Cat",
+        "Star Wars Kid",
+        "Numa Numa Dance",
+        "Epic Sax Guy"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which year is widely regarded as the birth of the modern internet with the introduction of the World Wide Web?",
+      "options": [
+        "1983",
+        "1991",
+        "1975",
+        "2000"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the first item ever sold on eBay?",
+      "options": [
+        "A broken laser pointer",
+        "A Beanie Baby",
+        "A vintage comic book",
+        "A concert ticket"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What iconic internet meme features a cat with a Pop-Tart body flying through space?",
+      "options": [
+        "Grumpy Cat",
+        "Nyan Cat",
+        "Keyboard Cat",
+        "Longcat"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which social media platform was originally launched as 'The Facebook'?",
+      "options": [
+        "Instagram",
+        "MySpace",
+        "Twitter",
+        "Facebook"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Who is widely credited with inventing email?",
+      "options": [
+        "Ray Tomlinson",
+        "Tim Berners-Lee",
+        "Vinton Cerf",
+        "Marc Andreessen"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What legendary internet video features a man passionately lip-syncing to a Romanian pop song?",
+      "options": [
+        "Gangnam Style",
+        "The Numa Numa Dance",
+        "Rickrolling",
+        "Double Rainbow"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which company owns the video-sharing platform YouTube?",
+      "options": [
+        "Facebook",
+        "Amazon",
+        "Google",
+        "Microsoft"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The 'Doge' meme, featuring a Shiba Inu dog, became so popular it inspired what cryptocurrency?",
+      "options": [
+        "Bitcoin",
+        "Litecoin",
+        "Dogecoin",
+        "Ethereum"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In 1999, what infamous internet bug was predicted to cause widespread chaos as clocks rolled over to the year 2000?",
+      "options": [
+        "Y2K",
+        "Millennium Hack",
+        "New Millennium Virus",
+        "Cybergeddon"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the original purpose of ARPANET, the precursor to the modern internet?",
+      "options": [
+        "To connect universities for academic research",
+        "To provide a platform for online gaming",
+        "To allow government officials to share files",
+        "To create a secure online marketplace"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What year is commonly recognized as the official birth year of the World Wide Web?",
+      "options": [
+        "1989",
+        "1995",
+        "2000",
+        "1975"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which iconic meme originated from a 2007 photo of a Shiba Inu dog?",
+      "options": [
+        "Doge",
+        "Grumpy Cat",
+        "Cheems",
+        "Nyan Cat"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the first message ever sent over the ARPANET, the precursor to the Internet?",
+      "options": [
+        "Hello, World!",
+        "Lo",
+        "Test Message",
+        "Connection Successful"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which website was initially created as a 'Hot or Not' style rating platform for Harvard students?",
+      "options": [
+        "Facebook",
+        "MySpace",
+        "LinkedIn",
+        "Match.com"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What epic online cultural event in 2020 was nicknamed 'The Great War' by Reddit users?",
+      "options": [
+        "The Stock Market GameStop Short Squeeze",
+        "The TikTok vs YouTube Feud",
+        "The Twitch PogChamp Vote",
+        "The April Fool's 'r/Place' Canvas Battle"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The 'Rickroll' meme involves tricking someone into watching the music video for what 1987 song?",
+      "options": [
+        "Never Gonna Give You Up",
+        "Take On Me",
+        "Careless Whisper",
+        "You Spin Me Round"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The viral phrase 'All your base are belong to us' originated from which video game?",
+      "options": [
+        "Zero Wing",
+        "Contra",
+        "Mega Man",
+        "Metroid"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these is the name of the first-ever registered domain name?",
+      "options": [
+        "symbolics.com",
+        "example.com",
+        "firstdomain.com",
+        "internet.com"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 2016, which internet craze involved people freezing in place like statues for viral videos?",
+      "options": [
+        "The Mannequin Challenge",
+        "Planking",
+        "The Harlem Shake",
+        "Ice Bucket Challenge"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The infamous 56k internet dial-up sound is a combination of tones used for what purpose?",
+      "options": [
+        "Establishing a connection between two modems",
+        "Identifying user credentials",
+        "Encoding web pages for downloading",
+        "Securing data with encryption"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous video became the first YouTube video to hit 1 billion views?",
+      "options": [
+        "Gangnam Style by PSY",
+        "Baby Shark Dance",
+        "Despacito by Luis Fonsi",
+        "Charlie Bit My Finger"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which viral meme features a Shiba Inu dog with captions in Comic Sans font?",
+      "options": [
+        "Doge",
+        "Grumpy Cat",
+        "Pepe the Frog",
+        "Nyan Cat"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What year was the World Wide Web introduced to the public?",
+      "options": [
+        "1991",
+        "1985",
+        "1995",
+        "1989"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which online forum is often referred to as 'the front page of the Internet'?",
+      "options": [
+        "Reddit",
+        "4chan",
+        "Tumblr",
+        "Quora"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the world of internet slang, what does 'BRB' stand for?",
+      "options": [
+        "Be Right Back",
+        "Bring Real Banter",
+        "Buy Real Bread",
+        "Bro Really Bored"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which website is home to the infamous 'Rickroll' prank?",
+      "options": [
+        "YouTube",
+        "Vimeo",
+        "Twitch",
+        "TikTok"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which common internet error code signals that a webpage cannot be found?",
+      "options": [
+        "404",
+        "403",
+        "500",
+        "301"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of the chat program many people used in the early 2000s for instant messaging?",
+      "options": [
+        "MSN Messenger",
+        "Slack",
+        "WhatsApp",
+        "Discord"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is credited with inventing the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Bill Gates",
+        "Elon Musk"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What year is widely recognized as the birth of the modern Internet with the launch of ARPANET?",
+      "options": [
+        "1969",
+        "1984",
+        "1991",
+        "1977"
+      ],
+      "answer": 0
+    }
+  ]
+}

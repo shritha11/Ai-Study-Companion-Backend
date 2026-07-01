@@ -1,0 +1,508 @@
+{
+  "title": "Apple",
+  "category": "Technology",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "Which year was the first Apple iPhone released?",
+      "options": [
+        "2005",
+        "2007",
+        "2009",
+        "2010"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Apple's co-founder who famously left the company in 1985?",
+      "options": [
+        "Bill Gates",
+        "Steve Wozniak",
+        "Ronald Wayne",
+        "Steve Jobs"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which iconic slogan was used in Apple's 'Think Different' marketing campaign?",
+      "options": [
+        "The Power to Be Your Best",
+        "Think Different",
+        "Innovation at Work",
+        "Dream Big, Think Apple"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the name of Apple’s first personal computer?",
+      "options": [
+        "Macintosh",
+        "Apple Lisa",
+        "Apple I",
+        "Power Mac"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In which city is Apple's headquarters, Apple Park, located?",
+      "options": [
+        "Cupertino, California",
+        "Palo Alto, California",
+        "San Jose, California",
+        "Mountain View, California"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which fruit does the Apple logo feature a bite out of?",
+      "options": [
+        "Pear",
+        "Apple",
+        "Mango",
+        "Peach"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What color was the first iMac G3, launched in 1998?",
+      "options": [
+        "Bondi Blue",
+        "Silver",
+        "White",
+        "Black"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of the digital assistant introduced with the iPhone 4S?",
+      "options": [
+        "Cortana",
+        "Alexa",
+        "Siri",
+        "Google Assistant"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Apple product was famously advertised with the '1984' Super Bowl commercial?",
+      "options": [
+        "iPod",
+        "Macintosh",
+        "iPhone",
+        "Apple Watch"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What material was used for the casing of the original iPod Nano in 2005?",
+      "options": [
+        "Plastic",
+        "Aluminum",
+        "Glass",
+        "Carbon Fiber"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What year was Apple Inc. officially founded?",
+      "options": [
+        "1976",
+        "1980",
+        "1984",
+        "1990"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who were the three co-founders of Apple Inc.?",
+      "options": [
+        "Steve Jobs, Steve Wozniak, and Ronald Wayne",
+        "Steve Jobs, Tim Cook, and Jony Ive",
+        "Bill Gates, Steve Wozniak, and Ronald Wayne",
+        "Steve Jobs, Jeff Bezos, and Larry Page"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was Apple’s first commercial product?",
+      "options": [
+        "Apple I",
+        "Apple Lisa",
+        "Macintosh",
+        "iPod"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the digital assistant introduced by Apple in 2011?",
+      "options": [
+        "Siri",
+        "Alexa",
+        "Cortana",
+        "Bixby"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these is NOT an Apple product?",
+      "options": [
+        "Apple Watch",
+        "iMac",
+        "iPad",
+        "Surface Pro"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What iconic quote did Steve Jobs say at the launch of the first iPhone in 2007?",
+      "options": [
+        "This changes everything.",
+        "Think Different.",
+        "One more thing.",
+        "Welcome to the Future."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What fruit is prominently featured in Apple Inc.’s logo?",
+      "options": [
+        "Apple",
+        "Cherry",
+        "Pear",
+        "Orange"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Where is Apple’s headquarters, known as Apple Park, located?",
+      "options": [
+        "Cupertino, California",
+        "Seattle, Washington",
+        "Austin, Texas",
+        "Mountain View, California"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the codename for the first Macintosh computer?",
+      "options": [
+        "Macintosh 128K",
+        "Lisa II",
+        "Project Annie",
+        "Macintosh XL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the highest storage capacity available on a modern iPhone as of 2023?",
+      "options": [
+        "512 GB",
+        "1 TB",
+        "256 GB",
+        "2 TB"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the original logo of the Apple company?",
+      "options": [
+        "A rainbow-colored apple",
+        "An apple with a bite taken out",
+        "A detailed illustration of Isaac Newton under a tree",
+        "A simple green apple"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In which year was the first iPhone released?",
+      "options": [
+        "2005",
+        "2007",
+        "2010",
+        "2008"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the name of the Apple computer that was famously launched during a 1984 Super Bowl commercial?",
+      "options": [
+        "Lisa",
+        "Macintosh",
+        "Apple II",
+        "PowerBook"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What famous phrase did Steve Jobs use when introducing a surprise feature during presentations?",
+      "options": [
+        "And one more thing...",
+        "Surprise, surprise!",
+        "Wait for it...",
+        "Hold on a second..."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the first Apple product to feature the Retina display?",
+      "options": [
+        "iPad 2",
+        "iPhone 4",
+        "MacBook Pro",
+        "iPod Touch"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What operating system did the Apple Watch originally run?",
+      "options": [
+        "watchOS",
+        "iOS Lite",
+        "TimeOS",
+        "SwiftOS"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What iconic color was prominently used in Apple’s iMac G3 design in 1998?",
+      "options": [
+        "Graphite",
+        "Bondi Blue",
+        "Space Gray",
+        "Rose Gold"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the code name for the first Macintosh project?",
+      "options": [
+        "Rhapsody",
+        "Carl Sagan",
+        "Annie",
+        "Alice"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Apple product was nicknamed the 'Flower Power' edition?",
+      "options": [
+        "iMac",
+        "iPod Mini",
+        "iBook",
+        "PowerMac G4"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Apple’s subscription-based gaming service launched in 2019?",
+      "options": [
+        "Apple Play",
+        "Apple Arcade",
+        "Game Center",
+        "iPlay"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What year was the original Apple I computer released?",
+      "options": [
+        "1976",
+        "1980",
+        "1984",
+        "1972"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which iconic Apple product was announced by Steve Jobs in 2007?",
+      "options": [
+        "Apple Watch",
+        "iMac",
+        "iPhone",
+        "MacBook Air"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the programming language developed by Apple in 2014?",
+      "options": [
+        "Swift",
+        "Ruby",
+        "Objective-C++",
+        "Cocoa"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who were the co-founders of Apple Inc.?",
+      "options": [
+        "Bill Gates, Steve Jobs, Ronald Wayne",
+        "Steve Wozniak, Steve Jobs, Ronald Wayne",
+        "Steve Jobs, Tim Cook, Jonathan Ive",
+        "Elon Musk, Steve Jobs, Steve Wozniak"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the animated character introduced by Apple to help people learn how to use the Macintosh in 1984?",
+      "options": [
+        "Macintosh Finder",
+        "Clippy",
+        "Macintosh Guide",
+        "Macintosh the Mouse"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the first Apple device to feature Face ID technology?",
+      "options": [
+        "iPhone X",
+        "iPad Pro (2018)",
+        "iPhone 8",
+        "MacBook Pro (2019)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In what city is Apple's famous spaceship-shaped headquarters located?",
+      "options": [
+        "San Francisco",
+        "Cupertino",
+        "Palo Alto",
+        "Mountain View"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the famous slogan Apple used for its Think Different campaign?",
+      "options": [
+        "Think Outside the Box",
+        "Stay Hungry. Stay Foolish.",
+        "Here's to the Crazy Ones",
+        "Innovation at Its Core"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Apple operating system was named after a California national park?",
+      "options": [
+        "macOS Sierra",
+        "macOS Yosemite",
+        "macOS Big Sur",
+        "macOS Catalina"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the nickname for Apple's colorful, egg-shaped desktop computer released in the late 1990s?",
+      "options": [
+        "iMac G3",
+        "Power Mac",
+        "Macintosh SE",
+        "Rainbow Mac"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What year did Apple release its first iPhone?",
+      "options": [
+        "2005",
+        "2007",
+        "2008",
+        "2010"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the name of the colorful Apple desktop computer released in 1998?",
+      "options": [
+        "iMac G3",
+        "Macintosh Classic",
+        "Power Mac 6100",
+        "Mac Studio"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these Apple products was discontinued in 2022?",
+      "options": [
+        "iPod Touch",
+        "Apple TV HD",
+        "MacBook Air M1",
+        "iPhone SE 2nd Generation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was Apple's first logo inspired by?",
+      "options": [
+        "An apple orchard",
+        "Isaac Newton under a tree",
+        "A minimalistic apple symbol",
+        "A pixelated fruit design"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What feature was prominently introduced in the iPhone X?",
+      "options": [
+        "Home Button",
+        "Wireless Charging",
+        "Face ID",
+        "3D Touch"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Apple co-founder was known for wearing black turtlenecks during presentations?",
+      "options": [
+        "Steve Wozniak",
+        "Tim Cook",
+        "Ronald Wayne",
+        "Steve Jobs"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of Apple's digital voice assistant?",
+      "options": [
+        "Alexa",
+        "Siri",
+        "Cortana",
+        "Bixby"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the macOS that succeeded macOS Mojave?",
+      "options": [
+        "macOS Catalina",
+        "macOS Monterey",
+        "macOS Ventura",
+        "macOS Big Sur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the nickname of Apple's futuristic headquarters in Cupertino, California?",
+      "options": [
+        "The Fruit Bowl",
+        "The Spaceship",
+        "The Cloud Ring",
+        "The Infinite Loop"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 1984, Apple aired a famous Super Bowl commercial for which product?",
+      "options": [
+        "iPod",
+        "Macintosh",
+        "Apple II",
+        "Lisa"
+      ],
+      "answer": 1
+    }
+  ]
+}

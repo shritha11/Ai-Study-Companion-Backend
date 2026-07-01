@@ -1,0 +1,508 @@
+{
+  "title": "Pokemon",
+  "category": "Gaming",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the name of the Pokémon Professor in the Hoenn region?",
+      "options": [
+        "Professor Rowan",
+        "Professor Oak",
+        "Professor Birch",
+        "Professor Juniper"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Gym Leader specializes in Electric-type Pokémon in the Kanto region?",
+      "options": [
+        "Erika",
+        "Lt. Surge",
+        "Misty",
+        "Brock"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What move is Pikachu famously known for using in battles?",
+      "options": [
+        "Flamethrower",
+        "Thunderbolt",
+        "Hydro Pump",
+        "Earthquake"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the large icy mountain located in the Sinnoh region?",
+      "options": [
+        "Mt. Pyre",
+        "Mt. Coronet",
+        "Mt. Chimney",
+        "Mt. Silver"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What item allows certain Pokémon to evolve when traded while holding it?",
+      "options": [
+        "Moon Stone",
+        "Everstone",
+        "King's Rock",
+        "Sun Stone"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Legendary Pokémon is part of the Tao Trio and represents truth?",
+      "options": [
+        "Zekrom",
+        "Reshiram",
+        "Kyurem",
+        "Rayquaza"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type combination does the Pokémon Togekiss have?",
+      "options": [
+        "Fairy/Flying",
+        "Normal/Flying",
+        "Fairy/Normal",
+        "Flying/Dragon"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Team Rocket’s iconic motto opening line in the Pokémon anime?",
+      "options": [
+        "To unite the world under one nation!",
+        "To protect the world from devastation!",
+        "To fight for truth and equality!",
+        "To uphold the ideals of love and passion!"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Pokémon has the Pokédex entry: 'With a flashing slash of its claws, it can split seawater itself'?",
+      "options": [
+        "Garchomp",
+        "Kingdra",
+        "Kabutops",
+        "Sharpedo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Pokémon was the first to ever appear in the anime series?",
+      "options": [
+        "Pikachu",
+        "Bulbasaur",
+        "Ho-Oh",
+        "Onix"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon is famously known as the mascot of the franchise?",
+      "options": [
+        "Pikachu",
+        "Meowth",
+        "Charizard",
+        "Bulbasaur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the location where Ash first meets Misty in the Pokémon anime?",
+      "options": [
+        "Pallet Town",
+        "Viridian Forest",
+        "Cerulean City",
+        "Pewter City"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Pokémon is known for its ability to transform into other Pokémon and objects?",
+      "options": [
+        "Mew",
+        "Ditto",
+        "Zorua",
+        "Porygon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type combination does the legendary Pokémon Lugia have?",
+      "options": [
+        "Dragon/Flying",
+        "Water/Psychic",
+        "Psychic/Flying",
+        "Water/Flying"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In Pokémon Red and Blue, what is the function of the move 'Leer'?",
+      "options": [
+        "Raises Speed of all allies",
+        "Lowers the opponent's Defense",
+        "Inflicts minor damage over time",
+        "Restores HP to the user"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Pokémon, introduced in the Johto region, is known for its ability to create eggs regardless of species?",
+      "options": [
+        "Togepi",
+        "Eevee",
+        "Blissey",
+        "Ditto"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What item is required to enable Cubone to evolve into Alolan Marowak in Pokémon Sun and Moon?",
+      "options": [
+        "Moon Stone",
+        "Rare Candy",
+        "Dusk Stone",
+        "No special item is needed"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the signature move of the Pokémon Greninja?",
+      "options": [
+        "Water Gun",
+        "Hydro Pump",
+        "Water Shuriken",
+        "Aqua Jet"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which Pokémon’s cry was turned into the infamous 'Lazymon Meme' due to how it sounds like a human yawn?",
+      "options": [
+        "Slowpoke",
+        "Jigglypuff",
+        "Kricketune",
+        "Exploud"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the maximum number of Pokémon a Trainer can hold in their party at one time?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the type combination of Galarian Weezing?",
+      "options": [
+        "Poison/Fairy",
+        "Poison/Psychic",
+        "Poison/Grass",
+        "Poison/Dark"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon is known as the 'Spiral Pokémon'?",
+      "options": [
+        "Poliwag",
+        "Omanyte",
+        "Dragonair",
+        "Togetic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the Pokémon series, what color is shiny Gyarados famously known to be?",
+      "options": [
+        "Gold",
+        "Red",
+        "Blue",
+        "Black"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which city is home to the Silph Co. building in the Kanto region?",
+      "options": [
+        "Celadon City",
+        "Saffron City",
+        "Lavender Town",
+        "Pewter City"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What item is required to evolve Scyther into Scizor?",
+      "options": [
+        "Metal Coat",
+        "Dragon Scale",
+        "Upgrade",
+        "King's Rock"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the Pokémon Professor in the Johto region?",
+      "options": [
+        "Professor Birch",
+        "Professor Elm",
+        "Professor Rowan",
+        "Professor Sycamore"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Pokémon meme is associated with the phrase 'I herd u liek'?",
+      "options": [
+        "Mudkip",
+        "Bidoof",
+        "Pikachu",
+        "Torchic"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the Pokédex number of Bulbasaur, the very first entry in the National Dex?",
+      "options": [
+        "1",
+        "25",
+        "50",
+        "151"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Pokémon Sun and Moon, what is unique about Mimikyu's appearance?",
+      "options": [
+        "It disguises itself as Pikachu",
+        "It has no shadow",
+        "Its true form is invisible",
+        "It mimics the Trainer's outfit"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon was the first ever designed, despite not being #1 in the Pokédex?",
+      "options": [
+        "Rhydon",
+        "Mew",
+        "Charizard",
+        "Machop"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What item is required to evolve Gloom into Bellossom?",
+      "options": [
+        "Sun Stone",
+        "Leaf Stone",
+        "Thunder Stone",
+        "Moon Stone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon is known as the 'Aura Pokémon'?",
+      "options": [
+        "Lucario",
+        "Gardevoir",
+        "Gallade",
+        "Alakazam"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the first Pokémon movie, what triggers Mewtwo’s existential crisis?",
+      "options": [
+        "Learning he was created as a clone",
+        "Being defeated in battle",
+        "Hearing Ash’s speech about friendship",
+        "Meeting another Mewtwo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of the third-generation Pokémon region?",
+      "options": [
+        "Hoenn",
+        "Sinnoh",
+        "Johto",
+        "Unova"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the first Pokémon Professor Oak reveals in the original anime?",
+      "options": [
+        "Nidorino",
+        "Pikachu",
+        "Charmander",
+        "Bulbasaur"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these moves prevents fleeing or switching in battle?",
+      "options": [
+        "Mean Look",
+        "Confuse Ray",
+        "Agility",
+        "Safeguard"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type combination does the Pokémon Aegislash have?",
+      "options": [
+        "Steel/Ghost",
+        "Steel/Psychic",
+        "Ghost/Dark",
+        "Ghost/Fighting"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Pokémon Ruby and Sapphire, which villainous team do you face if you choose Pokémon Sapphire?",
+      "options": [
+        "Team Aqua",
+        "Team Magma",
+        "Team Galactic",
+        "Team Rocket"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the inspiration behind the design of Wobbuffet?",
+      "options": [
+        "A Japanese comedian's pose",
+        "A punching bag",
+        "A shadow puppet",
+        "A balloon"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What Poké Ball has a 100% catch rate for any Pokémon?",
+      "options": [
+        "Master Ball",
+        "Ultra Ball",
+        "Dive Ball",
+        "Luxury Ball"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Ash's first Pokémon?",
+      "options": [
+        "Pikachu",
+        "Charmander",
+        "Bulbasaur",
+        "Squirtle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon is known as the 'God of Pokémon'?",
+      "options": [
+        "Arceus",
+        "Mew",
+        "Dialga",
+        "Palkia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main goal of Team Rocket in the anime?",
+      "options": [
+        "To capture Pikachu",
+        "To collect all Gym Badges",
+        "To defeat the Elite Four",
+        "To catch Arceus"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which region does the Pokémon game 'Ruby and Sapphire' take place?",
+      "options": [
+        "Hoenn",
+        "Johto",
+        "Sinnoh",
+        "Kanto"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What item evolves Eevee into Vaporeon?",
+      "options": [
+        "Water Stone",
+        "Leaf Stone",
+        "Thunder Stone",
+        "Moon Stone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Pokémon is famous for its ability to transform into other Pokémon?",
+      "options": [
+        "Ditto",
+        "Zorua",
+        "Mew",
+        "Smeargle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the Pokémon Professor in the Alola region?",
+      "options": [
+        "Professor Kukui",
+        "Professor Oak",
+        "Professor Birch",
+        "Professor Elm"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type combination does Garchomp have?",
+      "options": [
+        "Dragon/Ground",
+        "Dragon/Flying",
+        "Dragon/Rock",
+        "Ground/Flying"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Legendary Pokémon is known for creating the seas?",
+      "options": [
+        "Kyogre",
+        "Groudon",
+        "Rayquaza",
+        "Lugia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is special about the Pikachu you can catch in Pokémon Yellow?",
+      "options": [
+        "It follows you outside its Poké Ball",
+        "It can talk",
+        "It knows Fly",
+        "It is shiny"
+      ],
+      "answer": 0
+    }
+  ]
+}

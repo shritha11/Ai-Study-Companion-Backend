@@ -1,0 +1,508 @@
+{
+  "title": "Flutter",
+  "category": "Technology",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What programming language is primarily used to develop Flutter applications?",
+      "options": [
+        "Dart",
+        "Swift",
+        "JavaScript",
+        "Python"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which company developed Flutter?",
+      "options": [
+        "Facebook",
+        "Google",
+        "Microsoft",
+        "Apple"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Flutter's reactive UI engine that renders widgets?",
+      "options": [
+        "Skia",
+        "Pixi",
+        "CanvasKit",
+        "ReactFlow"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Flutter, which widget is most commonly used to structure the layout of a screen?",
+      "options": [
+        "Column",
+        "Container",
+        "Scaffold",
+        "AppBar"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is Hot Reload in Flutter used for?",
+      "options": [
+        "Compiling your app from scratch",
+        "Updating the UI without losing app state",
+        "Running background services",
+        "Optimizing app performance"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which file is primarily responsible for declaring an app's widgets in a Flutter project?",
+      "options": [
+        "main.dart",
+        "app.dart",
+        "home.dart",
+        "index.js"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What widget would you use to implement a long scrollable list in Flutter?",
+      "options": [
+        "GridView",
+        "ListView",
+        "PageView",
+        "ScrollableWidget"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which tool is frequently used to build Flutter apps directly on Android and iOS devices?",
+      "options": [
+        "Flutter CLI",
+        "Visual Studio Code",
+        "Android Studio",
+        "Xcode"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What’s the purpose of the 'pubspec.yaml' file in a Flutter project?",
+      "options": [
+        "Managing app dependencies",
+        "Storing app translations",
+        "Defining app routes",
+        "Compiling build files"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Flutter widget has properties like 'title' and 'actions'?",
+      "options": [
+        "AppBar",
+        "Drawer",
+        "BottomNavigationBar",
+        "TabBar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What programming language is primarily used to write Flutter applications?",
+      "options": [
+        "Dart",
+        "Python",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary purpose of Flutter?",
+      "options": [
+        "Game Development",
+        "Cross-platform UI development",
+        "Data Analysis",
+        "Backend Development"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In Flutter, what is the default widget for structuring an app's visual layout?",
+      "options": [
+        "Column",
+        "Container",
+        "Scaffold",
+        "AppBar"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of Flutter's powerful hot reload feature?",
+      "options": [
+        "Turbo Refresh",
+        "Code Update",
+        "Live View",
+        "Hot Reload"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Flutter uses an engine for rendering UI components. What is the name of this engine?",
+      "options": [
+        "Vega",
+        "Skia",
+        "Unity",
+        "CoreRender"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which Flutter widget is used to display dynamic lists of data?",
+      "options": [
+        "Stack",
+        "GridView",
+        "ListView",
+        "Row"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the package manager used in Flutter to handle dependencies?",
+      "options": [
+        "Pip",
+        "Pub",
+        "Node Package Manager",
+        "Cocoapods"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Flutter's rendering system for making pixel-perfect UIs?",
+      "options": [
+        "VectorFlow",
+        "ScreenPainter",
+        "PixelPerfectUI",
+        "Flutter RenderBox"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the Flutter widget used to create animations with a given curve and duration?",
+      "options": [
+        "AnimatedBuilder",
+        "AnimatedContainer",
+        "TweenAnimationBuilder",
+        "AnimationController"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of Flutter's rendering engine?",
+      "options": [
+        "Skia",
+        "Vulkan",
+        "Quantum",
+        "Titan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following widgets is commonly used to create a scrollable list in Flutter?",
+      "options": [
+        "ListView",
+        "Column",
+        "Container",
+        "GridView"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the command to create a new Flutter project in the terminal?",
+      "options": [
+        "flutter create myapp",
+        "flutter start myapp",
+        "flutter build myapp",
+        "flutter init myapp"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In Flutter, which widget is used to detect user gestures like taps and swipes?",
+      "options": [
+        "GestureDetector",
+        "TouchWidget",
+        "InteractionHandler",
+        "PointerListener"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the 'Hot Reload' feature in Flutter allow developers to do?",
+      "options": [
+        "Instantly see code changes in the running app",
+        "Automatically deploy the app to the Play Store",
+        "Debug network requests",
+        "Optimize GPU rendering"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the 'pubspec.yaml' file in a Flutter project?",
+      "options": [
+        "It manages project dependencies and metadata",
+        "It defines the app's database schema",
+        "It handles routing for the app",
+        "It contains the app's configuration for animations"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What layout widget would you use to align children in a horizontal row?",
+      "options": [
+        "Row",
+        "Flex",
+        "Grid",
+        "Stack"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Flutter widget is used to display a piece of text?",
+      "options": [
+        "Text",
+        "Paragraph",
+        "Label",
+        "Block"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of Flutter's UI toolkit for building natively compiled applications?",
+      "options": [
+        "ReactNative UI",
+        "Flutter Widgets",
+        "Material Design",
+        "Skia Engine"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the command to create a new Flutter project?",
+      "options": [
+        "flutter create <project_name>",
+        "new flutter project",
+        "create flutter <project_name>",
+        "flutter new project"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is commonly used to create a scrollable list in Flutter?",
+      "options": [
+        "Column",
+        "ListView",
+        "GridView",
+        "Stack"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is 'Hot Reload' in Flutter?",
+      "options": [
+        "A feature to compile code faster",
+        "A tool to instantly update the UI during development",
+        "A debugging tool for error logging",
+        "A way to reload the app after closing"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of these is NOT a valid state management solution for Flutter?",
+      "options": [
+        "Provider",
+        "Bloc",
+        "Redux",
+        "GraphQL"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the default rendering engine used by Flutter?",
+      "options": [
+        "OpenGL",
+        "Skia",
+        "CanvasKit",
+        "Metal"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When was Flutter’s first stable version released?",
+      "options": [
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does Flutter's 'pubspec.yaml' file manage?",
+      "options": [
+        "Application routes",
+        "App styling and themes",
+        "Dependencies and metadata",
+        "Local app storage"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What programming language is primarily used to write apps in Flutter?",
+      "options": [
+        "Dart",
+        "Swift",
+        "Kotlin",
+        "JavaScript"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the term used to describe the graphical objects in Flutter's UI?",
+      "options": [
+        "Widgets",
+        "Components",
+        "Elements",
+        "Blocks"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a Flutter state management solution?",
+      "options": [
+        "Redux",
+        "Provider",
+        "Bloc",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Flutter’s hot reload feature is best described as what?",
+      "options": [
+        "Rebuilding the project from scratch",
+        "Updating app states without restarting the app",
+        "Debugging backend code",
+        "A tool for optimizing animations"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type of architecture does Flutter use to render graphics?",
+      "options": [
+        "Direct3D",
+        "Skia",
+        "OpenGL",
+        "Metal"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the default app template provided when creating a new Flutter project?",
+      "options": [
+        "StarterApp",
+        "CounterApp",
+        "TodoApp",
+        "WelcomeApp"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In Flutter, what is the key difference between StatelessWidget and StatefulWidget?",
+      "options": [
+        "StatefulWidget can have animations, while StatelessWidget cannot.",
+        "StatefulWidget can hold state that changes over time, while StatelessWidget cannot.",
+        "StatelessWidget is faster than StatefulWidget.",
+        "There is no difference; they are interchangeable."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the Flutter command `flutter doctor` do?",
+      "options": [
+        "Cures app errors during runtime",
+        "Checks your system for required dependencies",
+        "Creates a diagnostic report of an app",
+        "Compiles and runs a testing environment"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What year was Flutter officially released by Google?",
+      "options": [
+        "2015",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which programming language is primarily used for building apps with Flutter?",
+      "options": [
+        "Kotlin",
+        "Swift",
+        "Dart",
+        "JavaScript"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The 'Hot Reload' feature in Flutter is primarily used for what purpose?",
+      "options": [
+        "Deploying apps to production",
+        "Quickly testing UI changes",
+        "Improving app security",
+        "Reducing app launch time"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following platforms is NOT officially supported by Flutter?",
+      "options": [
+        "Android",
+        "Windows",
+        "iOS",
+        "PlayStation"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the widget used in Flutter for creating scrollable lists?",
+      "options": [
+        "ScrollView",
+        "ListView",
+        "RecyclerView",
+        "GridView"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following companies is known for adopting Flutter to build their mobile apps?",
+      "options": [
+        "Google",
+        "Alibaba",
+        "Facebook",
+        "Microsoft"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the 'pubspec.yaml' file in Flutter projects primarily contain?",
+      "options": [
+        "App's metadata and dependencies",
+        "Compiled resources",
+        "Default theme settings",
+        "Build configurations"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "title": "Landmarks",
+  "category": "Geography",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "Which ancient landmark is believed to have been used as a giant calendar or for ceremonial purposes?",
+      "options": [
+        "Stonehenge",
+        "The Great Wall of China",
+        "The Leaning Tower of Pisa",
+        "The Eiffel Tower"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary material used in the construction of the Taj Mahal?",
+      "options": [
+        "Granite",
+        "Marble",
+        "Sandstone",
+        "Limestone"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which U.S. monument is famously inscribed with the words 'Give me your tired, your poor, your huddled masses'?",
+      "options": [
+        "The Washington Monument",
+        "The Statue of Liberty",
+        "Mount Rushmore",
+        "The Lincoln Memorial"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which natural wonder is often referred to as the 'Lost City of the Incas'?",
+      "options": [
+        "Angkor Wat",
+        "Machu Picchu",
+        "Petra",
+        "Chichen Itza"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which landmark in Australia is considered a sacred site by the indigenous Anangu people?",
+      "options": [
+        "The Sydney Opera House",
+        "Uluru (Ayers Rock)",
+        "The Great Barrier Reef",
+        "Kakadu National Park"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which famous landmark was saved from destruction in 1968 after the U.S. government declared it a National Historic Landmark?",
+      "options": [
+        "Alcatraz Island",
+        "The Gateway Arch",
+        "The Hollywood Sign",
+        "The Empire State Building"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What was the original purpose of the Colosseum in Rome?",
+      "options": [
+        "Housing the Roman Senate",
+        "Gladiator battles and public events",
+        "Religious ceremonies",
+        "Storing military equipment"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What nickname is often used to describe the colorful rock formations in Cappadocia, Turkey?",
+      "options": [
+        "The Fairy Chimneys",
+        "The Painted Desert",
+        "The Magic Peaks",
+        "The Rainbow Rocks"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European castle inspired Walt Disney’s Sleeping Beauty Castle?",
+      "options": [
+        "Neuschwanstein Castle",
+        "Edinburgh Castle",
+        "Versailles Palace",
+        "Windsor Castle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous French landmark is lit up with 20,000 lights every night?",
+      "options": [
+        "The Louvre Pyramid",
+        "The Eiffel Tower",
+        "Mont Saint-Michel",
+        "Notre-Dame Cathedral"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which famous landmark is known for its 'lean' due to unstable foundations?",
+      "options": [
+        "The Leaning Tower of Pisa",
+        "The Eiffel Tower",
+        "Big Ben",
+        "The Space Needle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What iconic landmark was gifted to the United States by France in 1886?",
+      "options": [
+        "Mount Rushmore",
+        "Statue of Liberty",
+        "Golden Gate Bridge",
+        "Washington Monument"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which ancient landmark is famously known as 'The Lost City of the Incas'?",
+      "options": [
+        "Angkor Wat",
+        "Machu Picchu",
+        "Petra",
+        "Chichen Itza"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What nickname is often used for the Hollywood Walk of Fame?",
+      "options": [
+        "The Streets of Stardom",
+        "The Golden Sidewalk",
+        "The Boulevard of Stars",
+        "The Celebrity Strip"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which landmark’s construction was halted for 90 years before it was completed in 2010?",
+      "options": [
+        "Sydney Opera House",
+        "Sagrada Família",
+        "St. Basil's Cathedral",
+        "The Louvre Pyramid"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What famous wall was originally built to protect northern England from invaders?",
+      "options": [
+        "The Berlin Wall",
+        "The Great Wall of China",
+        "Hadrian's Wall",
+        "The Western Wall"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which iconic landmark in Paris was once called a 'temporary eyesore' before becoming a symbol of the city?",
+      "options": [
+        "Notre Dame Cathedral",
+        "The Eiffel Tower",
+        "Arc de Triomphe",
+        "The Louvre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The Taj Mahal, an iconic symbol of love, was built for which Mughal emperor’s wife?",
+      "options": [
+        "Akbar's wife",
+        "Shah Jahan's wife",
+        "Babur's wife",
+        "Aurangzeb's wife"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which ancient landmark aligned with the sun during solstices, creating a visual spectacle?",
+      "options": [
+        "Chichen Itza",
+        "Stonehenge",
+        "Colosseum",
+        "Great Pyramid of Giza"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which iconic mountain is part of the Seven Wonders of the Natural World?",
+      "options": [
+        "Mount Everest",
+        "Kilimanjaro",
+        "Table Mountain",
+        "The Matterhorn"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which country is home to the famous Christ the Redeemer statue?",
+      "options": [
+        "Argentina",
+        "Brazil",
+        "Portugal",
+        "Spain"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the ancient city carved into rose-colored rock in Jordan?",
+      "options": [
+        "Petra",
+        "Luxor",
+        "Bagan",
+        "Ephesus"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which landmark has the nickname 'The Iron Lady'?",
+      "options": [
+        "Statue of Liberty",
+        "Eiffel Tower",
+        "Big Ben",
+        "Tokyo Tower"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which city would you find the Space Needle?",
+      "options": [
+        "New York",
+        "Seattle",
+        "San Francisco",
+        "Houston"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How many heads are carved on Mount Rushmore?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which famous wall was torn down in 1989, symbolizing the end of the Cold War?",
+      "options": [
+        "The Berlin Wall",
+        "The Great Wall of China",
+        "Hadrian's Wall",
+        "The Western Wall"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What nickname was the Leaning Tower of Pisa originally given by locals when it began to tilt?",
+      "options": [
+        "The Crooked Wonder",
+        "The Bent Bell Tower",
+        "The Falling Tower",
+        "The Slanting Stone"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which famous structure in India was built as a mausoleum for a Mughal emperor's wife?",
+      "options": [
+        "Amber Fort",
+        "Taj Mahal",
+        "Qutub Minar",
+        "Gateway of India"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What iconic bridge in San Francisco is often shrouded in fog?",
+      "options": [
+        "Brooklyn Bridge",
+        "Golden Gate Bridge",
+        "Sydney Harbour Bridge",
+        "Tower Bridge"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which natural landmark is the largest coral reef system in the world?",
+      "options": [
+        "The Great Barrier Reef",
+        "The Ningaloo Reef",
+        "The Belize Barrier Reef",
+        "The Mesoamerican Reef"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which landmark is famously known for its unpredictable tilt?",
+      "options": [
+        "The Leaning Tower of Pisa",
+        "The Eiffel Tower",
+        "The Empire State Building",
+        "The Burj Khalifa"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What color is the Golden Gate Bridge in San Francisco?",
+      "options": [
+        "Bright Red",
+        "International Orange",
+        "Rust Brown",
+        "Copper"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What ancient landmark in Egypt aligns perfectly with certain stars?",
+      "options": [
+        "The Sphinx",
+        "The Great Pyramid of Giza",
+        "The Luxor Obelisk",
+        "The Valley of the Kings"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following landmarks was a gift from France to the United States?",
+      "options": [
+        "The Statue of Liberty",
+        "Mount Rushmore",
+        "The Washington Monument",
+        "The Gateway Arch"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which iconic clock tower is often mistakenly called Big Ben?",
+      "options": [
+        "Palace of Westminster Clock Tower",
+        "St. Stephen's Clock Tower",
+        "Elizabeth Tower",
+        "Parliament Tower"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which landmark is home to the famous 'Walk of Kings' staircase?",
+      "options": [
+        "The Colosseum in Rome",
+        "The Palace of Versailles",
+        "The Forbidden City",
+        "The Sydney Opera House"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The Taj Mahal was built as a mausoleum for whom?",
+      "options": [
+        "A Mughal Emperor’s Grandfather",
+        "The Favorite Wife of Emperor Shah Jahan",
+        "A Mughal Military Leader",
+        "The Mother of a Mughal Princess"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is inscribed on the side of the Mount Rushmore National Memorial?",
+      "options": [
+        "The Pledge of Allegiance",
+        "Nothing, just the carved faces of presidents",
+        "The U.S. Constitution",
+        "A tribute to American pioneers"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the function of the ancient Roman Pantheon when it was first built?",
+      "options": [
+        "A temple to all gods",
+        "An imperial palace",
+        "A military headquarters",
+        "A marketplace"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which landmark was famously scaled by King Kong in a 1933 film?",
+      "options": [
+        "The Chrysler Building",
+        "The Empire State Building",
+        "The Statue of Liberty",
+        "The Sears Tower"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which famous landmark was gifted to the United States by France in 1886?",
+      "options": [
+        "Statue of Liberty",
+        "Mount Rushmore",
+        "Golden Gate Bridge",
+        "Empire State Building"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The Eiffel Tower was originally built for which event?",
+      "options": [
+        "1900 Paris Olympics",
+        "World's Fair of 1889",
+        "French Revolution Bicentennial",
+        "Opening of the Paris Metro"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which historical landmark is often associated with gladiator battles in Ancient Rome?",
+      "options": [
+        "Pantheon",
+        "Colosseum",
+        "Roman Forum",
+        "Trevi Fountain"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The Great Wall of China was built primarily to protect against invasions from which group?",
+      "options": [
+        "The Japanese",
+        "The Mongols",
+        "The Russians",
+        "The Persians"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which iconic landmark in Australia is known for its unique shell-like architecture?",
+      "options": [
+        "Sydney Opera House",
+        "Great Barrier Reef",
+        "Uluru",
+        "Harbour Bridge"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Mount Rushmore features the carved faces of U.S. Presidents. Which president is NOT depicted on it?",
+      "options": [
+        "Thomas Jefferson",
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the nickname of the leaning bell tower in Pisa, Italy?",
+      "options": [
+        "The Tilting Tower",
+        "The Leaning Tower of Pisa",
+        "The Bent Bell Tower",
+        "The Crooked Spire"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The Taj Mahal was built as a symbol of love. Who commissioned it?",
+      "options": [
+        "Akbar the Great",
+        "Mughal Emperor Shah Jahan",
+        "Babur",
+        "Aurangzeb"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which city can you visit the Christ the Redeemer statue, one of the New7Wonders of the World?",
+      "options": [
+        "Buenos Aires",
+        "Rio de Janeiro",
+        "Santiago",
+        "São Paulo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Machu Picchu, the famous Incan citadel, is located in which country?",
+      "options": [
+        "Peru",
+        "Mexico",
+        "Bolivia",
+        "Ecuador"
+      ],
+      "answer": 0
+    }
+  ]
+}

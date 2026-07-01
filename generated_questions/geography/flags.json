@@ -1,0 +1,508 @@
+{
+  "title": "Flags",
+  "category": "Geography",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "Which country has a flag featuring a cedar tree?",
+      "options": [
+        "Lebanon",
+        "Cyprus",
+        "Jordan",
+        "Morocco"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which flag is known as the 'Union Jack'?",
+      "options": [
+        "Australia",
+        "United States",
+        "United Kingdom",
+        "New Zealand"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is unique about the flag of Nepal?",
+      "options": [
+        "It is circular",
+        "It has five stars",
+        "It is non-rectangular",
+        "It changes design every year"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What do the five rings on the Olympic flag represent?",
+      "options": [
+        "The five continents",
+        "The five oceans",
+        "The five founding countries",
+        "The five ancient games"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country’s flag features a dragon?",
+      "options": [
+        "Bhutan",
+        "Wales",
+        "China",
+        "Mongolia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How many stars are on the flag of the United States?",
+      "options": [
+        "50",
+        "51",
+        "49",
+        "48"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the national flag of Japan called?",
+      "options": [
+        "Rising Sun Flag",
+        "Hinari",
+        "Nisshōki",
+        "Shōwa Banner"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which African country’s flag features a yellow Renaissance Star?",
+      "options": [
+        "Ghana",
+        "Nigeria",
+        "Senegal",
+        "Kenya"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these countries has a flag that is a single solid color?",
+      "options": [
+        "Libya",
+        "Greenland",
+        "Saudi Arabia",
+        "Niger"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which flag features a red maple leaf in the center?",
+      "options": [
+        "Canada",
+        "Denmark",
+        "Norway",
+        "Switzerland"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country is often associated with having a flag that consists of just a single solid green color?",
+      "options": [
+        "Libya",
+        "Saudi Arabia",
+        "Ireland",
+        "Brazil"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which two countries have flags that are nearly identical, featuring three vertical stripes of blue, yellow, and red?",
+      "options": [
+        "Romania and Chad",
+        "France and Italy",
+        "Ukraine and Sweden",
+        "Netherlands and Luxembourg"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the only national flag that is not a rectangle or square?",
+      "options": [
+        "Switzerland",
+        "Nepal",
+        "Bhutan",
+        "Vatican City"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which flag prominently features the Union Jack in one corner, symbolizing its colonial history with the UK?",
+      "options": [
+        "Australia",
+        "South Africa",
+        "India",
+        "Kenya"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the red circle on Japan’s flag represent?",
+      "options": [
+        "A cherry blossom",
+        "The sun",
+        "A rising phoenix",
+        "The moon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is unique about the flag of Mozambique?",
+      "options": [
+        "It features an AK-47 rifle.",
+        "It is shaped like a star.",
+        "It has a compass symbol on it.",
+        "It contains no traditional colors."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Scandinavian country's flag is known as the 'Dannebrog'?",
+      "options": [
+        "Norway",
+        "Sweden",
+        "Denmark",
+        "Finland"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which country’s flag features an eagle holding a snake while standing on a cactus?",
+      "options": [
+        "Mexico",
+        "Argentina",
+        "Portugal",
+        "Colombia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the star and crescent on the flags of countries like Turkey and Pakistan typically symbolize?",
+      "options": [
+        "Islam",
+        "Victory in war",
+        "Royalty",
+        "Unity of the people"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why do Botswana’s flag colors include light blue, white, and black?",
+      "options": [
+        "To represent racial harmony and water scarcity.",
+        "To symbolize zebra stripes and the national animal.",
+        "To highlight the country's agricultural roots.",
+        "To showcase minerals like diamond and coal."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country’s flag has a dragon on it?",
+      "options": [
+        "Bhutan",
+        "Wales",
+        "China",
+        "Nepal"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What do the colors of the Jamaican flag traditionally represent?",
+      "options": [
+        "Sunshine, natural wealth, and strength",
+        "Freedom, unity, and progress",
+        "Peace, prosperity, and justice",
+        "Honor, courage, and hope"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The flag of which country is famously known as 'The Union Jack'?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which color is NOT featured on the French flag?",
+      "options": [
+        "Blue",
+        "Red",
+        "White",
+        "Green"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The only national flag that is not rectangular belongs to which country?",
+      "options": [
+        "Switzerland",
+        "Nepal",
+        "Vatican City",
+        "Bhutan"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is unique about the flag of Libya between 1977 and 2011?",
+      "options": [
+        "It contained only a single color",
+        "It had a map of the country on it",
+        "It featured an image of a palm tree",
+        "It changed designs every year"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which flag inspired the design of the American flag?",
+      "options": [
+        "The Dutch flag",
+        "The British East India Company flag",
+        "The French flag",
+        "The Spanish flag"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country’s flag is often referred to as the ‘Dannebrog’?",
+      "options": [
+        "Norway",
+        "Denmark",
+        "Sweden",
+        "Iceland"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which African country changed its flag in 1994 to represent a new era of unity?",
+      "options": [
+        "Rwanda",
+        "South Africa",
+        "Kenya",
+        "Angola"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which flag features the Southern Cross constellation?",
+      "options": [
+        "Brazil",
+        "Australia",
+        "New Zealand",
+        "All of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which country's flag is known for its two horizontal red stripes with a white band in the middle?",
+      "options": [
+        "Austria",
+        "Denmark",
+        "Poland",
+        "Monaco"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The flag of Nepal is unique for being the only national flag that is NOT what shape?",
+      "options": [
+        "Rectangular",
+        "Triangular",
+        "Square",
+        "Circular"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which African country's flag features a Maasai shield at its center?",
+      "options": [
+        "Kenya",
+        "Sudan",
+        "Tanzania",
+        "Uganda"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the maple leaf on Canada’s flag symbolize?",
+      "options": [
+        "The environment",
+        "Unity and peace",
+        "A favorite national pastime",
+        "Canada's history with indigenous tribes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The flag of the United States has how many stars to represent its states?",
+      "options": [
+        "50",
+        "48",
+        "52",
+        "51"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which European country’s flag is commonly nicknamed the 'Union Jack'?",
+      "options": [
+        "United Kingdom",
+        "France",
+        "Norway",
+        "Ireland"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The flag of Japan features what simple design?",
+      "options": [
+        "A red circle on a white background",
+        "A cherry blossom outline",
+        "Three diagonal red stripes",
+        "A red sunburst pattern"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country’s flag is completely green with no design or emblem?",
+      "options": [
+        "Libya",
+        "Saudi Arabia",
+        "Kazakhstan",
+        "Pakistan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What color is the star on the flag of Vietnam?",
+      "options": [
+        "Yellow",
+        "Red",
+        "White",
+        "Blue"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The Scandinavian cross, seen on many Nordic flags, originates from which country’s flag?",
+      "options": [
+        "Denmark",
+        "Sweden",
+        "Norway",
+        "Finland"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country has a flag that features a cedar tree in its design?",
+      "options": [
+        "Cyprus",
+        "Lebanon",
+        "Canada",
+        "Norway"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the only national flag in the world that is not rectangular?",
+      "options": [
+        "Nepal",
+        "Switzerland",
+        "Bhutan",
+        "Japan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The Union Jack is part of the flag design for which of the following countries?",
+      "options": [
+        "South Africa",
+        "New Zealand",
+        "India",
+        "Brazil"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country’s flag consists of horizontal stripes of black, red, and yellow?",
+      "options": [
+        "Germany",
+        "Belgium",
+        "Spain",
+        "Romania"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The flag of which country is the only one that has a depiction of a recognized art piece, the Taj Mahal?",
+      "options": [
+        "India",
+        "Sri Lanka",
+        "Pakistan",
+        "Maldives"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which year was the current design of the United States flag with 50 stars introduced?",
+      "options": [
+        "1960",
+        "1945",
+        "1955",
+        "1970"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these countries’ flags features a dragon prominently in its design?",
+      "options": [
+        "Bhutan",
+        "Wales",
+        "Both",
+        "Neither"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The Olympic flag features how many interlocking rings?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does the red circle in the middle of Japan’s flag symbolize?",
+      "options": [
+        "The full moon",
+        "The morning sun",
+        "A cherry blossom",
+        "The people of Japan"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which country’s flag has an AK-47 rifle on it?",
+      "options": [
+        "Mozambique",
+        "Afghanistan",
+        "Somalia",
+        "Zimbabwe"
+      ],
+      "answer": 0
+    }
+  ]
+}

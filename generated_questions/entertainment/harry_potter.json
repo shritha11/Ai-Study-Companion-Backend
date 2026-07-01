@@ -1,0 +1,508 @@
+{
+  "title": "Harry Potter",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "What is the core of Harry Potter's wand?",
+      "options": [
+        "Dragon heartstring",
+        "Phoenix feather",
+        "Unicorn hair",
+        "Thestral tail hair"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In which book does Hermione Granger famously punch Draco Malfoy?",
+      "options": [
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Chamber of Secrets",
+        "Harry Potter and the Prisoner of Azkaban",
+        "Harry Potter and the Goblet of Fire"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What color does Ron's pet rat, Scabbers, turn into when he is revealed as Peter Pettigrew?",
+      "options": [
+        "Gray",
+        "Brown",
+        "Silver",
+        "He doesn't change color"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the sweetshop in Hogsmeade?",
+      "options": [
+        "Flourish and Blotts",
+        "Honeydukes",
+        "Weasleys' Wizard Wheezes",
+        "Sugarplum's Sweets"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What spell does Harry use to disarm Draco Malfoy in the Room of Requirement?",
+      "options": [
+        "Expelliarmus",
+        "Stupefy",
+        "Petrificus Totalus",
+        "Rictusempra"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What magical creature does Professor Lupin introduce to the class during their first Defense Against the Dark Arts lesson?",
+      "options": [
+        "Boggart",
+        "Hippogriff",
+        "Grindylow",
+        "Niffler"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the goblin who helps Harry break into Bellatrix Lestrange's vault at Gringotts?",
+      "options": [
+        "Griphook",
+        "Gornuk",
+        "Bogrod",
+        "Ragnok"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the potion that grants the drinker good luck?",
+      "options": [
+        "Amortentia",
+        "Veritaserum",
+        "Polyjuice Potion",
+        "Felix Felicis"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which Hogwarts founder's relic did Professor Quirrell try to steal in 'The Philosopher's Stone'?",
+      "options": [
+        "Godric Gryffindor's sword",
+        "Helga Hufflepuff's cup",
+        "Rowena Ravenclaw's diadem",
+        "None, it wasn't a founder's relic"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the name of the dance event held during the Triwizard Tournament?",
+      "options": [
+        "The Winter Ball",
+        "The Yule Ball",
+        "The Snowfall Gala",
+        "The Triwizard Dance"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the first password to Gryffindor Tower in Harry's first year?",
+      "options": [
+        "Caput Draconis",
+        "Pig Snout",
+        "Fortuna Major",
+        "Wattlebird"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which book does Hermione suggest Ron read to improve his Quidditch skills?",
+      "options": [
+        "Quidditch Through the Ages",
+        "Flying With the Cannons",
+        "Intermediate Quidditch Techniques",
+        "A Beginner's Guide to Quidditch"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the magical sweet that allows you to breathe fire temporarily?",
+      "options": [
+        "Pepper Imps",
+        "Fizzing Whizzbees",
+        "Ice Mice",
+        "Exploding Bonbons"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the full name of Harry's owl?",
+      "options": [
+        "Hedwig",
+        "Hedwig the Snowy",
+        "Hedwig of the North",
+        "Hedwig Featherwing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Ron see when he looks into the Mirror of Erised?",
+      "options": [
+        "Himself as Head Boy holding the Quidditch Cup",
+        "Himself conquering a dragon",
+        "Himself as a famous Auror",
+        "Himself in a world without spiders"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Hogwarts professor was secretly an unregistered Animagus?",
+      "options": [
+        "Professor McGonagall",
+        "Professor Lupin",
+        "Rita Skeeter",
+        "Professor Dumbledore"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What magical creature did Luna Lovegood wear as a hat to a Quidditch match?",
+      "options": [
+        "A Gryffindor lion",
+        "A Blibbering Humdinger",
+        "A Ravenclaw eagle",
+        "A Snorkack-shaped headdress"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who was nicknamed 'The Prince of Slytherin' in the fan community?",
+      "options": [
+        "Severus Snape",
+        "Draco Malfoy",
+        "Tom Riddle",
+        "Regulus Black"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What charm does Mrs. Weasley use to sort the laundry?",
+      "options": [
+        "Sorting Spells",
+        "Folding Charm",
+        "Launderus Sortia",
+        "Color-Coding Charm"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What color are the flames in a Floo Powder fireplace while in use?",
+      "options": [
+        "Emerald green",
+        "Bright orange",
+        "Silver blue",
+        "Golden yellow"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of creature is Aragog, Hagrid’s giant pet in the Forbidden Forest?",
+      "options": [
+        "Basilisk",
+        "Acromantula",
+        "Thestral",
+        "Hippogriff"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which potion causes the drinker to become lucky for a period of time?",
+      "options": [
+        "Felix Felicis",
+        "Amortentia",
+        "Polyjuice Potion",
+        "Veritaserum"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Hermione use to attend multiple classes at the same time in her third year?",
+      "options": [
+        "The Marauder's Map",
+        "A Vanishing Cabinet",
+        "A Time-Turner",
+        "A Portkey"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the official title of Professor Umbridge at Hogwarts during Harry’s fifth year?",
+      "options": [
+        "High Inquisitor of Hogwarts",
+        "Headmistress of Hogwarts",
+        "Senior Undersecretary of Magic",
+        "Defense Against the Dark Arts Coordinator"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which wizarding shop specializes in joke products, including Skiving Snackboxes?",
+      "options": [
+        "Zonko's Joke Shop",
+        "Weasleys' Wizard Wheezes",
+        "Honeydukes",
+        "Flourish and Blotts"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the spell 'Rictusempra' do?",
+      "options": [
+        "Disarms your opponent",
+        "Tickles the victim",
+        "Produces light",
+        "Unlocks a door"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What form does Luna Lovegood’s Patronus take?",
+      "options": [
+        "Rabbit",
+        "Otter",
+        "Hare",
+        "Fox"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What magical object does Harry use to breathe underwater during the second task of the Triwizard Tournament?",
+      "options": [
+        "A Gillyweed",
+        "A Bubble-Head Charm",
+        "A Goblet of Water",
+        "A Conjured Shell"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the magical device used to store and view memories?",
+      "options": [
+        "Pensieve",
+        "Omnioculars",
+        "Time-Turner",
+        "Deluminator"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which Hogwarts professor takes over as head of Slytherin House after Severus Snape becomes Headmaster?",
+      "options": [
+        "Horace Slughorn",
+        "Filius Flitwick",
+        "Minerva McGonagall",
+        "Pomona Sprout"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the sweetshop in Hogsmeade where students buy magical candies?",
+      "options": [
+        "Honeydukes",
+        "Weasleys' Wizard Wheezes",
+        "Sugarplum's Confectionery",
+        "Zonko's Joke Shop"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who was Nicolas Flamel, the creator of the Philosopher's Stone, married to?",
+      "options": [
+        "Persephone Flamel",
+        "Helga Flamel",
+        "Perenelle Flamel",
+        "Morgana Flamel"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What phrase does Alastor Moody frequently use to emphasize constant vigilance?",
+      "options": [
+        "Stay alert!",
+        "Keep your eyes open!",
+        "Constant vigilance!",
+        "Trust no one!"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What creature is guarding the entrance to the Gryffindor common room?",
+      "options": [
+        "A talking tapestry",
+        "A talking phoenix",
+        "A portrait of the Fat Lady",
+        "A stone gargoyle"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does the spell 'Episkey' do?",
+      "options": [
+        "Heals minor injuries",
+        "Locks a door",
+        "Turns an object into stone",
+        "Causes silencing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Luna Lovegood wear to support Gryffindor during a Quidditch match?",
+      "options": [
+        "A red and gold scarf",
+        "A lion's head hat",
+        "A Gryffindor-themed robe",
+        "A broomstick-shaped pin"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who replaces the Fat Lady as the Gryffindor portrait guardian after Sirius Black attacks her?",
+      "options": [
+        "Sir Cadogan",
+        "The Bloody Baron",
+        "Nearly Headless Nick",
+        "Phineas Nigellus Black"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the house-elf who serves the Black family and later helps Harry?",
+      "options": [
+        "Dobby",
+        "Winky",
+        "Kreacher",
+        "Hokey"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the form of Hermione Granger's Patronus?",
+      "options": [
+        "A horse",
+        "An otter",
+        "A rabbit",
+        "A stag"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What magical map reveals the location of everyone in Hogwarts in real-time?",
+      "options": [
+        "The Restricted Map",
+        "The Marauder's Map",
+        "The Enchanted Blueprint",
+        "The Hogwarts Atlas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which spell did Hermione use to free a group of pixies in 'Harry Potter and the Chamber of Secrets'?",
+      "options": [
+        "Petrificus Totalus",
+        "Immobilus",
+        "Wingardium Leviosa",
+        "Alohomora"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which magical creature did Luna Lovegood wear as a hat to a Quidditch match?",
+      "options": [
+        "A Niffler",
+        "A Thestral",
+        "A Gryphon",
+        "A Lion"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What was the name of the goblet that selected champions for the Triwizard Tournament?",
+      "options": [
+        "The Goblet of Fire",
+        "The Cup of Magic",
+        "The Chalice of Secrets",
+        "The Cursed Grail"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What was the first word Dobby said to Harry Potter in 'Harry Potter and the Chamber of Secrets'?",
+      "options": [
+        "Harry",
+        "Sir",
+        "Hello",
+        "Dobby"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What model of broomstick did Harry receive as a gift from Sirius Black?",
+      "options": [
+        "Nimbus 2000",
+        "Comet 260",
+        "Firebolt",
+        "Cleansweep Seven"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What form did Snape's Patronus take, revealing his connection to Lily Potter?",
+      "options": [
+        "A doe",
+        "A stag",
+        "A phoenix",
+        "A wolf"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which department at the Ministry of Magic does Arthur Weasley work in?",
+      "options": [
+        "Department of Magical Transportation",
+        "Department of Magical Accidents and Catastrophes",
+        "Department for the Regulation and Control of Magical Creatures",
+        "Misuse of Muggle Artifacts Office"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the full name of the witch known for her obsession with pink and cats?",
+      "options": [
+        "Dolores Marjorie Umbridge",
+        "Dolores Jane Umbridge",
+        "Dolores Mildred Umbridge",
+        "Dolores Patricia Umbridge"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the wizarding prison guarded by Dementors?",
+      "options": [
+        "Azkaban",
+        "Durmstrang",
+        "Nurmengard",
+        "Ilvermorny"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the incantation of the spell used to summon an object to the caster?",
+      "options": [
+        "Accio",
+        "Expelliarmus",
+        "Legilimens",
+        "Imperio"
+      ],
+      "answer": 0
+    }
+  ]
+}

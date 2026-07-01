@@ -1,0 +1,508 @@
+{
+  "title": "Sitcoms",
+  "category": "Entertainment",
+  "challengeType": "quiz",
+  "estimatedTime": "3 mins",
+  "questions": [
+    {
+      "question": "In 'Friends,' what is the name of Ross's pet monkey?",
+      "options": [
+        "Maurice",
+        "Marcel",
+        "Maxwell",
+        "Milo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which sitcom features the fictional company 'Vandelay Industries'?",
+      "options": [
+        "Seinfeld",
+        "The Office",
+        "Arrested Development",
+        "Parks and Recreation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'The Office,' what is the name of Michael Scott's self-produced action movie?",
+      "options": [
+        "Threat Level Midnight",
+        "Mission: Scranton",
+        "Midnight Mayhem",
+        "Scranton Saves the Day"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the restaurant where the gang hangs out in 'How I Met Your Mother'?",
+      "options": [
+        "MacLaren's Pub",
+        "Paddy's Pub",
+        "The Drunken Clam",
+        "Cheers"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which character in 'Parks and Recreation' is known for inventing the phrase 'treat yo' self'?",
+      "options": [
+        "Ron Swanson",
+        "Tom Haverford",
+        "Donna Meagle",
+        "Leslie Knope"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In 'Brooklyn Nine-Nine,' what is the full name of Gina Linetti’s dance troupe?",
+      "options": [
+        "Gina and the Jazz Queens",
+        "Dance-y Reagan",
+        "Floorgasm",
+        "Gina's Dance Explosion"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the last name of Sabrina in 'Sabrina the Teenage Witch'?",
+      "options": [
+        "Spellman",
+        "Wellington",
+        "Winchester",
+        "Ravenwood"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which series features the eccentric billionaire Dr. Richard Bellamy?",
+      "options": [
+        "30 Rock",
+        "The Big Bang Theory",
+        "Arrested Development",
+        "Two and a Half Men"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of the bar featured prominently in 'Cheers'?",
+      "options": [
+        "The Camelot",
+        "Cheers",
+        "McGee's Pub",
+        "Benny's Bar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Frasier,' what breed of dog is Eddie?",
+      "options": [
+        "Jack Russell Terrier",
+        "Beagle",
+        "Corgi",
+        "Dachshund"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Friends', what is the name of Ross's second wife?",
+      "options": [
+        "Emily",
+        "Carol",
+        "Susan",
+        "Janice"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which 'Parks and Recreation' character is known for their obsession with breakfast foods?",
+      "options": [
+        "Leslie Knope",
+        "Ron Swanson",
+        "Tom Haverford",
+        "Andy Dwyer"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the coffee shop where the characters in 'Seinfeld' frequently gather?",
+      "options": [
+        "Monk's Cafe",
+        "Central Perk",
+        "Java Hut",
+        "Westside Diner"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sitcom features a character named Sheldon Cooper who is known for saying 'Bazinga'?",
+      "options": [
+        "The Big Bang Theory",
+        "How I Met Your Mother",
+        "Community",
+        "Modern Family"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the fictional paper company in 'The Office' (US)?",
+      "options": [
+        "Dunder Mifflin",
+        "Stapler Supplies",
+        "PaperTech",
+        "Scranton Paper Co."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Brooklyn Nine-Nine', what is Captain Raymond Holt's dog's name?",
+      "options": [
+        "Cheddar",
+        "Peanut",
+        "Pretzel",
+        "Biscuit"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'That '70s Show', what is the name of Eric Forman's hometown?",
+      "options": [
+        "Point Place",
+        "Springfield",
+        "Woodbury",
+        "River Valley"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which character often breaks the fourth wall in 'Malcolm in the Middle'?",
+      "options": [
+        "Malcolm",
+        "Reese",
+        "Dewey",
+        "Francis"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the bar where the gang hangs out in 'How I Met Your Mother'?",
+      "options": [
+        "MacLaren's Pub",
+        "Paddy's Pub",
+        "Cheers",
+        "McGee's Tavern"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Arrested Development', what is the name of Tobias Fünke's failed musical group?",
+      "options": [
+        "Dr. Fünke's 100% Natural Good-Time Family Band Solution",
+        "The Blue Man Band",
+        "Fünke and Friends",
+        "Nevernudes United"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Friends', what does Ross famously yell while moving a couch?",
+      "options": [
+        "Lift!",
+        "Push harder!",
+        "Pivot!",
+        "Careful!"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In 'The Office', what is the name of Michael Scott's screenplay?",
+      "options": [
+        "Threat Level Midnight",
+        "Agent Scarn Chronicles",
+        "Mystery of the Midnight Spy",
+        "Dangerous Scarn"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the bar where the characters often hang out in 'How I Met Your Mother'?",
+      "options": [
+        "McGinty's",
+        "McLaren's",
+        "O'Connor's",
+        "MacFinn's"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Parks and Recreation', what is the name of the miniature horse beloved by the town?",
+      "options": [
+        "Li'l Sebastian",
+        "Tiny Tim",
+        "Mini Maverick",
+        "Small Samson"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "On 'Seinfeld', what does George famously say is 'the greatest scam of all time'?",
+      "options": [
+        "Timeshares",
+        "The Cotton Jersey",
+        "The Muffin Tops",
+        "The Big Salad"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In 'Brooklyn Nine-Nine', what food is Detective Jake Peralta obsessed with?",
+      "options": [
+        "Pizza",
+        "Tacos",
+        "Hot Dogs",
+        "Cereal"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sitcom features a character named Sheldon Cooper?",
+      "options": [
+        "The Big Bang Theory",
+        "Community",
+        "Two and a Half Men",
+        "Modern Family"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Arrested Development', what is Buster Bluth's biggest fear?",
+      "options": [
+        "High ceilings",
+        "Seagulls",
+        "Loose seals",
+        "Ladders"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which '70s sitcom featured the theme song 'Movin' On Up'?",
+      "options": [
+        "Good Times",
+        "The Jeffersons",
+        "Sanford and Son",
+        "Happy Days"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In 'Scrubs', what is J.D.'s favorite daydream animal?",
+      "options": [
+        "Unicorn",
+        "Eagle",
+        "Otter",
+        "Koala"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the sitcom 'Friends', what is the name of Ross's second wife?",
+      "options": [
+        "Emily",
+        "Carol",
+        "Rachel",
+        "Susan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the profession of Sheldon Cooper in 'The Big Bang Theory'?",
+      "options": [
+        "Neuroscientist",
+        "Theoretical Physicist",
+        "Astrophysicist",
+        "Chemical Engineer"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which sitcom features the character Michael Scott managing the Scranton branch of Dunder Mifflin?",
+      "options": [
+        "Parks and Recreation",
+        "Brooklyn Nine-Nine",
+        "The Office",
+        "30 Rock"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the name of Jerry Seinfeld's eccentric neighbor in 'Seinfeld'?",
+      "options": [
+        "George Costanza",
+        "Kramer",
+        "Newman",
+        "Elaine"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which sitcom is set in the fictional Pawnee, Indiana?",
+      "options": [
+        "Parks and Recreation",
+        "The Good Place",
+        "Community",
+        "30 Rock"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What bar do the characters of 'How I Met Your Mother' frequently hang out in?",
+      "options": [
+        "MacLaren's Pub",
+        "Central Perk",
+        "Cheers",
+        "Paddy's Pub"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Brooklyn Nine-Nine', what food does Jake Peralta famously love?",
+      "options": [
+        "Pizza",
+        "Tacos",
+        "Donuts",
+        "Bagels"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the sitcom 'Cheers', what is the full name of the character played by Ted Danson?",
+      "options": [
+        "Sam Malone",
+        "Woody Boyd",
+        "Norm Peterson",
+        "Cliff Clavin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sitcom features the iconic quote: 'We were on a break!'?",
+      "options": [
+        "Friends",
+        "How I Met Your Mother",
+        "The Office",
+        "Seinfeld"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the principal's assistant in 'Saved by the Bell'?",
+      "options": [
+        "Miss Bliss",
+        "Mr. Belding",
+        "Screech",
+        "Mr. Tuttle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the sitcom 'Friends,' what is the name of Ross's pet monkey?",
+      "options": [
+        "Marcel",
+        "Maurice",
+        "Maxwell",
+        "Melvin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sitcom features the fictional TV show 'The Rural Juror'?",
+      "options": [
+        "30 Rock",
+        "Parks and Recreation",
+        "The Office",
+        "Brooklyn Nine-Nine"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'The Office,' what is the name of the cat Angela keeps in a filing cabinet?",
+      "options": [
+        "Sprinkles",
+        "Pumpkin",
+        "Whiskers",
+        "Fluffy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of these characters is known for saying 'Treat Yo' Self' on 'Parks and Recreation'?",
+      "options": [
+        "Tom Haverford and Donna Meagle",
+        "Ron Swanson and Leslie Knope",
+        "Andy Dwyer and April Ludgate",
+        "Ben Wyatt and Chris Traeger"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the profession of Frasier Crane in 'Frasier'?",
+      "options": [
+        "Radio psychiatrist",
+        "College professor",
+        "Lawyer",
+        "News anchor"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'How I Met Your Mother,' what is Barney Stinson's real job title?",
+      "options": [
+        "Please",
+        "Corporate Synergy Manager",
+        "Banking Analyst",
+        "Bro Specialist"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the fictional bar where the characters often hang out in 'It's Always Sunny in Philadelphia'?",
+      "options": [
+        "Paddy's Pub",
+        "Moe's Tavern",
+        "The Drunken Clam",
+        "MacLaren's Pub"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'Seinfeld,' what is the name of Kramer's entrepreneurial invention to keep beverages hot?",
+      "options": [
+        "The Coffee Table Book",
+        "The Hot Beverage Helmet",
+        "The Java Jacket",
+        "The Thermal Mug"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which sitcom features the quote: 'We were on a break!'?",
+      "options": [
+        "Friends",
+        "How I Met Your Mother",
+        "The Big Bang Theory",
+        "New Girl"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In 'The Fresh Prince of Bel-Air,' what is the name of the butler?",
+      "options": [
+        "Geoffrey",
+        "Alfred",
+        "James",
+        "Reginald"
+      ],
+      "answer": 0
+    }
+  ]
+}
