@@ -1,5 +1,4 @@
-from rag.pdf_loader import extract_text_from_pdf
-from rag.chunker import chunk_text
+from rag.document_service import DocumentService
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -30,22 +29,23 @@ client = AzureOpenAI(
 )
 
 DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
+document_service = DocumentService()
 
 
 # ── Request models
 
 class ChatRequest(BaseModel):
     message: str
-    pdf_context: Optional[str] = None
+    document_name: Optional[str] = None
 
 class QuizRequest(BaseModel):
     topic: str
-    pdf_context: Optional[str] = None
+    document_name: Optional[str] = None
     num_questions: int = 5
 
 class FlashcardRequest(BaseModel):
     topic: str
-    pdf_context: Optional[str] = None
+    document_name: Optional[str] = None
     num_cards: int = 8
 
 
@@ -55,13 +55,6 @@ def clean_json(text: str) -> dict:
     text = re.sub(r"```(?:json)?", "", text).strip().strip("`").strip()
     return json.loads(text)
 
-def build_context(pdf_context: Optional[str]) -> str:
-    if not pdf_context:
-        return ""
-    return (
-        f"\n\nThe user has uploaded a PDF with the following content:\n"
-        f"{pdf_context}\n\nUse this as your primary source when answering."
-    )
 
 def get_learning_actions(user_message: str):
     text = user_message.lower()
@@ -94,14 +87,27 @@ def get_learning_actions(user_message: str):
 
 @app.post("/chat")
 def chat(req: ChatRequest):
-    context = build_context(req.pdf_context)
-    system = (
-        "You are a smart, friendly AI study tutor called Lumina. "
-        "Explain clearly with examples. "
-        "If the user seems confused, ask a follow-up question to check understanding. "
-        "Keep responses focused and educational."
-        + context
-    )
+    context = ""
+    if req.document_name:
+        chunks = document_service.retrieve(
+            document_name=req.document_name, 
+            question=req.message,
+        )
+        context = "\n\n".join(chunks)
+    
+    system = f"""
+You are Eunoia, an AI study tutor.
+
+When context is provided, use it as your primary source.
+
+Do not invent facts that are not present in the context.
+
+If the answer cannot be found in the provided context, clearly tell the user.
+
+Context:
+
+{context}
+"""
     res = client.chat.completions.create(
         model=DEPLOYMENT,
         messages=[
@@ -119,11 +125,20 @@ def chat(req: ChatRequest):
 
 @app.post("/quiz")
 def generate_quiz(req: QuizRequest):
-    context = build_context(req.pdf_context)
-    source = "from the uploaded PDF" if req.pdf_context else "using your knowledge"
+    context = ""
+
+    if req.document_name:
+
+        chunks = document_service.retrieve(
+            document_name=req.document_name,
+            question=req.topic,
+        )
+
+        context = "\n\n".join(chunks)
+    source = "from the uploaded PDF" if req.document_name else "using your knowledge"
     prompt = f"""Generate {req.num_questions} multiple choice questions on "{req.topic}" {source}.{context}
 
-Return ONLY valid JSON, no explanation, no markdown:
+    Return ONLY valid JSON, no explanation, no markdown:
 {{
   "questions": [
     {{
@@ -152,8 +167,14 @@ Rules:
 
 @app.post("/flashcards")
 def generate_flashcards(req: FlashcardRequest):
-    context = build_context(req.pdf_context)
-    source = "from the uploaded PDF" if req.pdf_context else "using your knowledge"
+    context = ""
+    if req.document_name:
+        chunks = document_service.retrieve(
+            document_name=req.document_name,
+            question=req.topic,
+        )
+        context = "\n\n".join(chunks)
+    source = "from the uploaded PDF" if req.document_name else "using your knowledge"
     prompt = f"""Create {req.num_cards} flashcards on "{req.topic}" {source}.{context}
 
 Return ONLY valid JSON, no explanation, no markdown:
@@ -209,16 +230,17 @@ async def upload_pdf(
             buffer,
         )
 
-    text = extract_text_from_pdf(filepath)
+    document_name = os.path.splitext(file.filename)[0]
+    total_chunks = document_service.process_pdf(
+        pdf_path=filepath, 
+        document_name=document_name,
+    )
 
-    chunks = chunk_text(text)
-    
     return {
-        "success": True, 
-        "original_filename": file.filename, 
-        "stored_filename": unique_filename, 
-        "characters": len(text), 
-        "total_chunks": len(chunks),
-        "chunks": chunks[0],
+        "success": True,
+        "original_filename": file.filename,
+        "stored_filename": unique_filename,
+        "document_name": document_name,
+        "total_chunks": total_chunks
     }
   
