@@ -211,13 +211,22 @@ async def upload_pdf(
     file: UploadFile = File(...)
 ):
 
-    if not file.filename.lower().endswith(".pdf"):
+    ALLOWED_EXTENSIONS = {
+        ".pdf", 
+        ".docx", 
+        ".pptx", 
+        ".txt", 
+        ".md",
+   }
+
+    extension = os.path.splitext(file.filename)[1].lower()
+    if extension not in ALLOWED_EXTENSIONS:
         return {
             "success": False, 
-            "message": "Only PDF files are allowed."
+            "message": "Unsupported file type."
         }
 
-    unique_filename = f"{uuid.uuid4()}.pdf"
+    unique_filename = f"{uuid.uuid4()}{extension}"
     
     filepath = os.path.join(
         UPLOAD_DIR, 

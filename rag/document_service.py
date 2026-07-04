@@ -1,4 +1,4 @@
-from rag.pdf_loader import extract_text_from_pdf
+from rag.loaders.loader_factory import extract_text
 from rag.chunker import chunk_text
 from rag.embeddings import EmbeddingService
 from rag.vector_store import VectorStore
@@ -16,7 +16,7 @@ class DocumentService:
         Process a PDF and store its embeddings.
         """
         print("Extracting text...")
-        text = extract_text_from_pdf(pdf_path)
+        text = extract_text(pdf_path)
         print("Text extracted.")
         print("Chunking text...")
         chunks = chunk_text(text)
