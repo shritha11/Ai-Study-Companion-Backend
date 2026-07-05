@@ -40,6 +40,9 @@ class ChatRequest(BaseModel):
     message: str
     document_name: Optional[str] = None
 
+class RenameRequest(BaseModel):
+    new_name: str
+
 class QuizRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
@@ -256,6 +259,25 @@ def delete_document(document_name: str):
     return {
         "success": True,
     }
+
+@app.put("/documents/{document_name}")
+def rename_document(
+    document_name: str,
+    req: RenameRequest,
+):
+
+    success = document_repository.rename_document(
+        document_name,
+        req.new_name,
+    )
+
+    if not success:
+        raise HTTPException(
+            status_code=404,
+            detail="Document not found",
+        )
+
+    return {"success": True}
 
 @app.post("/upload")
 async def upload_pdf(

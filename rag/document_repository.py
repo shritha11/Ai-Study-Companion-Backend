@@ -6,7 +6,6 @@ FAISS_FOLDER = "faiss_index"
 
 class DocumentRepository:
     def delete_document(self, document_name: str):
-        # Everything inside this method needs to be indented by one extra level (typically 4 spaces)
         metadata = self.get_all_documents()
         document = None
 
@@ -36,6 +35,27 @@ class DocumentRepository:
 
         if os.path.exists(faiss_path):
             shutil.rmtree(faiss_path)
+
+        return True
+
+    def rename_document(self, document_name: str, new_name: str):
+        # Everything below here inside this method is now properly indented
+        metadata_path = os.path.join(
+            FAISS_FOLDER,
+            document_name,
+            "metadata.json",
+        )
+
+        if not os.path.exists(metadata_path):
+            return False
+
+        with open(metadata_path, "r", encoding="utf-8") as f:
+            metadata = json.load(f)
+
+        metadata["original_filename"] = new_name
+
+        with open(metadata_path, "w", encoding="utf-8") as f:
+            json.dump(metadata, f, indent=2)
 
         return True
 
