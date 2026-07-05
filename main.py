@@ -1,4 +1,5 @@
 from rag.document_service import DocumentService
+from rag.document_repository import DocumentRepository
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -30,6 +31,7 @@ client = AzureOpenAI(
 
 DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 document_service = DocumentService()
+document_repository = DocumentRepository()
 
 
 # ── Request models
@@ -201,6 +203,9 @@ Rules:
     )
     return clean_json(res.choices[0].message.content)
 
+@app.get("/documents") 
+def get_documents():
+    return document_repository.get_all_documents()
 
 @app.get("/health")
 def health():
