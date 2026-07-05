@@ -240,9 +240,11 @@ async def upload_pdf(
         )
 
     document_name = os.path.splitext(file.filename)[0]
-    total_chunks = document_service.process_pdf(
-        pdf_path=filepath, 
+    total_chunks = document_service.process_document(
+        file_path=filepath, 
         document_name=document_name,
+        original_filename=file.filename, 
+        stored_filename=unique_filename,
     )
 
     return {
