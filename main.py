@@ -7,7 +7,7 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 from typing import Optional
 import os, json, re, shutil 
-from fastapi import UploadFile, File
+from fastapi import UploadFile, File, HTTPException
 import uuid
 
 load_dotenv()
@@ -239,6 +239,23 @@ def get_documents():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+@app.delete("/documents/{document_name}") 
+def delete_document(document_name: str):
+
+    deleted = document_repository.delete_document(
+        document_name
+    )
+
+    if not deleted:
+        raise HTTPException(
+            status_code=404, 
+            detail="Document not found",
+        )
+
+    return {
+        "success": True,
+    }
 
 @app.post("/upload")
 async def upload_pdf(
