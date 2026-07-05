@@ -87,6 +87,26 @@ def get_learning_actions(user_message: str):
 
 # ── Routes 
 
+def detect_intent(message: str):
+    text = message.lower()
+
+    if "quiz" in text:
+        return "quiz"
+    
+    if "flashcard" in text or "flash card" in text:
+        return "flashcards"
+
+    if "summary" in text or "summarize" in text:
+        return "summary"
+
+    if "example" in text or "examples" in text:
+        return "examples"
+    
+    if "coding" in text or "practice" in text or "code" in text:
+        return "coding"
+    
+    return "chat"
+
 @app.post("/chat")
 def chat(req: ChatRequest):
     context = ""
@@ -96,6 +116,14 @@ def chat(req: ChatRequest):
             question=req.message,
         )
         context = "\n\n".join(chunks)
+    
+    intent = detect_intent(req.message)
+
+    if intent != "chat":
+        return {
+            "type": intent, 
+            "topic": req.message,
+        }
     
     system = f"""
 You are Eunoia, an AI study tutor.
@@ -119,6 +147,7 @@ Context:
     )
     title, actions = get_learning_actions(req.message)
     return {
+        "type": "chat",
         "response": res.choices[0].message.content,
         "learning_title": title,
         "actions": actions,
