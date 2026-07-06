@@ -1,5 +1,6 @@
 from rag.document_service import DocumentService
 from rag.document_repository import DocumentRepository
+from rag.session_repository import SessionRepository
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -32,6 +33,7 @@ client = AzureOpenAI(
 DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 document_service = DocumentService()
 document_repository = DocumentRepository()
+session_repository = SessionRepository()
 
 
 # ── Request models
@@ -39,6 +41,7 @@ document_repository = DocumentRepository()
 class ChatRequest(BaseModel):
     message: str
     document_name: Optional[str] = None
+    session_id: Optional[str] = None
 
 class RenameRequest(BaseModel):
     new_name: str
@@ -52,6 +55,9 @@ class FlashcardRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
     num_cards: int = 8
+
+class SessionRequest(BaseModel):
+    document_name: Optional[str] = None
 
 
 # ── Helpers 
@@ -141,6 +147,15 @@ Context:
 
 {context}
 """
+
+    if req.session_id:
+        session_repository.add_message(
+            req.session_id, 
+            "user", 
+            req.message,
+        )
+
+    
     res = client.chat.completions.create(
         model=DEPLOYMENT,
         messages=[
@@ -148,10 +163,21 @@ Context:
             {"role": "user", "content": req.message},
         ],
     )
+
+    answer = res.choices[0].message.content
+
+    if req.session_id:
+        session_repository.add_message(
+            req.session_id, 
+            "assistant",
+            answer,
+        )
+
     title, actions = get_learning_actions(req.message)
+
     return {
         "type": "chat",
-        "response": res.choices[0].message.content,
+        "response": answer,
         "learning_title": title,
         "actions": actions,
     }
@@ -278,6 +304,37 @@ def rename_document(
         )
 
     return {"success": True}
+
+@app.post("/sessions") 
+def create_session(req: SessionRequest):
+
+    session = session_repository.create_session(
+        req.document_name,
+    )
+
+    return session
+
+@app.get("/sessions/{document_name}") 
+def get_session(document_name: str):
+    session = session_repository.get_latest_session(
+        document_name,
+    )
+
+    if session is None:
+        return {
+            "exists": False,
+        }
+
+    return {
+        "exists": True, 
+        "session": session,
+    }
+
+@app.get("/sessions/{session_id}/messages")
+def get_messages(session_id: str):
+    return session_repository.get_messages(
+        session_id,
+    )
 
 @app.post("/upload")
 async def upload_pdf(
