@@ -8,12 +8,18 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 from typing import Optional
 import os, json, re, shutil 
-from fastapi import UploadFile, File, HTTPException
+from fastapi import UploadFile, File, HTTPException, Depends
+from sqlalchemy.orm import Session
 import uuid
+from database.database import engine, get_db
+from database.crud import create_document
+from database.models import Base
+
 
 load_dotenv()
 
 app = FastAPI()
+Base.metadata.create_all(bind=engine)
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
@@ -338,6 +344,7 @@ def get_messages(session_id: str):
 
 @app.post("/upload")
 async def upload_pdf(
+    db: Session = Depends(get_db),
     file: UploadFile = File(...)
 ):
 
@@ -375,6 +382,13 @@ async def upload_pdf(
         document_name=document_name,
         original_filename=file.filename, 
         stored_filename=unique_filename,
+    )
+    create_document(
+        db=db,
+        document_name=document_name, 
+        original_filename=file.filename, 
+        stored_filename=unique_filename, 
+        total_chunks=total_chunks,
     )
 
     return {
