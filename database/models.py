@@ -59,3 +59,27 @@ class Document(Base):
     )
 
     user = relationship("User")
+
+class StudySession(Base):
+    __tablename__ = "study_sessions"
+
+    id = Column(String, primary_key=True)
+
+    document_name = Column(String)
+
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
+
+    updated_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(), 
+        onupdate=func.now(),
+    )
+
+    user_id = Column(
+        Integer, 
+        ForeignKey("users.id"), 
+        nullable=True,
+    )

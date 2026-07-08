@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session
 from database.models import Base
 
 
@@ -268,18 +268,24 @@ Rules:
     return clean_json(res.choices[0].message.content)
 
 @app.get("/documents") 
-def get_documents():
-    return document_repository.get_all_documents()
+def get_documents(
+    db: Session = Depends(get_db),
+):
+    return get_all_documents(db)
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
 
 @app.delete("/documents/{document_name}") 
-def delete_document(document_name: str):
+def delete_document_route(
+    document_name: str, 
+    db: Session = Depends(get_db),
+    ):
 
-    deleted = document_repository.delete_document(
-        document_name
+    deleted = delete_document(
+        db,
+        document_name,
     )
 
     if not deleted:
@@ -293,12 +299,14 @@ def delete_document(document_name: str):
     }
 
 @app.put("/documents/{document_name}")
-def rename_document(
+def rename_document_route(
     document_name: str,
     req: RenameRequest,
+    db: Session = Depends(get_db),
 ):
 
-    success = document_repository.rename_document(
+    success = rename_document(
+        db,
         document_name,
         req.new_name,
     )
@@ -312,17 +320,23 @@ def rename_document(
     return {"success": True}
 
 @app.post("/sessions") 
-def create_session(req: SessionRequest):
+def create_session_route(
+    req: SessionRequest,
+    db: Session = Depends(get_db),
+    ):
 
-    session = session_repository.create_session(
+    return create_session(
+        db,
         req.document_name,
     )
 
-    return session
-
 @app.get("/sessions/{document_name}") 
-def get_session(document_name: str):
-    session = session_repository.get_latest_session(
+def get_session(
+    document_name: str,
+    db: Session = Depends(get_db),
+    ):
+    session = get_latest_session(
+        db,
         document_name,
     )
 
