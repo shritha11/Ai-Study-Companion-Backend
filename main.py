@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session, add_message, get_messages
 from database.models import Base
 
 
@@ -123,7 +123,10 @@ def detect_intent(message: str):
     return "chat"
 
 @app.post("/chat")
-def chat(req: ChatRequest):
+def chat(
+    req: ChatRequest,
+    db: Session = Depends(get_db),
+    ):
     context = ""
     if req.document_name:
         chunks = document_service.retrieve(
@@ -155,7 +158,8 @@ Context:
 """
 
     if req.session_id:
-        session_repository.add_message(
+        add_message(
+            db,
             req.session_id, 
             "user", 
             req.message,
@@ -173,7 +177,8 @@ Context:
     answer = res.choices[0].message.content
 
     if req.session_id:
-        session_repository.add_message(
+        add_message(
+            db,
             req.session_id, 
             "assistant",
             answer,
@@ -351,8 +356,12 @@ def get_session(
     }
 
 @app.get("/sessions/{session_id}/messages")
-def get_messages(session_id: str):
-    return session_repository.get_messages(
+def get_messages_route(
+    session_id: str,
+    db: Session = Depends(get_db),
+):
+    return get_messages(
+        db,
         session_id,
     )
 

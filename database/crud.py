@@ -3,6 +3,7 @@ from database.models import Document
 import uuid
 from database.models import StudySession
 from typing import Optional
+from database.models import Message
 
 def create_document(
     db: Session, 
@@ -95,9 +96,43 @@ def rename_document(
     if document is None:
         return None
     
-    document.document_name = new_name
+    document.original_filename = new_name
 
     db.commit()
     db.refresh(document)
 
     return document
+
+def add_message(
+    db: Session, 
+    session_id: str, 
+    role: str,
+    content: str,
+):
+    message = Message(
+        session_id=session_id,
+        role=role,
+        content=content,
+    )
+
+    db.add(message)
+    db.commit()
+    db.refresh(message)
+
+    return message
+
+def get_messages(
+    db: Session,
+    session_id: str,
+):
+   
+    return (
+        db.query(Message)
+        .filter(
+            Message.session_id == session_id,
+        )
+        .order_by(
+            Message.created_at.asc(),
+        )
+        .all()
+    )
