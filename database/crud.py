@@ -3,7 +3,7 @@ from database.models import Document
 import uuid
 from database.models import StudySession
 from typing import Optional
-from database.models import Message
+from database.models import Message, User
 
 def create_document(
     db: Session, 
@@ -11,12 +11,14 @@ def create_document(
     original_filename: str, 
     stored_filename: str, 
     total_chunks: int,
+    user_id: int
 ):
     document = Document(
         document_name=document_name, 
         original_filename=original_filename, 
         stored_filename=stored_filename, 
         total_chunks=total_chunks,
+        user_id=user_id,
     )
 
     db.add(document)
@@ -27,9 +29,11 @@ def create_document(
 
 def get_all_documents(
     db: Session,
+    user_id: int,
 ):
     return (
         db.query(Document)
+        .filter(Document.user_id == user_id)
         .order_by(Document.uploaded_at.desc())
         .all()
     )
@@ -136,3 +140,32 @@ def get_messages(
         )
         .all()
     )
+
+def get_user_by_email(
+    db: Session,
+    email: str,
+):
+    return(
+        db.query(User)
+        .filter(User.email == email)
+        .first()
+    )
+
+def create_user(
+    db: Session,
+    name: str,
+    email: str,
+    password_hash: str,
+):
+
+    user = User(
+        name=name,
+        email=email,
+        password_hash=password_hash,
+    )
+
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+
+    return user

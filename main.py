@@ -13,8 +13,23 @@ from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
 from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session, add_message, get_messages
-from database.models import Base
+from database.models import Base, User
+from auth.security import (
+    hash_password,
+    verify_password,
+    create_access_token,
+)
 
+from database.schemas import (
+    SignupRequest,
+    LoginRequest,
+)
+
+from database.crud import (
+    get_user_by_email,
+    create_user,
+)
+from auth.security import get_current_user
 
 load_dotenv()
 
@@ -275,8 +290,12 @@ Rules:
 @app.get("/documents") 
 def get_documents(
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
-    return get_all_documents(db)
+    return get_all_documents(
+        db,
+        current_user.id,
+        )
 
 @app.get("/health")
 def health():
@@ -335,6 +354,75 @@ def create_session_route(
         req.document_name,
     )
 
+@app.post("/signup")
+def signup(
+    req: SignupRequest, 
+    db: Session = Depends(get_db),
+):
+    existing = get_user_by_email(
+        db, 
+        req.email,
+    )
+
+    if existing:
+        raise HTTPException(
+            status_code=400,
+            detail="Email already registered",
+        )
+
+    user = create_user(
+        db,
+        req.name,
+        req.email,
+        hash_password(req.password),
+    )
+
+    token = create_access_token({
+        "sub": str(user.id),
+    })
+
+    return {
+        "access_token": token, 
+        "user_id": user.id,
+    }
+
+@app.post("/login") 
+def login(
+    req: LoginRequest, 
+    db: Session = Depends(get_db),
+):
+
+    user = get_user_by_email(
+        db,
+        req.email,
+    )
+
+    if user is None:
+        raise HTTPException(
+            status_code=401, 
+            detail="Invalid email or password",
+        )
+
+    if not verify_password(
+        req.password, 
+        user.password_hash,
+    ): 
+        raise HTTPException(
+            status_code=401, 
+            detail="Invalid email or password",
+        )
+
+    token = create_access_token({
+        "sub": str(user.id),
+    })
+
+    return {
+        "access_token": token, 
+        "user_id": user.id,
+        "name": user.name,
+        "email": user.email,
+    }
+
 @app.get("/sessions/{document_name}") 
 def get_session(
     document_name: str,
@@ -368,6 +456,7 @@ def get_messages_route(
 @app.post("/upload")
 async def upload_pdf(
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
     file: UploadFile = File(...)
 ):
 
@@ -412,6 +501,7 @@ async def upload_pdf(
         original_filename=file.filename, 
         stored_filename=unique_filename, 
         total_chunks=total_chunks,
+        user_id=current_user.id,
     )
 
     return {
