@@ -384,6 +384,8 @@ def signup(
     return {
         "access_token": token, 
         "user_id": user.id,
+        "name": user.name, 
+        "email": user.email,
     }
 
 @app.post("/login") 
