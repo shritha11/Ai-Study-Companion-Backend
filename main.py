@@ -23,11 +23,13 @@ from auth.security import (
 from database.schemas import (
     SignupRequest,
     LoginRequest,
+    UserResponse,
 )
 
 from database.crud import (
     get_user_by_email,
     create_user,
+    get_user_by_id,
 )
 from auth.security import get_current_user
 
@@ -363,6 +365,17 @@ def create_session_route(
     return create_session(
         db,
         req.document_name,
+        current_user.id,
+    )
+
+@app.get("/me",response_model= UserResponse,
+)
+def get_me(
+    db: Session = Depends(get_db), 
+    current_user: User = Depends(get_current_user),
+):
+    return get_user_by_id(
+        db,
         current_user.id,
     )
 
