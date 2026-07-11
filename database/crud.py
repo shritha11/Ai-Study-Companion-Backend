@@ -29,7 +29,7 @@ def create_document(
 
 def get_all_documents(
     db: Session,
-    user_id: int,
+    user_id: int,   
 ):
     return (
         db.query(Document)
@@ -41,10 +41,12 @@ def get_all_documents(
 def create_session(
     db: Session, 
     document_name: Optional[str],
+    user_id: int,
 ):
     session = StudySession(
         id=str(uuid.uuid4()),
         document_name=document_name,
+        user_id=user_id,
     )
 
     db.add(session)
@@ -56,11 +58,13 @@ def create_session(
 def get_latest_session(
     db: Session, 
     document_name: str,
+    user_id: int,
 ):
     return(
         db.query(StudySession)
         .filter(
             StudySession.document_name == document_name,
+            StudySession.user_id == user_id,
         )
         .order_by(
             StudySession.created_at.desc(),
@@ -71,10 +75,14 @@ def get_latest_session(
 def delete_document(
     db: Session, 
     document_name: str,
+    user_id: int,
 ):
     document = (
         db.query(Document)
-        .filter(Document.document_name == document_name)
+        .filter(
+            Document.document_name == document_name, 
+            Document.user_id == user_id,
+            )
         .first()
     )
 
@@ -90,10 +98,15 @@ def rename_document(
     db: Session,
     old_name: str, 
     new_name: str,
+    user_id: int,
 ):
     document = (
         db.query(Document)
-        .filter(Document.document_name == old_name)
+        .filter(
+            Document.document_name == old_name, 
+            Document.user_id == user_id,
+            )
+
         .first()
     )
 
@@ -134,6 +147,7 @@ def get_messages(
         db.query(Message)
         .filter(
             Message.session_id == session_id,
+            StudySession.user_id == user_id,
         )
         .order_by(
             Message.created_at.asc(),

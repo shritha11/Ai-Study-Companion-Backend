@@ -141,6 +141,7 @@ def detect_intent(message: str):
 def chat(
     req: ChatRequest,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
     ):
     context = ""
     if req.document_name:
@@ -210,7 +211,10 @@ Context:
 
 
 @app.post("/quiz")
-def generate_quiz(req: QuizRequest):
+def generate_quiz(
+    req: QuizRequest,
+    current_user: User = Depends(get_current_user),
+    ):
     context = ""
 
     if req.document_name:
@@ -252,7 +256,10 @@ Rules:
 
 
 @app.post("/flashcards")
-def generate_flashcards(req: FlashcardRequest):
+def generate_flashcards(
+    req: FlashcardRequest,
+    current_user: User = Depends(get_current_user),
+    ):
     context = ""
     if req.document_name:
         chunks = document_service.retrieve(
@@ -305,11 +312,13 @@ def health():
 def delete_document_route(
     document_name: str, 
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
     ):
 
     deleted = delete_document(
         db,
         document_name,
+        current_user.id,
     )
 
     if not deleted:
@@ -327,6 +336,7 @@ def rename_document_route(
     document_name: str,
     req: RenameRequest,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
 
     success = rename_document(
@@ -347,11 +357,13 @@ def rename_document_route(
 def create_session_route(
     req: SessionRequest,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
     ):
 
     return create_session(
         db,
         req.document_name,
+        current_user.id,
     )
 
 @app.post("/signup")
@@ -429,10 +441,12 @@ def login(
 def get_session(
     document_name: str,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
     ):
     session = get_latest_session(
         db,
         document_name,
+        current_user.id,
     )
 
     if session is None:
@@ -449,6 +463,7 @@ def get_session(
 def get_messages_route(
     session_id: str,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
     return get_messages(
         db,
