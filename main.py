@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session, add_message, get_messages, get_session_count, get_document_count
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count
 from database.models import Base, User
 from auth.security import (
     hash_password,
@@ -347,6 +347,7 @@ def rename_document_route(
         db,
         document_name,
         req.new_name,
+        current_user.id,
     )
 
     if not success:
@@ -403,6 +404,15 @@ def get_dashboard(
             "quizzes": 0,
             "flashcards": 0,
         },
+        "continue_learning": get_continue_learning(
+            db,
+            current_user.id,
+        ),
+        "recent_sessions": get_recent_sessions(
+            db,
+            current_user.id,
+        ),
+
     }
 
 @app.post("/signup")
@@ -482,7 +492,7 @@ def get_session(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
     ):
-    session = get_latest_session(
+    session = get_latest_session_for_document(
         db,
         document_name,
         current_user.id,
@@ -507,6 +517,7 @@ def get_messages_route(
     return get_messages(
         db,
         session_id,
+        current_user.id,
     )
 
 @app.post("/upload")

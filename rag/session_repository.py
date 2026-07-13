@@ -48,8 +48,6 @@ class SessionRepository:
 
         return session
 
-    def get_latest_session(self, document_name):
-        sessions = self.get_all_sessions()
         for session in reversed(sessions):
             if session.get("document_name") == document_name:
                 return session

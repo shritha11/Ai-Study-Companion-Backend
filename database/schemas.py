@@ -1,5 +1,6 @@
 from pydantic import BaseModel 
 from datetime import datetime
+from typing import Optional
 
 class DocumentBase(BaseModel):
     document_name: str
@@ -42,7 +43,30 @@ class DashboardStats(BaseModel):
     quizzes: int = 0
     flashcards: int = 0
 
+class ContinueLearningResponse(BaseModel):
+    id: str
+    document_name: Optional[str]
+    created_at: datetime
+
+    model_config = {
+        "from_attributes": True
+    }
+
+class RecentSessionResponse(BaseModel):
+    id: str
+    document_name: Optional[str]
+    created_at: datetime
+
+    model_config = {
+        "from_attributes": True
+    }
+
 class DashboardResponse(BaseModel):
     user: UserResponse
     stats: DashboardStats
+
+    continue_learning: Optional[ContinueLearningResponse]
+    recent_sessions: list[RecentSessionResponse]
+
+
 

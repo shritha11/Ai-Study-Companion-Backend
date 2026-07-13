@@ -76,7 +76,7 @@ def create_session(
 
     return session
 
-def get_latest_session(
+def get_latest_session_for_document(
     db: Session, 
     document_name: str,
     user_id: int,
@@ -114,6 +114,38 @@ def delete_document(
     db.commit()
 
     return document
+
+def get_recent_sessions(
+    db: Session,
+    user_id: int,
+    limit: int = 5,
+):
+    return(
+        db.query(StudySession) 
+        .filter(
+            StudySession.user_id == user_id
+        )
+        .order_by(
+            StudySession.created_at.desc()
+        )
+        .limit(limit)
+        .all()
+    )
+
+def get_continue_learning(
+    db: Session,
+    user_id: int,
+):
+    return(
+        db.query(StudySession)
+        .filter(
+            StudySession.user_id == user_id
+        )
+        .order_by(
+            StudySession.created_at.desc()
+        )
+        .first()
+    )
 
 def rename_document(
     db: Session,
@@ -162,10 +194,15 @@ def add_message(
 def get_messages(
     db: Session,
     session_id: str,
+    user_id: int,
 ):
    
     return (
         db.query(Message)
+        .join(
+            StudySession,
+            Message.session_id == StudySession.id,
+        )
         .filter(
             Message.session_id == session_id,
             StudySession.user_id == user_id,

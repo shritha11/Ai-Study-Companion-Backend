@@ -55,8 +55,12 @@ security = HTTPBearer()
 def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(security),
     db: Session = Depends(get_db),
-): 
+):
     token = credentials.credentials
+
+    print("=" * 50)
+    print("TOKEN:", token)
+    print("SECRET:", SECRET_KEY)
 
     credentials_exception = HTTPException(
         status_code=401,
@@ -70,12 +74,17 @@ def get_current_user(
             algorithms=[ALGORITHM],
         )
 
+        print("PAYLOAD:", payload)
+
         user_id = payload.get("sub")
+        print("USER ID:", user_id)
 
         if user_id is None:
+            print("USER ID IS NONE")
             raise credentials_exception
 
-    except JWTError:
+    except JWTError as e:
+        print("JWT ERROR:", e)
         raise credentials_exception
 
     user = (
@@ -84,7 +93,12 @@ def get_current_user(
         .first()
     )
 
+    print("USER:", user)
+
     if user is None:
+        print("USER NOT FOUND")
         raise credentials_exception
+
+    print("=" * 50)
 
     return user
