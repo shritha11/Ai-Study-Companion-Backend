@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session, add_message, get_messages
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session, add_message, get_messages, get_session_count, get_document_count
 from database.models import Base, User
 from auth.security import (
     hash_password,
@@ -24,6 +24,8 @@ from database.schemas import (
     SignupRequest,
     LoginRequest,
     UserResponse,
+    DashboardResponse,
+    DashboardStats,
 )
 
 from database.crud import (
@@ -378,6 +380,30 @@ def get_me(
         db,
         current_user.id,
     )
+
+@app.get("/dashboard",response_model= DashboardResponse)
+def get_dashboard(
+    current_user: User = Depends(get_current_user), 
+    db: Session = Depends(get_db),
+):
+    return {
+        "user": get_user_by_id(
+            db,
+            current_user.id,
+        ),
+        "stats": {
+            "sessions": get_session_count(
+                db,
+                current_user.id,
+            ),
+            "documents": get_document_count(
+                db,
+                current_user.id,
+            ),
+            "quizzes": 0,
+            "flashcards": 0,
+        },
+    }
 
 @app.post("/signup")
 def signup(

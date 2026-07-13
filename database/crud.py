@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 from database.models import Document
 import uuid
 from database.models import StudySession
@@ -36,6 +37,26 @@ def get_all_documents(
         .filter(Document.user_id == user_id)
         .order_by(Document.uploaded_at.desc())
         .all()
+    )
+
+def get_session_count(
+    db: Session,
+    user_id: int,
+):
+    return(
+        db.query(func.count(StudySession.id))
+        .filter(StudySession.user_id == user_id)
+        .scalar()
+    )
+
+def get_document_count(
+    db: Session,
+    user_id: int,
+):
+    return(
+        db.query(func.count(Document.id))
+        .filter(Document.user_id == user_id)
+        .scalar()
     )
 
 def create_session(

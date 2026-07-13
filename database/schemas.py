@@ -35,3 +35,14 @@ class UserResponse(BaseModel):
     model_config = {
         "from_attributes": True
     }
+
+class DashboardStats(BaseModel):
+    sessions: int
+    documents: int
+    quizzes: int = 0
+    flashcards: int = 0
+
+class DashboardResponse(BaseModel):
+    user: UserResponse
+    stats: DashboardStats
+
