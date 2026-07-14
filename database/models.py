@@ -84,7 +84,7 @@ class StudySession(Base):
     user_id = Column(
         Integer, 
         ForeignKey("users.id"), 
-        nullable=True,
+        nullable=False,
     )
 
 class Message(Base):
@@ -116,3 +116,58 @@ class Message(Base):
         DateTime(timezone=True),
         server_default=func.now(),
     )
+
+class Quiz(Base):
+    __tablename__ = "quizzes"
+
+    id = Column(
+        Integer,
+        primary_key=True,
+        index=True,
+    )
+
+    session_id = Column(
+        String,
+        ForeignKey("study_sessions.id"),
+        nullable=False,
+    )
+    user_id = Column(
+        Integer,
+        ForeignKey("users.id"),
+        nullable=False,
+    )
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
+    session = relationship("StudySession")
+    user = relationship("User")
+
+class FlashcardSet(Base):
+    __tablename__ = "flashcard_sets"
+
+    id = Column(
+        Integer,
+        primary_key=True,
+        index=True,
+    )
+
+    session_id = Column(
+        String, 
+        ForeignKey("study_sessions.id"),
+        nullable=False,
+    )
+
+    user_id = Column(
+        Integer,
+        ForeignKey("users.id"),
+        nullable=False,
+    )
+
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
+
+    session = relationship("StudySession")
+    user = relationship("User")

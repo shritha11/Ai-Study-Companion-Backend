@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, create_quiz, create_flashcard_set, get_quiz_count, get_flashcard_count, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count
 from database.models import Base, User
 from auth.security import (
     hash_password,
@@ -74,11 +74,13 @@ class RenameRequest(BaseModel):
 class QuizRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
+    session_id: str
     num_questions: int = 5
 
 class FlashcardRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
+    session_id: str
     num_cards: int = 8
 
 class SessionRequest(BaseModel):
@@ -217,6 +219,7 @@ Context:
 @app.post("/quiz")
 def generate_quiz(
     req: QuizRequest,
+    db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
     ):
     context = ""
@@ -256,12 +259,19 @@ Rules:
         temperature=0.7,
         response_format={"type": "json_object"},
     )
+
+    create_quiz(
+        db=db,
+        session_id=req.session_id,
+        user_id=current_user.id,
+    )
     return clean_json(res.choices[0].message.content)
 
 
 @app.post("/flashcards")
 def generate_flashcards(
     req: FlashcardRequest,
+    db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
     ):
     context = ""
@@ -295,6 +305,12 @@ Rules:
         messages=[{"role": "user", "content": prompt}],
         temperature=0.6,
         response_format={"type": "json_object"},
+    )
+
+    create_flashcard_set(
+        db=db,
+        session_id=req.session_id,
+        user_id=current_user.id,
     )
     return clean_json(res.choices[0].message.content)
 
@@ -401,8 +417,14 @@ def get_dashboard(
                 db,
                 current_user.id,
             ),
-            "quizzes": 0,
-            "flashcards": 0,
+            "quizzes": get_quiz_count(
+                db, 
+                current_user.id,
+            ),
+            "flashcards": get_flashcard_count(
+                db,
+                current_user.id,
+            ),
         },
         "continue_learning": get_continue_learning(
             db,

@@ -4,7 +4,7 @@ from database.models import Document
 import uuid
 from database.models import StudySession
 from typing import Optional
-from database.models import Message, User
+from database.models import Message, User, Quiz, FlashcardSet
 
 def create_document(
     db: Session, 
@@ -123,7 +123,8 @@ def get_recent_sessions(
     return(
         db.query(StudySession) 
         .filter(
-            StudySession.user_id == user_id
+            StudySession.user_id == user_id,
+            StudySession.document_name.isnot(None),
         )
         .order_by(
             StudySession.created_at.desc()
@@ -139,7 +140,8 @@ def get_continue_learning(
     return(
         db.query(StudySession)
         .filter(
-            StudySession.user_id == user_id
+            StudySession.user_id == user_id,
+            StudySession.document_name.isnot(None),
         )
         .order_by(
             StudySession.created_at.desc()
@@ -211,6 +213,60 @@ def get_messages(
             Message.created_at.asc(),
         )
         .all()
+    )
+
+def create_quiz(
+    db: Session,
+    session_id: str,
+    user_id: int,
+):
+    quiz = Quiz(
+        session_id=session_id,
+        user_id=user_id,
+    )
+
+    db.add(quiz)
+    db.commit()
+    db.refresh(quiz)
+
+    return quiz
+
+def create_flashcard_set(
+    db: Session,
+    session_id: str,
+    user_id: int,
+):
+
+    flashcard = FlashcardSet(
+        session_id=session_id,
+        user_id=user_id,
+    )
+
+    db.add(flashcard)
+    db.commit()
+    db.refresh(flashcard)
+
+    return flashcard
+
+def get_quiz_count(
+    db: Session,
+    user_id: int,
+):
+
+    return(
+        db.query(func.count(Quiz.id))
+        .filter(Quiz.user_id == user_id)
+        .scalar()
+    )
+
+def get_flashcard_count(
+    db: Session,
+    user_id: int,
+):
+    return(
+        db.query(func.count(FlashcardSet.id))
+        .filter(FlashcardSet.user_id == user_id)
+        .scalar()
     )
 
 def get_user_by_email(
