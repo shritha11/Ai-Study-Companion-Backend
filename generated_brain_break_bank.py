@@ -169,7 +169,6 @@ def generate_questions(topic):
             break
 
     return {
-        "title": topic,
         "category": category,
         "challengeType": "quiz",
         "estimatedTime": "3 mins",
@@ -202,8 +201,7 @@ def generate_questions(topic):
         if topic in topics:
             category = folder.capitalize()
             break
-    return {
-        "title": topic, 
+    return { 
         "category": category,
         "questions": all_questions,
         "challengeType": "quiz",

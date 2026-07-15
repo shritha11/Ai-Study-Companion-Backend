@@ -13,7 +13,7 @@ from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
 from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, create_quiz, create_flashcard_set, get_quiz_count, get_flashcard_count, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count
-from database.models import Base, User
+from database.models import Base, User, StudySession
 from auth.security import (
     hash_password,
     verify_password,
@@ -186,6 +186,17 @@ Context:
             "user", 
             req.message,
         )
+
+    session = (
+        db.query(StudySession)
+        .filter(StudySession.id == req.session_id)
+        .first()
+    )
+
+    if session:
+        if session.title == "New Chat":
+            session.title = req.message[:60]
+            db.commit()
 
     
     res = client.chat.completions.create(

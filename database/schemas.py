@@ -45,6 +45,7 @@ class DashboardStats(BaseModel):
 
 class ContinueLearningResponse(BaseModel):
     id: str
+    title: Optional[str]
     document_name: Optional[str]
     created_at: datetime
 
@@ -54,6 +55,7 @@ class ContinueLearningResponse(BaseModel):
 
 class RecentSessionResponse(BaseModel):
     id: str
+    title: Optional[str]
     document_name: Optional[str]
     created_at: datetime
 

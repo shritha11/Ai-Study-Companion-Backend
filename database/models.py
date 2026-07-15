@@ -69,6 +69,11 @@ class StudySession(Base):
     id = Column(String, primary_key=True)
 
     document_name = Column(String)
+    
+    title = Column(
+        String,
+        nullable=True,
+    )
 
     created_at = Column(
         DateTime(timezone=True),
@@ -86,6 +91,7 @@ class StudySession(Base):
         ForeignKey("users.id"), 
         nullable=False,
     )
+
 
 class Message(Base):
     __tablename__ = "messages"

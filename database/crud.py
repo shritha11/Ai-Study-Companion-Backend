@@ -67,6 +67,7 @@ def create_session(
     session = StudySession(
         id=str(uuid.uuid4()),
         document_name=document_name,
+        title=document_name if document_name else "New Chat",
         user_id=user_id,
     )
 
@@ -124,7 +125,6 @@ def get_recent_sessions(
         db.query(StudySession) 
         .filter(
             StudySession.user_id == user_id,
-            StudySession.document_name.isnot(None),
         )
         .order_by(
             StudySession.created_at.desc()
@@ -141,7 +141,6 @@ def get_continue_learning(
         db.query(StudySession)
         .filter(
             StudySession.user_id == user_id,
-            StudySession.document_name.isnot(None),
         )
         .order_by(
             StudySession.created_at.desc()
