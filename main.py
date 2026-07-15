@@ -66,6 +66,7 @@ session_repository = SessionRepository()
 class ChatRequest(BaseModel):
     message: str
     document_name: Optional[str] = None
+    document_names: Optional[list[str]] = None
     session_id: Optional[str] = None
 
 class RenameRequest(BaseModel):
@@ -74,12 +75,14 @@ class RenameRequest(BaseModel):
 class QuizRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
+    document_names: Optional[list[str]] = None
     session_id: str
     num_questions: int = 5
 
 class FlashcardRequest(BaseModel):
     topic: str
     document_name: Optional[str] = None
+    document_names: Optional[list[str]] = None
     session_id: str
     num_cards: int = 8
 
@@ -150,11 +153,24 @@ def chat(
     current_user: User = Depends(get_current_user),
     ):
     context = ""
-    if req.document_name:
+    if req.document_names:
+        all_chunks = []
+
+        for document in req.document_names:
+            chunks = document_service.retrieve(
+                document_name=document,
+                question=req.message,
+            )
+            all_chunks.extend(chunks)
+
+        context = "\n\n".join(all_chunks)
+
+    elif req.document_name:
         chunks = document_service.retrieve(
-            document_name=req.document_name, 
+            document_name=req.document_name,
             question=req.message,
         )
+
         context = "\n\n".join(chunks)
     
     intent = detect_intent(req.message)
@@ -235,15 +251,38 @@ def generate_quiz(
     ):
     context = ""
 
-    if req.document_name:
+    if req.document_names:
+        all_chunks = []
 
+        for document in req.document_names:
+            chunks = document_service.retrieve(
+                document_name=req.document,
+                question=req.topic,
+            )
+            all_chunks.extend(chunks)
+
+        context = "\n\n".join[:8]
+
+    elif req.document_name:
         chunks = document_service.retrieve(
             document_name=req.document_name,
             question=req.topic,
         )
-
         context = "\n\n".join(chunks)
-    source = "from the uploaded PDF" if req.document_name else "using your knowledge"
+
+    # if req.document_name:
+
+    #     chunks = document_service.retrieve(
+    #         document_name=req.document_name,
+    #         question=req.topic,
+    #     )
+
+    #     context = "\n\n".join(chunks)
+    source = (
+        "from the uploaded documents"
+        if req.document_name or req.document_names
+        else "using your knowledge"
+    )
     prompt = f"""Generate {req.num_questions} multiple choice questions on "{req.topic}" {source}.{context}
 
     Return ONLY valid JSON, no explanation, no markdown:
@@ -286,13 +325,29 @@ def generate_flashcards(
     current_user: User = Depends(get_current_user),
     ):
     context = ""
-    if req.document_name:
+    if req.document_names:
+        all_chunks = []
+
+        for document in req.document_names:
+            chunks = document_service.retrieve(
+                document_name=req.document,
+                question=req.topic,
+            )
+            all_chunks.extend(chunks)
+
+        context = "\n\n".join[:8]
+
+    elif req.document_name:
         chunks = document_service.retrieve(
             document_name=req.document_name,
             question=req.topic,
         )
         context = "\n\n".join(chunks)
-    source = "from the uploaded PDF" if req.document_name else "using your knowledge"
+    source = (
+        "from the uploaded documents"
+        if req.document_name or req.document_names
+        else "using your knowledge"
+    )
     prompt = f"""Create {req.num_cards} flashcards on "{req.topic}" {source}.{context}
 
 Return ONLY valid JSON, no explanation, no markdown:
