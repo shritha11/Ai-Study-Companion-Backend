@@ -5,6 +5,7 @@ import uuid
 from database.models import StudySession
 from typing import Optional
 from database.models import Message, User, Quiz, FlashcardSet
+from datetime import date, timedelta
 
 def create_document(
     db: Session, 
@@ -306,3 +307,36 @@ def get_user_by_id(
         .filter(User.id == user_id)
         .first()
     )
+
+
+def update_streak(
+    db: Session,
+    user: User,
+):
+    today = date.today()
+
+    # First study ever
+    if user.last_study_date is None:
+        user.current_streak = 1
+        user.longest_streak = 1
+        user.last_study_date = today
+
+    # Already studied today
+    elif user.last_study_date == today:
+        return
+
+    # Consecutive day
+    elif user.last_study_date == today - timedelta(days=1):
+        user.current_streak += 1
+        user.last_study_date = today
+
+        if user.current_streak > user.longest_streak:
+            user.longest_streak = user.current_streak
+
+    # Missed one or more days
+    else:
+        user.current_streak = 1
+        user.last_study_date = today
+
+    db.commit()
+    db.refresh(user)

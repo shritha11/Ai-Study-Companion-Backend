@@ -12,7 +12,7 @@ from fastapi import UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import uuid
 from database.database import engine, get_db
-from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, create_quiz, create_flashcard_set, get_quiz_count, get_flashcard_count, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count
+from database.crud import create_document, get_all_documents, delete_document, rename_document, create_session, get_latest_session_for_document, add_message, create_quiz, create_flashcard_set, get_quiz_count, get_flashcard_count, get_messages, get_continue_learning, get_recent_sessions, get_session_count, get_document_count, update_streak
 from database.models import Base, User, StudySession
 from auth.security import (
     hash_password,
@@ -233,6 +233,11 @@ Context:
             answer,
         )
 
+    update_streak(
+        db, 
+        current_user,
+    )
+
     title, actions = get_learning_actions(req.message)
 
     return {
@@ -315,6 +320,11 @@ Rules:
         session_id=req.session_id,
         user_id=current_user.id,
     )
+
+    update_streak(
+        db,
+        current_user,
+    )
     return clean_json(res.choices[0].message.content)
 
 
@@ -377,6 +387,10 @@ Rules:
         db=db,
         session_id=req.session_id,
         user_id=current_user.id,
+    )
+    update_streak(
+        db,
+        current_user,
     )
     return clean_json(res.choices[0].message.content)
 
