@@ -7,6 +7,15 @@ reader = easyocr.Reader(
     ['en'],
 )
 
+def extract_text_from_image(image_path: str):
+    result = reader.readtext(
+        image_path,
+        detail=0,
+        paragraph=True,
+    )
+
+    return "\n".join(result)
+
 def extract_text_from_scanned_pdf(pdf_path: str):
     doc = fitz.open(pdf_path)
 

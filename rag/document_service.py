@@ -4,7 +4,12 @@ from rag.embeddings import EmbeddingService
 from rag.vector_store import VectorStore
 from rag.retriever import Retriever
 from rag.document_metadata import save_metadata
-from rag.ocr import extract_text_from_scanned_pdf
+from rag.ocr import (
+    extract_text_from_scanned_pdf,
+    extract_text_from_image,
+)
+from rag.ocr_cleanup import clean_ocr_text
+from pathlib import Path
 
 class DocumentService:
     def __init__(self):
@@ -17,14 +22,30 @@ class DocumentService:
         """
         Process a PDF and store its embeddings.
         """
+        extension = Path(file_path).suffix.lower()
         print("Extracting text...")
-        text = extract_text(file_path)
-        if not text or not text.strip():
-            print("No readable text found. Running OCR...")
-            text = extract_text_from_scanned_pdf(file_path)
+        if extension in [".jpg", ".jpeg", ".png"]:
+            print("Image detected. Running OCR...")
+            text = extract_text_from_image(file_path)
+            print("Cleaning OCR text using GPT-4o...")
+            text = clean_ocr_text(text)
+        
+        else:
+            text = extract_text(file_path)
+            if not text or not text.strip():
+                print("No readable text found. Running OCR...")
+                text = extract_text_from_scanned_pdf(file_path)
+                print("Cleaning OCR text using GPT-4o...")
+                text = clean_ocr_text(text)
+                print("========== OCR TEXT ==========")
+                print(text[:2000])
+                print("==============================") 
+                print("OCR cleanup complete.")
         print("Text extracted.")
         print("Chunking text...")
         chunks = chunk_text(text)
+        print("Number of chunks:", len(chunks))
+        print(chunks[:2])
         if len(chunks) == 0:
             raise Exception(
                 "No text chunks generated. OCR support is required."
@@ -49,4 +70,8 @@ class DocumentService:
             query_embedding=query_embedding,
             top_k=top_k
         )
+        print("\n===== RETRIEVED =====")
+        print(results)
+        print("=====================\n")
+
         return results

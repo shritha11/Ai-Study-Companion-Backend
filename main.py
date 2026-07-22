@@ -651,6 +651,9 @@ async def upload_pdf(
         ".pptx", 
         ".txt", 
         ".md",
+        ".jpg",
+        ".jpeg",
+        ".png",
    }
 
     extension = os.path.splitext(file.filename)[1].lower()
