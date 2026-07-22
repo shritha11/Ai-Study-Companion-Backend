@@ -4,6 +4,7 @@ from rag.embeddings import EmbeddingService
 from rag.vector_store import VectorStore
 from rag.retriever import Retriever
 from rag.document_metadata import save_metadata
+from rag.ocr import extract_text_from_scanned_pdf
 
 class DocumentService:
     def __init__(self):
@@ -18,9 +19,16 @@ class DocumentService:
         """
         print("Extracting text...")
         text = extract_text(file_path)
+        if not text or not text.strip():
+            print("No readable text found. Running OCR...")
+            text = extract_text_from_scanned_pdf(file_path)
         print("Text extracted.")
         print("Chunking text...")
         chunks = chunk_text(text)
+        if len(chunks) == 0:
+            raise Exception(
+                "No text chunks generated. OCR support is required."
+            )
         print("Text chunked.")
         print(f"Generated {len(chunks)} chunks")
         print("Generating embeddings...")

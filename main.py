@@ -431,6 +431,22 @@ def delete_document_route(
         "success": True,
     }
 
+@app.post("/voice") 
+async def voice_chat(file: UploadFile = File(...)):
+    audio = await file.read()
+    with open("temp_audio.m4a", "wb") as f:
+        f.write(audio)
+
+    with open("temp_audio.m4a", "rb") as audio_file:
+        transcript = client.audio.transcriptions.create(
+            model="whisper",
+            file=audio_file,
+        )
+
+    return {
+        "text": transcript.text
+    }
+
 @app.put("/documents/{document_name}")
 def rename_document_route(
     document_name: str,

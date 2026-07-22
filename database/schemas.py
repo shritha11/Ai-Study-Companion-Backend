@@ -33,6 +33,10 @@ class UserResponse(BaseModel):
     email: str
     created_at: datetime
 
+
+    current_streak: int
+    longest_streak: int
+    
     model_config = {
         "from_attributes": True
     }
