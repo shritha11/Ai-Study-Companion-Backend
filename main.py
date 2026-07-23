@@ -19,6 +19,9 @@ from auth.security import (
     verify_password,
     create_access_token,
 )
+from fastapi import UploadFile, File
+from rag.speech_to_text import transcribe_audio
+import shutil
 
 from database.schemas import (
     SignupRequest,
@@ -431,21 +434,6 @@ def delete_document_route(
         "success": True,
     }
 
-@app.post("/voice") 
-async def voice_chat(file: UploadFile = File(...)):
-    audio = await file.read()
-    with open("temp_audio.m4a", "wb") as f:
-        f.write(audio)
-
-    with open("temp_audio.m4a", "rb") as audio_file:
-        transcript = client.audio.transcriptions.create(
-            model="whisper",
-            file=audio_file,
-        )
-
-    return {
-        "text": transcript.text
-    }
 
 @app.put("/documents/{document_name}")
 def rename_document_route(
@@ -637,6 +625,49 @@ def get_messages_route(
         session_id,
         current_user.id,
     )
+
+@app.post("/voice")
+async def upload_voice(file: UploadFile = File(...)):
+
+    os.makedirs("uploads/voice", exist_ok=True)
+
+    file_path = os.path.join(
+        "uploads/voice",
+        file.filename,
+    )
+
+    # Save audio first
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+
+    # Transcribe
+    transcript = transcribe_audio(file_path)
+
+    print("Transcript:")
+    print(transcript)
+
+    # Ask GPT
+    response = client.chat.completions.create(
+        model=DEPLOYMENT,
+        messages=[
+            {
+                "role": "system",
+                "content": "You are Eunoia, an AI study tutor.",
+            },
+            {
+                "role": "user",
+                "content": transcript,
+            },
+        ],
+    )
+
+    answer = response.choices[0].message.content
+
+    return {
+        "success": True,
+        "transcript": transcript,
+        "response": answer,
+    }
 
 @app.post("/upload")
 async def upload_pdf(
