@@ -1,17 +1,16 @@
 import json
 import os
 from dotenv import load_dotenv
-from openai import AzureOpenAI
+from openai import OpenAI
 
 load_dotenv()
 
-client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
+client = OpenAI(
+    api_key=os.getenv("NOVA_API_KEY"),
+    base_url=os.getenv("NOVA_BASE_URL"),
+    MODEL=os.getenv("NOVA_MODEL"),
 )
 
-DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
 # 
 
@@ -112,19 +111,12 @@ Rules:
 
 
 
-    response = client.chat.completions.create(
-        model=DEPLOYMENT,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        temperature=0.9,
-        response_format={"type": "json_object"},
+    response = ask_llm(
+        "",
+        prompt,
     )
 
-    data = json.loads(response.choices[0].message.content)
+    data = json.loads(response)
 
     return data["questions"]
 

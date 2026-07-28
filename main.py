@@ -1,10 +1,10 @@
 from rag.document_service import DocumentService
 from rag.document_repository import DocumentRepository
 from rag.session_repository import SessionRepository
-from fastapi import FastAPI
+from fastapi import FastAPI, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from openai import AzureOpenAI
+from rag.llm import ask_llm
 from dotenv import load_dotenv
 from typing import Optional
 import os, json, re, shutil 
@@ -19,9 +19,7 @@ from auth.security import (
     verify_password,
     create_access_token,
 )
-from fastapi import UploadFile, File
 from rag.speech_to_text import transcribe_audio
-import shutil
 
 from database.schemas import (
     SignupRequest,
@@ -52,13 +50,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-)
 
-DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 document_service = DocumentService()
 document_repository = DocumentRepository()
 session_repository = SessionRepository()
@@ -218,15 +210,11 @@ Context:
             db.commit()
 
     
-    res = client.chat.completions.create(
-        model=DEPLOYMENT,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": req.message},
-        ],
-    )
 
-    answer = res.choices[0].message.content
+    answer = ask_llm(
+        system,
+        req.message,
+    )
 
     if req.session_id:
         add_message(
@@ -264,12 +252,12 @@ def generate_quiz(
 
         for document in req.document_names:
             chunks = document_service.retrieve(
-                document_name=req.document,
+                document_name=document,
                 question=req.topic,
             )
             all_chunks.extend(chunks)
 
-        context = "\n\n".join[:8]
+        context = "\n\n".join(all_chunks[:8])
 
     elif req.document_name:
         chunks = document_service.retrieve(
@@ -278,14 +266,6 @@ def generate_quiz(
         )
         context = "\n\n".join(chunks)
 
-    # if req.document_name:
-
-    #     chunks = document_service.retrieve(
-    #         document_name=req.document_name,
-    #         question=req.topic,
-    #     )
-
-    #     context = "\n\n".join(chunks)
     source = (
         "from the uploaded documents"
         if req.document_name or req.document_names
@@ -311,11 +291,10 @@ Rules:
 - Wrong options must be plausible.
 - Return only JSON."""
 
-    res = client.chat.completions.create(
-        model=DEPLOYMENT,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.7,
-        response_format={"type": "json_object"},
+    response = ask_llm(
+        "",
+        prompt,
+        0.9,
     )
 
     create_quiz(
@@ -328,7 +307,7 @@ Rules:
         db,
         current_user,
     )
-    return clean_json(res.choices[0].message.content)
+    return clean_json(response)
 
 
 @app.post("/flashcards")
@@ -343,12 +322,12 @@ def generate_flashcards(
 
         for document in req.document_names:
             chunks = document_service.retrieve(
-                document_name=req.document,
+                document_name=document,
                 question=req.topic,
             )
             all_chunks.extend(chunks)
 
-        context = "\n\n".join[:8]
+        context = "\n\n".join(all_chunks[:8])
 
     elif req.document_name:
         chunks = document_service.retrieve(
@@ -356,6 +335,7 @@ def generate_flashcards(
             question=req.topic,
         )
         context = "\n\n".join(chunks)
+
     source = (
         "from the uploaded documents"
         if req.document_name or req.document_names
@@ -379,12 +359,11 @@ Rules:
 - Cover the most important concepts.
 - Return only JSON."""
 
-    res = client.chat.completions.create(
-        model=DEPLOYMENT,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.6,
-        response_format={"type": "json_object"},
+    response = ask_llm(
+        "",
+        prompt,
     )
+
 
     create_flashcard_set(
         db=db,
@@ -395,7 +374,7 @@ Rules:
         db,
         current_user,
     )
-    return clean_json(res.choices[0].message.content)
+    return clean_json(response)
 
 @app.get("/documents") 
 def get_documents(
@@ -405,7 +384,7 @@ def get_documents(
     return get_all_documents(
         db,
         current_user.id,
-        )
+    )
 
 @app.get("/health")
 def health():
@@ -471,8 +450,7 @@ def create_session_route(
         current_user.id,
     )
 
-@app.get("/me",response_model= UserResponse,
-)
+@app.get("/me", response_model=UserResponse)
 def get_me(
     db: Session = Depends(get_db), 
     current_user: User = Depends(get_current_user),
@@ -482,7 +460,7 @@ def get_me(
         current_user.id,
     )
 
-@app.get("/dashboard",response_model= DashboardResponse)
+@app.get("/dashboard", response_model=DashboardResponse)
 def get_dashboard(
     current_user: User = Depends(get_current_user), 
     db: Session = Depends(get_db),
@@ -518,7 +496,6 @@ def get_dashboard(
             db,
             current_user.id,
         ),
-
     }
 
 @app.post("/signup")
@@ -627,8 +604,13 @@ def get_messages_route(
     )
 
 @app.post("/voice")
-async def upload_voice(file: UploadFile = File(...)):
-
+async def upload_voice(
+    file: UploadFile = File(...),
+    session_id: str = Form(...),
+    document_name: Optional[str] =  Form(None),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
     os.makedirs("uploads/voice", exist_ok=True)
 
     file_path = os.path.join(
@@ -643,25 +625,67 @@ async def upload_voice(file: UploadFile = File(...)):
     # Transcribe
     transcript = transcribe_audio(file_path)
 
+    add_message(
+        db,
+        session_id,
+        "user",
+        transcript,
+    )
+
     print("Transcript:")
     print(transcript)
 
-    # Ask GPT
-    response = client.chat.completions.create(
-        model=DEPLOYMENT,
-        messages=[
-            {
-                "role": "system",
-                "content": "You are Eunoia, an AI study tutor.",
-            },
-            {
-                "role": "user",
-                "content": transcript,
-            },
-        ],
+    context = ""
+
+    if document_name:
+        chunks = document_service.retrieve(
+            document_name=document_name,
+            question=transcript,
+        )
+        context = "\n\n".join(chunks)
+
+    system = f"""
+You are Eunoia, an AI study tutor.
+
+When context is provided, use it as your primary source.
+
+Do not invent facts that are not present in the context.
+
+If the answer cannot be found in the provided context, clearly tell the user.
+
+Context:
+
+{context}
+"""
+
+
+    session = (
+        db.query(StudySession)
+        .filter(StudySession.id == session_id)
+        .first()
     )
 
-    answer = response.choices[0].message.content
+    if session:
+        if session.title == "New Chat":
+            session.title = transcript[:60]
+            db.commit()
+
+    answer = ask_llm(
+        system,
+        transcript,
+    )
+
+    add_message(
+        db,
+        session_id,
+        "assistant",
+        answer,
+    )
+
+    update_streak(
+        db,
+        current_user,
+    )
 
     return {
         "success": True,
@@ -675,7 +699,6 @@ async def upload_pdf(
     current_user: User = Depends(get_current_user),
     file: UploadFile = File(...)
 ):
-
     ALLOWED_EXTENSIONS = {
         ".pdf", 
         ".docx", 
@@ -685,7 +708,7 @@ async def upload_pdf(
         ".jpg",
         ".jpeg",
         ".png",
-   }
+    }
 
     extension = os.path.splitext(file.filename)[1].lower()
     if extension not in ALLOWED_EXTENSIONS:
@@ -730,4 +753,3 @@ async def upload_pdf(
         "document_name": document_name,
         "total_chunks": total_chunks
     }
-  
